@@ -1,0 +1,10183 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+#include <stdint.h>
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct VirtualFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct VirtualFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct InterfaceFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+// System.Action`1<System.Object>
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+// System.Action`1<RestSharp.RestResponse>
+struct Action_1_t98FF65CE8D9A7BC8507E7B2FFC147356FA5E4355;
+// System.Collections.Generic.Dictionary`2<RestSharp.DataFormat,RestSharp.Serializers.SerializerRecord>
+struct Dictionary_2_tAD55129532CEAAFA132E6D16DD2BCE2081376086;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Globalization.CultureInfo>
+struct Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding>
+struct Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task>
+struct Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55;
+// System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo>
+struct Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28;
+// System.Collections.Generic.Dictionary`2<System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Text.RegularExpressions.Regex/CachedCodeEntry>
+struct Dictionary_2_t5B5B38BB06341F50E1C75FB53208A2A66CAE57F7;
+// System.Func`1<System.Threading.Tasks.Task/ContingentProperties>
+struct Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1;
+// System.Func`2<System.Byte,System.Object>
+struct Func_2_t6E66BCD31592FAA3B441B68BF938E37260DCFA3C;
+// System.Func`2<System.Byte,System.String>
+struct Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E;
+// System.Func`2<System.Char,System.Object>
+struct Func_2_t4012A4804CEF770533B75F684A4E0713C46C35CC;
+// System.Func`2<System.Char,System.String>
+struct Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D;
+// System.Func`2<System.Net.Http.HttpRequestMessage,System.Threading.Tasks.ValueTask>
+struct Func_2_tECDE84E621EA4187C8AD72E52AD7DE568766C3C6;
+// System.Func`2<System.Net.Http.HttpResponseMessage,RestSharp.RestResponse>
+struct Func_2_t87305CE206C0358B614B8D7BEDD7128613FE435F;
+// System.Func`2<System.Net.Http.HttpResponseMessage,System.Threading.Tasks.ValueTask>
+struct Func_2_t84E94B78FA88C30FC08C5F8425D2DADA77D463B1;
+// System.Func`2<System.Object,System.Boolean>
+struct Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00;
+// System.Func`2<System.Object,System.Object>
+struct Func_2_tACBF5A1656250800CE861707354491F0611F6624;
+// System.Func`2<RestSharp.Parameter,System.Boolean>
+struct Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021;
+// System.Func`2<RestSharp.Parameter,RestSharp.Authenticators.OAuth.WebPair>
+struct Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779;
+// System.Func`2<System.IO.Stream,System.IO.Stream>
+struct Func_2_t7053A13420D4E1FFCDEB9101B47B2ED89259E5D7;
+// System.Func`2<System.String,System.Boolean>
+struct Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D;
+// System.Func`2<System.String,System.String>
+struct Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93;
+// System.Func`2<System.String,RestSharp.Authenticators.OAuth.WebPair>
+struct Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC;
+// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,System.Boolean>
+struct Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A;
+// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.GetOrPostParameter>
+struct Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823;
+// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,System.String>
+struct Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88;
+// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.Authenticators.OAuth.WebPair>
+struct Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F;
+// System.Func`3<RestSharp.Parameter,System.String,System.Boolean>
+struct Func_3_t4B2EC9FFCA539EFF8054214E293C9A858E798E6D;
+// System.Func`3<System.String,System.Text.Encoding,System.String>
+struct Func_3_tA55C6D86B4F17C327371834960D980B7A6059BAF;
+// System.Collections.Generic.IComparer`1<System.Object>
+struct IComparer_1_tC0A12A847AF97F369A5CE9A0CCE71CE18EE1440E;
+// System.Collections.Generic.IComparer`1<RestSharp.Authenticators.OAuth.WebPair>
+struct IComparer_1_tA03763398B18A768856EC1F4CBD99829DF544EFE;
+// System.Collections.Generic.IEnumerable`1<System.Byte>
+struct IEnumerable_1_tEE97FB3EBFE8765D0E2FC164B95E82BA5D0EAE86;
+// System.Collections.Generic.IEnumerable`1<System.Char>
+struct IEnumerable_1_t9CC3C47C67E4184F7F1B8B0AFAEF692B9EDDDF05;
+// System.Collections.Generic.IEnumerable`1<RestSharp.GetOrPostParameter>
+struct IEnumerable_1_tFB4B63AC4C53B356A7A63953941538CF2E2517D5;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+// System.Collections.Generic.IEnumerable`1<RestSharp.Parameter>
+struct IEnumerable_1_t3CEF2DFE44F11891C6261249DE4228ABDA774DDA;
+// System.Collections.Generic.IEnumerable`1<System.String>
+struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
+// System.Collections.Generic.IEnumerable`1<RestSharp.Authenticators.OAuth.WebPair>
+struct IEnumerable_1_tDC6B3DCD39A4D4769D46EDCEA40C3BD72DECE9E0;
+// System.Collections.Generic.IEnumerator`1<System.String>
+struct IEnumerator_1_t73FD060C436E3C4264A734C8F8DCC01DFF6046B8;
+// System.Collections.Generic.IEnumerator`1<RestSharp.Authenticators.OAuth.WebPair>
+struct IEnumerator_1_tD7A919CD56BBE7BE6DF919C833ECF78E2BF16430;
+// System.Linq.IOrderedEnumerable`1<System.Object>
+struct IOrderedEnumerable_1_t0E680E8E1A4A676334F2A0C9A6F9B93135A65EAC;
+// System.Linq.IOrderedEnumerable`1<RestSharp.Authenticators.OAuth.WebPair>
+struct IOrderedEnumerable_1_tA8DD5711D2E75AD4124717C530847B700DFAB5F1;
+// System.Collections.Generic.IReadOnlyCollection`1<RestSharp.FileParameter>
+struct IReadOnlyCollection_1_tCC61A141CF064BC96347A76FD217E58AF8F9C361;
+// System.Collections.Generic.List`1<RestSharp.FileParameter>
+struct List_1_t29B7AC0C40180BC1E120684B966E28B9DDEEFEEB;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+// System.Collections.Generic.List`1<RestSharp.Parameter>
+struct List_1_t2F824AD749897538FDA8FBF2EBD27B8791D35EB7;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+// System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>
+struct List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A;
+// System.Predicate`1<System.Object>
+struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
+// System.Predicate`1<System.Threading.Tasks.Task>
+struct Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED;
+// System.Threading.Tasks.TaskFactory`1<System.Object>
+struct TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B;
+// System.Threading.Tasks.Task`1<System.Object>
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2;
+// System.Threading.Tasks.Task`1<RestSharp.Parameter>
+struct Task_1_t068F9C7191BA2AFAB6687C07B2057923994E5B0C;
+// System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>
+struct Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17;
+// System.WeakReference`1<System.Text.RegularExpressions.RegexReplacement>
+struct WeakReference_1_tDC6E83496181D1BAFA3B89CBC00BCD0B64450257;
+// System.Byte[]
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+// System.Char[]
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+// System.Delegate[]
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+// System.Int32[]
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+// System.IntPtr[]
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+// System.Security.Cryptography.KeySizes[]
+struct KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03;
+// System.Object[]
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+// RestSharp.ParameterType[]
+struct ParameterTypeU5BU5D_t09F8F6A9F0242C7461482EA69C8B88F8B6A6820D;
+// System.Diagnostics.StackTrace[]
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+// RestSharp.Authenticators.OAuth.WebPair[]
+struct WebPairU5BU5D_t9ABAA2377626B92EF036CB08D4097695BC916E20;
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+// System.ApplicationException
+struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A;
+// System.ArgumentNullException
+struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
+// System.Collections.ArrayList
+struct ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A;
+// RestSharp.Authenticators.AuthenticatorBase
+struct AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A;
+// RestSharp.CalculateResponseStatus
+struct CalculateResponseStatus_t0D10A90403C46B57FCBF3B956441C5C97B71446A;
+// System.Globalization.Calendar
+struct Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B;
+// System.Globalization.CodePageDataItem
+struct CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2;
+// System.Globalization.CompareInfo
+struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57;
+// System.Threading.ContextCallback
+struct ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007;
+// System.Net.CookieContainer
+struct CookieContainer_t54CCEBC3470E5D0699BB17928C171D7AFCA7614E;
+// System.Globalization.CultureData
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D;
+// System.Globalization.CultureInfo
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
+// System.Globalization.DateTimeFormatInfo
+struct DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A;
+// System.Text.DecoderFallback
+struct DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90;
+// System.Delegate
+struct Delegate_t;
+// System.DelegateData
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+// System.Text.EncoderFallback
+struct EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293;
+// System.Text.Encoding
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2;
+// System.Exception
+struct Exception_t;
+// System.Text.RegularExpressions.ExclusiveReference
+struct ExclusiveReference_t411F04D4CC440EB7399290027E1BBABEF4C28837;
+// RestSharp.GetOrPostParameter
+struct GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94;
+// System.Security.Cryptography.HMACSHA1
+struct HMACSHA1_t40AB10160C7F8F11EA26E038FD7A335383987030;
+// System.Security.Cryptography.HMACSHA256
+struct HMACSHA256_t594D178275B0B5AF11CBC0AB816011DED5E20ADF;
+// System.Security.Cryptography.HashAlgorithm
+struct HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D;
+// System.Collections.Hashtable
+struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D;
+// RestSharp.HeaderParameter
+struct HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C;
+// RestSharp.Authenticators.HttpBasicAuthenticator
+struct HttpBasicAuthenticator_t41C01903CF40A590A432EB394210E624CFEB9947;
+// System.Net.Http.HttpClient
+struct HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42;
+// System.Runtime.CompilerServices.IAsyncStateMachine
+struct IAsyncStateMachine_t0680C7F905C553076B552D5A1A6E39E2F0F36AA2;
+// RestSharp.Authenticators.IAuthenticator
+struct IAuthenticator_tCE331EFAD28654C541E1CE4A33A671EAA8E3D360;
+// System.Collections.IDictionary
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+// System.Collections.IEnumerator
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+// System.Collections.IEqualityComparer
+struct IEqualityComparer_tEF8F1EC76B9C8E76695BE848D41E6B147928D1C1;
+// RestSharp.Authenticators.JwtAuthenticator
+struct JwtAuthenticator_t492CEE337695EFDDA504BC5171363036896E3C4A;
+// Mono.Security.Cryptography.KeyPairPersistence
+struct KeyPairPersistence_t78D61FCDE172753BFE756B555CBD85127832CDF6;
+// System.Security.Cryptography.KeyedHashAlgorithm
+struct KeyedHashAlgorithm_t782AD417BF829DAD1267A7AE4F9B553537CCF263;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
+// System.Collections.Specialized.NameValueCollection
+struct NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7;
+// System.NotImplementedException
+struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8;
+// System.NotSupportedException
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+// System.Globalization.NumberFormatInfo
+struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472;
+// RestSharp.Authenticators.OAuth1Authenticator
+struct OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600;
+// RestSharp.Authenticators.OAuth2.OAuth2AuthorizationRequestHeaderAuthenticator
+struct OAuth2AuthorizationRequestHeaderAuthenticator_t9C6B5F200A1E27CD6BFC78A0CA28D88A33A62A5B;
+// RestSharp.Authenticators.OAuth2.OAuth2UriQueryParameterAuthenticator
+struct OAuth2UriQueryParameterAuthenticator_t8F8B5D2CE2121CFC9A7C4A765364F4FDC1F39857;
+// RestSharp.Authenticators.OAuth.OAuthWorkflow
+struct OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9;
+// RestSharp.Parameter
+struct Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9;
+// RestSharp.ParametersCollection
+struct ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC;
+// System.Security.Cryptography.RSACryptoServiceProvider
+struct RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C;
+// Mono.Security.Cryptography.RSAManaged
+struct RSAManaged_t897B29EF76C459408E11A42680C942716D809001;
+// System.Random
+struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8;
+// System.Security.Cryptography.RandomNumberGenerator
+struct RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3;
+// System.Text.RegularExpressions.Regex
+struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772;
+// System.Text.RegularExpressions.RegexCode
+struct RegexCode_tA23175D9DA02AD6A79B073E10EC5D225372ED6C7;
+// System.Text.RegularExpressions.RegexRunnerFactory
+struct RegexRunnerFactory_t72373B672C7D8785F63516DDD88834F286AF41E7;
+// RestSharp.RestClient
+struct RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF;
+// RestSharp.RestClientOptions
+struct RestClientOptions_t0A00347954344FE624B81F4D9944FB1C1A5ED9BC;
+// RestSharp.RestRequest
+struct RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94;
+// System.Security.Cryptography.SHA1
+struct SHA1_t0612ADACADC25FB4C22525A579B30354586F0CEE;
+// System.Runtime.Serialization.SafeSerializationManager
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+// System.Runtime.Serialization.SerializationInfo
+struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
+// System.Threading.Tasks.StackGuard
+struct StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352;
+// System.String
+struct String_t;
+// System.Text.StringBuilder
+struct StringBuilder_t;
+// System.StringComparer
+struct StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06;
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572;
+// System.Threading.Tasks.TaskFactory
+struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0;
+// System.Threading.Tasks.TaskScheduler
+struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E;
+// System.Globalization.TextInfo
+struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4;
+// System.Uri
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E;
+// System.UriParser
+struct UriParser_t920B0868286118827C08B08A15A9456AF6C19D81;
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// RestSharp.Authenticators.OAuth.WebPair
+struct WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A;
+// RestSharp.Authenticators.OAuth.WebPairCollection
+struct WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C;
+// System.Collections.Specialized.NameObjectCollectionBase/NameObjectEntry
+struct NameObjectEntry_t58A8B38FC7A6ABE5C83153B6C3F2696F88E7A9A2;
+// RestSharp.Authenticators.OAuth1Authenticator/<>c
+struct U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945;
+// RestSharp.Authenticators.OAuth.OAuthTools/<>c
+struct U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857;
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/<>c__DisplayClass63_0
+struct U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49;
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters
+struct OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F;
+// RestSharp.Authenticators.ParametersExtensions/<>c
+struct U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634;
+// System.Text.RegularExpressions.Regex/CachedCodeEntry
+struct CachedCodeEntry_tE201C3AD65C234AD9ED7A78C95025824A7A9FF39;
+// RestSharp.Authenticators.OAuth.Extensions.StringExtensions/<>c
+struct U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581;
+// RestSharp.Extensions.StringExtensions/<>c
+struct U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5;
+// RestSharp.Extensions.StringExtensions/<>c__DisplayClass15_0
+struct U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052;
+// RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25
+struct U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114;
+// System.Threading.Tasks.Task/ContingentProperties
+struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
+// System.Uri/UriInfo
+struct UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09;
+// RestSharp.Authenticators.OAuth.WebPair/WebPairComparer
+struct WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5;
+// RestSharp.Authenticators.OAuth.WebPairCollection/<>c
+struct U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4;
+
+IL2CPP_EXTERN_C RuntimeClass* ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CryptoConfig_t66E67DD67B2C3224C72C0CBD80A144E29EE016A5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Enumerator_t2A0F78EB69A46D77C060920BFD0F8779A183879F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HMACSHA1_t40AB10160C7F8F11EA26E038FD7A335383987030_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HMACSHA256_t594D178275B0B5AF11CBC0AB816011DED5E20ADF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HeaderParameterU5BU5D_tC089137D6346FA2DA80A4DA36A31273FF936D2C4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IReadOnlyCollection_1_tCC61A141CF064BC96347A76FD217E58AF8F9C361_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Method_tA3339A9CC98C69554E537C084FDD833D165F75BC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OAuthSignatureMethod_t619F049CAD055B90F926834349817597032FB634_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RestRequestExtensions_t03ACCC12CDCAD3CF61F369380332569F811234FE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringBuilder_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral0458562336F91AC3F0C3FE71A886E75CE5C8F84A;
+IL2CPP_EXTERN_C String_t* _stringLiteral07CB433B972817D99D5B9224AB324A23897BD53C;
+IL2CPP_EXTERN_C String_t* _stringLiteral097D5CE6C390FEE92A3584928F6F305DDC1CC7BA;
+IL2CPP_EXTERN_C String_t* _stringLiteral106C4B80D2726C69E96EEE227E7825FE6296877A;
+IL2CPP_EXTERN_C String_t* _stringLiteral11AC5E2BD66016383281878F99D761B6B9AB5F11;
+IL2CPP_EXTERN_C String_t* _stringLiteral122DAEB6E112576FD0519243E425F6CD2E97BA90;
+IL2CPP_EXTERN_C String_t* _stringLiteral13E4284CDEBC43B9CF5D544D6064FE537195E4FC;
+IL2CPP_EXTERN_C String_t* _stringLiteral15088A7C50E83E49058833A4287B3C2F1CD730D2;
+IL2CPP_EXTERN_C String_t* _stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46;
+IL2CPP_EXTERN_C String_t* _stringLiteral16675F6F3283E82083454D0A0F482B48ACF6772C;
+IL2CPP_EXTERN_C String_t* _stringLiteral1FA13CA565DC9B5105D70A528D26A6FC7A57049E;
+IL2CPP_EXTERN_C String_t* _stringLiteral20E39C3AB7068FAFD9E4B868E16D2E5BC64D4952;
+IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
+IL2CPP_EXTERN_C String_t* _stringLiteral2D09BC7AEC73A3EFD69A35BDCDD0B0E29CF848CD;
+IL2CPP_EXTERN_C String_t* _stringLiteral304469AC9233D47BA598CCF73F01C755695FECB8;
+IL2CPP_EXTERN_C String_t* _stringLiteral36E258E4D86D6A8D61340F7B0E42D26C4C2CAD84;
+IL2CPP_EXTERN_C String_t* _stringLiteral389ACD12CAFDC3871B504251FE2ECE247FB8D6A3;
+IL2CPP_EXTERN_C String_t* _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0;
+IL2CPP_EXTERN_C String_t* _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D;
+IL2CPP_EXTERN_C String_t* _stringLiteral4455F6895242D44BCC9FB650C2DA186D467964AC;
+IL2CPP_EXTERN_C String_t* _stringLiteral44A8C44E16B6EC9D7580C40EBC2D676BF03BF295;
+IL2CPP_EXTERN_C String_t* _stringLiteral49AB94B4E84A65CFC8B0D87160CDB6474F63D415;
+IL2CPP_EXTERN_C String_t* _stringLiteral4F736E4301262924767607BDFA95505288E664F0;
+IL2CPP_EXTERN_C String_t* _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C;
+IL2CPP_EXTERN_C String_t* _stringLiteral5068E5A9842624E377A3043EC9F37507AC3A83DE;
+IL2CPP_EXTERN_C String_t* _stringLiteral52BDFA54A164366A4CCA7F4E8E9D4CC3289B914B;
+IL2CPP_EXTERN_C String_t* _stringLiteral58B716FF5428F7961E1403E6D969E605D0F27EAF;
+IL2CPP_EXTERN_C String_t* _stringLiteral5BDF3E1D1ED3B3FAF6294E0D727266D8536B1256;
+IL2CPP_EXTERN_C String_t* _stringLiteral6170531E4E414F636681E5CEEBAFFCB20B12DFF9;
+IL2CPP_EXTERN_C String_t* _stringLiteral670856DF07AA76C6119040166509F09E2CEC7F3E;
+IL2CPP_EXTERN_C String_t* _stringLiteral6A1D52382547009AB732F651FE2CA42F1BBA769A;
+IL2CPP_EXTERN_C String_t* _stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3;
+IL2CPP_EXTERN_C String_t* _stringLiteral7959BED592BC1FCA661B86A09885C9363899C536;
+IL2CPP_EXTERN_C String_t* _stringLiteral828FD05C2F34D19E40FBF146DD7DC433E04813E2;
+IL2CPP_EXTERN_C String_t* _stringLiteral839B27C2E696BC237F4741A9899F745845695CB9;
+IL2CPP_EXTERN_C String_t* _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D;
+IL2CPP_EXTERN_C String_t* _stringLiteral8D004CCFB2C7F7062B882865483FF7F4DC36E04E;
+IL2CPP_EXTERN_C String_t* _stringLiteral94D92116D5FEFD4DDDBAE49BEC55B18F8EFE8B25;
+IL2CPP_EXTERN_C String_t* _stringLiteral976C1000FC380F50A871E18534C52C50C9BB54C2;
+IL2CPP_EXTERN_C String_t* _stringLiteral9AD85D377B6099DDAE0359909A042378234FF1DA;
+IL2CPP_EXTERN_C String_t* _stringLiteral9BA4A0303A5834480DEC2692527C67A2A96BD8AB;
+IL2CPP_EXTERN_C String_t* _stringLiteral9BF38496A0CBE3DA928EB247B40BB3944147010A;
+IL2CPP_EXTERN_C String_t* _stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907;
+IL2CPP_EXTERN_C String_t* _stringLiteral9EB642385221D006B3B8DB45C10F626FD2A3DB7C;
+IL2CPP_EXTERN_C String_t* _stringLiteralA15CF7E1CEFBD0C475E3A89A80B5393D417F8634;
+IL2CPP_EXTERN_C String_t* _stringLiteralA3DFC0C77ACADE0EE48DCC73E795A597D0270A73;
+IL2CPP_EXTERN_C String_t* _stringLiteralA526A97D6E0CE5DAEEB6BA5AB0D8EC1C6C724E6B;
+IL2CPP_EXTERN_C String_t* _stringLiteralA8A713A1F18F25ED92E2ADDA6CE110DC0BDC5BC5;
+IL2CPP_EXTERN_C String_t* _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D;
+IL2CPP_EXTERN_C String_t* _stringLiteralB98825A229E78D8678CAFFD711F17B0F4CB2B85C;
+IL2CPP_EXTERN_C String_t* _stringLiteralBF9BED2AA7158140DFA04D2D71544ADCA71F3219;
+IL2CPP_EXTERN_C String_t* _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB;
+IL2CPP_EXTERN_C String_t* _stringLiteralC1CC5E3487A21EB16C8E71C5D1BA15917961F0C0;
+IL2CPP_EXTERN_C String_t* _stringLiteralC2DA60AE96E2C9EF3EAF20897A5AA957AFDF64EC;
+IL2CPP_EXTERN_C String_t* _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677;
+IL2CPP_EXTERN_C String_t* _stringLiteralC7056336939AE54D16452D29578EB11734B64BE5;
+IL2CPP_EXTERN_C String_t* _stringLiteralC738372F9EABB0FC755ECE7CC80E939A5E3C4AF7;
+IL2CPP_EXTERN_C String_t* _stringLiteralCA6721A0FF761BC6E992632BC616A280C95EAB17;
+IL2CPP_EXTERN_C String_t* _stringLiteralCB4E7D86D2D89BF57D40C0FDE4C8AFDEB49AA2A8;
+IL2CPP_EXTERN_C String_t* _stringLiteralD1F45C5A77C8F04A3EC99712F021D7BC1A15D680;
+IL2CPP_EXTERN_C String_t* _stringLiteralD389D2D3DD4653FD4F02DC70777E4A3346D008BE;
+IL2CPP_EXTERN_C String_t* _stringLiteralD906EC24D03B79DEAAB3562B31BF8226292A163D;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA71A62F5A3FE9ABC4981D698C8D3B8E4D8A3AFD;
+IL2CPP_EXTERN_C String_t* _stringLiteralDF726552E5C2979C1872DEA52D2FEA7200356793;
+IL2CPP_EXTERN_C String_t* _stringLiteralDFD5D353A55F51593A34763B863D6753974B54FF;
+IL2CPP_EXTERN_C String_t* _stringLiteralE280D065A824A791F8305234D3E093FC9A5A90C7;
+IL2CPP_EXTERN_C String_t* _stringLiteralE650EA2895127AA26C8F10EC73EC5489F9B70309;
+IL2CPP_EXTERN_C String_t* _stringLiteralECCF6ED43382551EADB448FD85CC7976BFF03069;
+IL2CPP_EXTERN_C String_t* _stringLiteralEF84A5A29FF35FDD7A385E5895A6BFCAE580644B;
+IL2CPP_EXTERN_C String_t* _stringLiteralF27E4C631EBEFA337EC21BE8552E169C9DED78A2;
+IL2CPP_EXTERN_C String_t* _stringLiteralF9DC6D533AE93F3D836AFC9BF0B2A025C89D3B75;
+IL2CPP_EXTERN_C String_t* _stringLiteralFAAFC22ADC2CE06CD118733CCCF46445776303C9;
+IL2CPP_EXTERN_C String_t* _stringLiteralFB793B9D0589459B2A5A28F56182B072E1820371;
+IL2CPP_EXTERN_C String_t* _stringLiteralFC965E3A8ECE7903A5EC611225F181C42C10D7B5;
+IL2CPP_EXTERN_C String_t* _stringLiteralFFF84F420461114F39E152661B12B5B8BA7881B8;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncValueTaskMethodBuilder_AwaitUnsafeOnCompleted_TisConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m019A8E7C10D64D6BCA380AF574250E5423572B68_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncValueTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m28B13CB6A26B67B5F5084CC040594F8ED2EE5554_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfiguredValueTaskAwaitable_1_GetAwaiter_mFB3D664A00EC2497589EF2BCFD37311AE420943E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfiguredValueTaskAwaiter_GetResult_mF57814E01E72030936A2705ED318052A19E2EDA5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfiguredValueTaskAwaiter_get_IsCompleted_m27A396AAC1A800CC7744CB40823027DAF8309E2A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Ensure_NotNull_TisRuntimeObject_m385DDBC75429E1619E46FF8A98FFFACAC888A27C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Ensure_NotNull_TisUri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_m28E7A4AFC87BD8BD881784AB0ADE64EB25D12CC3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Contains_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m3979BE7355F65890520EC3C8092E2983495AE03D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_OrderBy_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m38418B68F77C02D9941B04CA556A919923AFDB4C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisString_t_m734BFAAED4C204F8642C17A167BF9A9B7B1582B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisString_t_m48DF4E2B8BB230E1E065E6E370511448F8667BC4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m59DCC8D6E703BCF259E13582056BAED2BA53D7FE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisString_t_TisString_t_m60A7751DBEA2577100838E550C6AEDF59AA3F4AC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisString_t_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m720B560C52D4F53014C38AC8BB9EEB4B7F378627_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisGetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94_m315BF5FB71245FE465FFCF4587EA55BF4422F757_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisString_t_m93582DB1B704BF4831307402892E8927DB0F671B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mA990023ECEA548A62600614E46104B1D37491D22_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToList_TisString_t_mA7BFFF205C0EB2F8CE0436E85FC70A2449EDD7C5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Where_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_m92EFAA34CE9AD7A04BC9FD43A6A9FC008A8E564E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Where_TisString_t_m3AC8838FF43F171EDE6F84319C3CA82832F1D6A1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Where_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mBC34E2A02A52263761D12AA6431F298B60B9888C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_AddRange_mE1CE8D8570BAC70963E8FFCDE67C90F2A19E3ADD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m61169D3FBFC80441D4D4DD381A4C34593D45EC3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m8C360CD5A911E31BECD455BB62A092036FA7A7F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Contains_mA27E275ACD40D93D1AFADCA9C7D26753515CD575_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_CopyTo_mD5AA6D5F784BC48FE41F1BE88C2A4F602D75E891_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m03AF1418526E8A2257AFD0A008879817F572288D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_IndexOf_m7FFE5C6F6A7A2344D7AE1742785914A20386143C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Insert_m05ED63E0A81CC776CAB5D45EB606CF86EE5DE308_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Insert_m4663EF87406A87696D170E2F4594CDB8C316DB49_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_m9CB98C5A6362B23ABAAF032FBB7C62D8752F0C96_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_m121B77B0F7A73ADB7B645B16499DF6AE53BF12DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mD3150A51C752E9FFE5E5C4DE97AEC456DC1DA12E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m1648D04B896F773512723528CDBD3EDA1EE802E7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m248BCCF2D270DD1D6D1A71141FF8367DD2D719C1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_mC8CE6025746A56DB4565CF1837A2649BEAD5855C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OAuth1Authenticator_AddOAuthData_mA654D9B873B0660787E6FEC6526261D6FC094EB4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OAuth1Authenticator_U3CAddOAuthDataU3Eg__BaseQueryU7C69_0_mE93C721B1ED5E65A9A9BE213762452AE500ED497_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OAuthTools_GetSignature_mFD926D31026F2B8D5F9FC28B82326B8BD999EF26_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StringExtensions_UrlEncode_m0729E0E5A85CA833E1782A53CA4163C89A9CC69F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetNameVariantsU3Ed__25_System_Collections_IEnumerator_Reset_m39B5E3F8C708A6F12655E7ED191FD32F6B2AC4A1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CAddCollectionU3Eb__21_0_mB8505A4F8D1A5F38FCBF27DE33E76E89A4D32441_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CAddOAuthDataU3Eb__69_1_m4BD4EEF7480A86B59A0B8A5449C567F57656D332_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CAddOAuthDataU3Eb__69_5_m467C7CE6CF26B4289CDF93EF18CF18E4D536FE69_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CAddOAuthDataU3Eb__69_6_m768AB52215B0F080A0C51BD346F989D35413553F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CAddOAuthDataU3Eb__69_7_mDBA17D7E64074003338981D27B5D1CE6AECCF4FD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CPercentEncodeU3Eb__4_0_mDA7D2D09DFB51025FF2BB6BFA51651E7FFA560C3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_0_mA192DB218AD30AD8D5AC21AAE657BF723268D246_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_1_mA91753FE44260F4C8164C75E59404AFF4BD55CFD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_2_m643C070AAE08D13A2257C9EA451533455F214631_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_3_mC4DAC202736ABCDC5CE09FECBAF3F4B5FB8FDEC5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CToPascalCaseU3Eb__15_0_mEB65389213B079DA5DA417FE0085E620ACD7F3AE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CToWebParametersU3Eb__0_0_m12C95D5A3125411531D9678B3D39D5AB4DBE8C77_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CUrlEncodeStrictU3Eb__16_0_m8BACBB504191AE4630F2AD1A0AAF3E18CEBB8CBC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass15_0_U3CToPascalCaseU3Eg__CaseWordU7C1_m72F8B2D11004C24062D418087EE3C29B33EA02DB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass63_0_U3CBuildProtectedResourceSignatureU3Eb__0_m9BB4C09FE7A02D8718EEEEE53FF0A5EFEA813606_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ValueTask_1_ConfigureAwait_m48B1C7117068DC6B7D0CAC96B08B060412E87AB4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_RuntimeMethod_var;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
+struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct HeaderParameterU5BU5D_tC089137D6346FA2DA80A4DA36A31273FF936D2C4;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct WebPairU5BU5D_t9ABAA2377626B92EF036CB08D4097695BC916E20;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>
+struct List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A  : public RuntimeObject
+{
+	// T[] System.Collections.Generic.List`1::_items
+	WebPairU5BU5D_t9ABAA2377626B92EF036CB08D4097695BC916E20* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject* ____syncRoot_4;
+};
+
+struct List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	WebPairU5BU5D_t9ABAA2377626B92EF036CB08D4097695BC916E20* ___s_emptyArray_5;
+};
+struct Il2CppArrayBounds;
+
+// System.Security.Cryptography.AsymmetricAlgorithm
+struct AsymmetricAlgorithm_t5E7E9D26CE0EDCAABD84F616A44E476473BA2AF8  : public RuntimeObject
+{
+	// System.Int32 System.Security.Cryptography.AsymmetricAlgorithm::KeySizeValue
+	int32_t ___KeySizeValue_0;
+	// System.Security.Cryptography.KeySizes[] System.Security.Cryptography.AsymmetricAlgorithm::LegalKeySizesValue
+	KeySizesU5BU5D_tDD87467B9CB683380B5DC92193576A3136DFAE03* ___LegalKeySizesValue_1;
+};
+
+// RestSharp.Authenticators.AuthenticatorBase
+struct AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A  : public RuntimeObject
+{
+	// System.String RestSharp.Authenticators.AuthenticatorBase::<Token>k__BackingField
+	String_t* ___U3CTokenU3Ek__BackingField_0;
+};
+
+// System.Globalization.CultureInfo
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0  : public RuntimeObject
+{
+	// System.Boolean System.Globalization.CultureInfo::m_isReadOnly
+	bool ___m_isReadOnly_3;
+	// System.Int32 System.Globalization.CultureInfo::cultureID
+	int32_t ___cultureID_4;
+	// System.Int32 System.Globalization.CultureInfo::parent_lcid
+	int32_t ___parent_lcid_5;
+	// System.Int32 System.Globalization.CultureInfo::datetime_index
+	int32_t ___datetime_index_6;
+	// System.Int32 System.Globalization.CultureInfo::number_index
+	int32_t ___number_index_7;
+	// System.Int32 System.Globalization.CultureInfo::default_calendar_type
+	int32_t ___default_calendar_type_8;
+	// System.Boolean System.Globalization.CultureInfo::m_useUserOverride
+	bool ___m_useUserOverride_9;
+	// System.Globalization.NumberFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::numInfo
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo_10;
+	// System.Globalization.DateTimeFormatInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::dateTimeInfo
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo_11;
+	// System.Globalization.TextInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::textInfo
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo_12;
+	// System.String System.Globalization.CultureInfo::m_name
+	String_t* ___m_name_13;
+	// System.String System.Globalization.CultureInfo::englishname
+	String_t* ___englishname_14;
+	// System.String System.Globalization.CultureInfo::nativename
+	String_t* ___nativename_15;
+	// System.String System.Globalization.CultureInfo::iso3lang
+	String_t* ___iso3lang_16;
+	// System.String System.Globalization.CultureInfo::iso2lang
+	String_t* ___iso2lang_17;
+	// System.String System.Globalization.CultureInfo::win3lang
+	String_t* ___win3lang_18;
+	// System.String System.Globalization.CultureInfo::territory
+	String_t* ___territory_19;
+	// System.String[] System.Globalization.CultureInfo::native_calendar_names
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___native_calendar_names_20;
+	// System.Globalization.CompareInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::compareInfo
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo_21;
+	// System.Void* System.Globalization.CultureInfo::textinfo_data
+	void* ___textinfo_data_22;
+	// System.Int32 System.Globalization.CultureInfo::m_dataItem
+	int32_t ___m_dataItem_23;
+	// System.Globalization.Calendar System.Globalization.CultureInfo::calendar
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar_24;
+	// System.Globalization.CultureInfo System.Globalization.CultureInfo::parent_culture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___parent_culture_25;
+	// System.Boolean System.Globalization.CultureInfo::constructed
+	bool ___constructed_26;
+	// System.Byte[] System.Globalization.CultureInfo::cached_serialized_form
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___cached_serialized_form_27;
+	// System.Globalization.CultureData System.Globalization.CultureInfo::m_cultureData
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ___m_cultureData_28;
+	// System.Boolean System.Globalization.CultureInfo::m_isInherited
+	bool ___m_isInherited_29;
+};
+
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
+{
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::invariant_culture_info
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___invariant_culture_info_0;
+	// System.Object System.Globalization.CultureInfo::shared_table_lock
+	RuntimeObject* ___shared_table_lock_1;
+	// System.Globalization.CultureInfo System.Globalization.CultureInfo::default_current_culture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___default_current_culture_2;
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::s_DefaultThreadCurrentUICulture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentUICulture_34;
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::s_DefaultThreadCurrentCulture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentCulture_35;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Globalization.CultureInfo> System.Globalization.CultureInfo::shared_by_number
+	Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3* ___shared_by_number_36;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo> System.Globalization.CultureInfo::shared_by_name
+	Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28* ___shared_by_name_37;
+	// System.Globalization.CultureInfo System.Globalization.CultureInfo::s_UserPreferredCultureInfoInAppX
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX_38;
+	// System.Boolean System.Globalization.CultureInfo::IsTaiwanSku
+	bool ___IsTaiwanSku_39;
+};
+// Native definition for P/Invoke marshalling of System.Globalization.CultureInfo
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke
+{
+	int32_t ___m_isReadOnly_3;
+	int32_t ___cultureID_4;
+	int32_t ___parent_lcid_5;
+	int32_t ___datetime_index_6;
+	int32_t ___number_index_7;
+	int32_t ___default_calendar_type_8;
+	int32_t ___m_useUserOverride_9;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo_10;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo_11;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo_12;
+	char* ___m_name_13;
+	char* ___englishname_14;
+	char* ___nativename_15;
+	char* ___iso3lang_16;
+	char* ___iso2lang_17;
+	char* ___win3lang_18;
+	char* ___territory_19;
+	char** ___native_calendar_names_20;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo_21;
+	void* ___textinfo_data_22;
+	int32_t ___m_dataItem_23;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar_24;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___parent_culture_25;
+	int32_t ___constructed_26;
+	Il2CppSafeArray/*NONE*/* ___cached_serialized_form_27;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke* ___m_cultureData_28;
+	int32_t ___m_isInherited_29;
+};
+// Native definition for COM marshalling of System.Globalization.CultureInfo
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com
+{
+	int32_t ___m_isReadOnly_3;
+	int32_t ___cultureID_4;
+	int32_t ___parent_lcid_5;
+	int32_t ___datetime_index_6;
+	int32_t ___number_index_7;
+	int32_t ___default_calendar_type_8;
+	int32_t ___m_useUserOverride_9;
+	NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* ___numInfo_10;
+	DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___dateTimeInfo_11;
+	TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* ___textInfo_12;
+	Il2CppChar* ___m_name_13;
+	Il2CppChar* ___englishname_14;
+	Il2CppChar* ___nativename_15;
+	Il2CppChar* ___iso3lang_16;
+	Il2CppChar* ___iso2lang_17;
+	Il2CppChar* ___win3lang_18;
+	Il2CppChar* ___territory_19;
+	Il2CppChar** ___native_calendar_names_20;
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___compareInfo_21;
+	void* ___textinfo_data_22;
+	int32_t ___m_dataItem_23;
+	Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* ___calendar_24;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___parent_culture_25;
+	int32_t ___constructed_26;
+	Il2CppSafeArray/*NONE*/* ___cached_serialized_form_27;
+	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com* ___m_cultureData_28;
+	int32_t ___m_isInherited_29;
+};
+
+// System.Text.Encoding
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObject
+{
+	// System.Int32 System.Text.Encoding::m_codePage
+	int32_t ___m_codePage_55;
+	// System.Globalization.CodePageDataItem System.Text.Encoding::dataItem
+	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem_56;
+	// System.Boolean System.Text.Encoding::m_deserializedFromEverett
+	bool ___m_deserializedFromEverett_57;
+	// System.Boolean System.Text.Encoding::m_isReadOnly
+	bool ___m_isReadOnly_58;
+	// System.Text.EncoderFallback System.Text.Encoding::encoderFallback
+	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback_59;
+	// System.Text.DecoderFallback System.Text.Encoding::decoderFallback
+	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback_60;
+};
+
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
+{
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::defaultEncoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___defaultEncoding_0;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::unicodeEncoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicodeEncoding_1;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::bigEndianUnicode
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___bigEndianUnicode_2;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf7Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf7Encoding_3;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf8Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf8Encoding_4;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf32Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf32Encoding_5;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::asciiEncoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___asciiEncoding_6;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::latin1Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___latin1Encoding_7;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding> modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
+	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings_8;
+	// System.Object System.Text.Encoding::s_InternalSyncObject
+	RuntimeObject* ___s_InternalSyncObject_61;
+};
+
+// System.Security.Cryptography.HashAlgorithm
+struct HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D  : public RuntimeObject
+{
+	// System.Boolean System.Security.Cryptography.HashAlgorithm::_disposed
+	bool ____disposed_0;
+	// System.Int32 System.Security.Cryptography.HashAlgorithm::HashSizeValue
+	int32_t ___HashSizeValue_1;
+	// System.Byte[] System.Security.Cryptography.HashAlgorithm::HashValue
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___HashValue_2;
+	// System.Int32 System.Security.Cryptography.HashAlgorithm::State
+	int32_t ___State_3;
+};
+
+// System.Collections.Specialized.NameObjectCollectionBase
+struct NameObjectCollectionBase_tB6400DF2FA3B64660D79586B79016B4A0BA645FC  : public RuntimeObject
+{
+	// System.Boolean System.Collections.Specialized.NameObjectCollectionBase::_readOnly
+	bool ____readOnly_0;
+	// System.Collections.ArrayList System.Collections.Specialized.NameObjectCollectionBase::_entriesArray
+	ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* ____entriesArray_1;
+	// System.Collections.IEqualityComparer System.Collections.Specialized.NameObjectCollectionBase::_keyComparer
+	RuntimeObject* ____keyComparer_2;
+	// System.Collections.Hashtable modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Specialized.NameObjectCollectionBase::_entriesTable
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ____entriesTable_3;
+	// System.Collections.Specialized.NameObjectCollectionBase/NameObjectEntry modreq(System.Runtime.CompilerServices.IsVolatile) System.Collections.Specialized.NameObjectCollectionBase::_nullKeyEntry
+	NameObjectEntry_t58A8B38FC7A6ABE5C83153B6C3F2696F88E7A9A2* ____nullKeyEntry_4;
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Specialized.NameObjectCollectionBase::_serializationInfo
+	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____serializationInfo_5;
+	// System.Int32 System.Collections.Specialized.NameObjectCollectionBase::_version
+	int32_t ____version_6;
+	// System.Object System.Collections.Specialized.NameObjectCollectionBase::_syncRoot
+	RuntimeObject* ____syncRoot_7;
+};
+
+struct NameObjectCollectionBase_tB6400DF2FA3B64660D79586B79016B4A0BA645FC_StaticFields
+{
+	// System.StringComparer System.Collections.Specialized.NameObjectCollectionBase::defaultComparer
+	StringComparer_t6268F19CA34879176651429C0D8A3D0002BB8E06* ___defaultComparer_8;
+};
+
+// RestSharp.Authenticators.OAuth1Authenticator
+struct OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600  : public RuntimeObject
+{
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<Realm>k__BackingField
+	String_t* ___U3CRealmU3Ek__BackingField_0;
+	// RestSharp.Authenticators.OAuth.OAuthParameterHandling RestSharp.Authenticators.OAuth1Authenticator::<ParameterHandling>k__BackingField
+	int32_t ___U3CParameterHandlingU3Ek__BackingField_1;
+	// RestSharp.Authenticators.OAuth.OAuthSignatureMethod RestSharp.Authenticators.OAuth1Authenticator::<SignatureMethod>k__BackingField
+	int32_t ___U3CSignatureMethodU3Ek__BackingField_2;
+	// RestSharp.Authenticators.OAuth.OAuthSignatureTreatment RestSharp.Authenticators.OAuth1Authenticator::<SignatureTreatment>k__BackingField
+	int32_t ___U3CSignatureTreatmentU3Ek__BackingField_3;
+	// RestSharp.Authenticators.OAuth.OAuthType RestSharp.Authenticators.OAuth1Authenticator::<Type>k__BackingField
+	int32_t ___U3CTypeU3Ek__BackingField_4;
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<ConsumerKey>k__BackingField
+	String_t* ___U3CConsumerKeyU3Ek__BackingField_5;
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<ConsumerSecret>k__BackingField
+	String_t* ___U3CConsumerSecretU3Ek__BackingField_6;
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<Token>k__BackingField
+	String_t* ___U3CTokenU3Ek__BackingField_7;
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<TokenSecret>k__BackingField
+	String_t* ___U3CTokenSecretU3Ek__BackingField_8;
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<Verifier>k__BackingField
+	String_t* ___U3CVerifierU3Ek__BackingField_9;
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<Version>k__BackingField
+	String_t* ___U3CVersionU3Ek__BackingField_10;
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<CallbackUrl>k__BackingField
+	String_t* ___U3CCallbackUrlU3Ek__BackingField_11;
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<SessionHandle>k__BackingField
+	String_t* ___U3CSessionHandleU3Ek__BackingField_12;
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<ClientUsername>k__BackingField
+	String_t* ___U3CClientUsernameU3Ek__BackingField_13;
+	// System.String RestSharp.Authenticators.OAuth1Authenticator::<ClientPassword>k__BackingField
+	String_t* ___U3CClientPasswordU3Ek__BackingField_14;
+};
+
+// RestSharp.Authenticators.OAuth.Extensions.OAuthExtensions
+struct OAuthExtensions_t462B596A6372410C23B638E5A4A1B952154F173A  : public RuntimeObject
+{
+};
+
+// RestSharp.Authenticators.OAuth.OAuthTools
+struct OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E  : public RuntimeObject
+{
+};
+
+struct OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields
+{
+	// System.Random RestSharp.Authenticators.OAuth.OAuthTools::Random
+	Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ___Random_5;
+	// System.Object RestSharp.Authenticators.OAuth.OAuthTools::RandomLock
+	RuntimeObject* ___RandomLock_6;
+	// System.Security.Cryptography.RandomNumberGenerator RestSharp.Authenticators.OAuth.OAuthTools::Rng
+	RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3* ___Rng_7;
+	// System.Text.Encoding RestSharp.Authenticators.OAuth.OAuthTools::Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___Encoding_8;
+	// System.String[] RestSharp.Authenticators.OAuth.OAuthTools::UriRfc3986CharsToEscape
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___UriRfc3986CharsToEscape_9;
+	// System.String[] RestSharp.Authenticators.OAuth.OAuthTools::UriRfc3968EscapedHex
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___UriRfc3968EscapedHex_10;
+};
+
+// RestSharp.Authenticators.OAuth.OAuthWorkflow
+struct OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9  : public RuntimeObject
+{
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<Version>k__BackingField
+	String_t* ___U3CVersionU3Ek__BackingField_0;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<ConsumerKey>k__BackingField
+	String_t* ___U3CConsumerKeyU3Ek__BackingField_1;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<ConsumerSecret>k__BackingField
+	String_t* ___U3CConsumerSecretU3Ek__BackingField_2;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<Token>k__BackingField
+	String_t* ___U3CTokenU3Ek__BackingField_3;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<TokenSecret>k__BackingField
+	String_t* ___U3CTokenSecretU3Ek__BackingField_4;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<CallbackUrl>k__BackingField
+	String_t* ___U3CCallbackUrlU3Ek__BackingField_5;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<Verifier>k__BackingField
+	String_t* ___U3CVerifierU3Ek__BackingField_6;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<SessionHandle>k__BackingField
+	String_t* ___U3CSessionHandleU3Ek__BackingField_7;
+	// RestSharp.Authenticators.OAuth.OAuthSignatureMethod RestSharp.Authenticators.OAuth.OAuthWorkflow::<SignatureMethod>k__BackingField
+	int32_t ___U3CSignatureMethodU3Ek__BackingField_8;
+	// RestSharp.Authenticators.OAuth.OAuthSignatureTreatment RestSharp.Authenticators.OAuth.OAuthWorkflow::<SignatureTreatment>k__BackingField
+	int32_t ___U3CSignatureTreatmentU3Ek__BackingField_9;
+	// RestSharp.Authenticators.OAuth.OAuthParameterHandling RestSharp.Authenticators.OAuth.OAuthWorkflow::<ParameterHandling>k__BackingField
+	int32_t ___U3CParameterHandlingU3Ek__BackingField_10;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<ClientUsername>k__BackingField
+	String_t* ___U3CClientUsernameU3Ek__BackingField_11;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<ClientPassword>k__BackingField
+	String_t* ___U3CClientPasswordU3Ek__BackingField_12;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<RequestTokenUrl>k__BackingField
+	String_t* ___U3CRequestTokenUrlU3Ek__BackingField_13;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::<AccessTokenUrl>k__BackingField
+	String_t* ___U3CAccessTokenUrlU3Ek__BackingField_14;
+};
+
+// RestSharp.Parameter
+struct Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9  : public RuntimeObject
+{
+	// System.String RestSharp.Parameter::<Name>k__BackingField
+	String_t* ___U3CNameU3Ek__BackingField_0;
+	// System.Object RestSharp.Parameter::<Value>k__BackingField
+	RuntimeObject* ___U3CValueU3Ek__BackingField_1;
+	// RestSharp.ParameterType RestSharp.Parameter::<Type>k__BackingField
+	int32_t ___U3CTypeU3Ek__BackingField_2;
+	// System.Boolean RestSharp.Parameter::<Encode>k__BackingField
+	bool ___U3CEncodeU3Ek__BackingField_3;
+	// System.String RestSharp.Parameter::<ContentType>k__BackingField
+	String_t* ___U3CContentTypeU3Ek__BackingField_4;
+};
+
+// RestSharp.ParametersCollection
+struct ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC  : public RuntimeObject
+{
+	// System.Collections.Generic.List`1<RestSharp.Parameter> RestSharp.ParametersCollection::_parameters
+	List_1_t2F824AD749897538FDA8FBF2EBD27B8791D35EB7* ____parameters_0;
+};
+
+struct ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC_StaticFields
+{
+	// System.Func`3<RestSharp.Parameter,System.String,System.Boolean> RestSharp.ParametersCollection::SearchPredicate
+	Func_3_t4B2EC9FFCA539EFF8054214E293C9A858E798E6D* ___SearchPredicate_1;
+};
+
+// RestSharp.Authenticators.ParametersExtensions
+struct ParametersExtensions_t922CF7C1E680DF201C9DE2E96298B12932F3EB05  : public RuntimeObject
+{
+};
+
+// System.Random
+struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8  : public RuntimeObject
+{
+	// System.Int32 System.Random::_inext
+	int32_t ____inext_0;
+	// System.Int32 System.Random::_inextp
+	int32_t ____inextp_1;
+	// System.Int32[] System.Random::_seedArray
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____seedArray_2;
+};
+
+struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_StaticFields
+{
+	// System.Random System.Random::s_globalRandom
+	Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ___s_globalRandom_4;
+};
+
+struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_ThreadStaticFields
+{
+	// System.Random System.Random::t_threadRandom
+	Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ___t_threadRandom_3;
+};
+
+// System.Security.Cryptography.RandomNumberGenerator
+struct RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3  : public RuntimeObject
+{
+};
+
+// RestSharp.RestClient
+struct RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF  : public RuntimeObject
+{
+	// System.Net.CookieContainer RestSharp.RestClient::<CookieContainer>k__BackingField
+	CookieContainer_t54CCEBC3470E5D0699BB17928C171D7AFCA7614E* ___U3CCookieContainerU3Ek__BackingField_0;
+	// System.String[] RestSharp.RestClient::<AcceptedContentTypes>k__BackingField
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CAcceptedContentTypesU3Ek__BackingField_1;
+	// RestSharp.CalculateResponseStatus RestSharp.RestClient::<CalculateResponseStatus>k__BackingField
+	CalculateResponseStatus_t0D10A90403C46B57FCBF3B956441C5C97B71446A* ___U3CCalculateResponseStatusU3Ek__BackingField_2;
+	// System.Net.Http.HttpClient RestSharp.RestClient::<HttpClient>k__BackingField
+	HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* ___U3CHttpClientU3Ek__BackingField_3;
+	// RestSharp.RestClientOptions RestSharp.RestClient::<Options>k__BackingField
+	RestClientOptions_t0A00347954344FE624B81F4D9944FB1C1A5ED9BC* ___U3COptionsU3Ek__BackingField_4;
+	// System.Func`2<System.String,System.String> RestSharp.RestClient::<Encode>k__BackingField
+	Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* ___U3CEncodeU3Ek__BackingField_5;
+	// System.Func`3<System.String,System.Text.Encoding,System.String> RestSharp.RestClient::<EncodeQuery>k__BackingField
+	Func_3_tA55C6D86B4F17C327371834960D980B7A6059BAF* ___U3CEncodeQueryU3Ek__BackingField_6;
+	// RestSharp.Authenticators.IAuthenticator RestSharp.RestClient::<Authenticator>k__BackingField
+	RuntimeObject* ___U3CAuthenticatorU3Ek__BackingField_7;
+	// RestSharp.ParametersCollection RestSharp.RestClient::<DefaultParameters>k__BackingField
+	ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC* ___U3CDefaultParametersU3Ek__BackingField_8;
+	// System.Boolean RestSharp.RestClient::_disposeHttpClient
+	bool ____disposeHttpClient_10;
+	// System.Boolean RestSharp.RestClient::_disposed
+	bool ____disposed_11;
+	// System.Collections.Generic.Dictionary`2<RestSharp.DataFormat,RestSharp.Serializers.SerializerRecord> RestSharp.RestClient::<Serializers>k__BackingField
+	Dictionary_2_tAD55129532CEAAFA132E6D16DD2BCE2081376086* ___U3CSerializersU3Ek__BackingField_12;
+};
+
+struct RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF_StaticFields
+{
+	// RestSharp.ParameterType[] RestSharp.RestClient::MultiParameterTypes
+	ParameterTypeU5BU5D_t09F8F6A9F0242C7461482EA69C8B88F8B6A6820D* ___MultiParameterTypes_9;
+};
+
+// RestSharp.RestRequest
+struct RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94  : public RuntimeObject
+{
+	// System.Func`2<System.Net.Http.HttpResponseMessage,RestSharp.RestResponse> RestSharp.RestRequest::_advancedResponseHandler
+	Func_2_t87305CE206C0358B614B8D7BEDD7128613FE435F* ____advancedResponseHandler_0;
+	// System.Func`2<System.IO.Stream,System.IO.Stream> RestSharp.RestRequest::_responseWriter
+	Func_2_t7053A13420D4E1FFCDEB9101B47B2ED89259E5D7* ____responseWriter_1;
+	// System.Collections.Generic.List`1<RestSharp.FileParameter> RestSharp.RestRequest::_files
+	List_1_t29B7AC0C40180BC1E120684B966E28B9DDEEFEEB* ____files_2;
+	// System.Boolean RestSharp.RestRequest::<AlwaysMultipartFormData>k__BackingField
+	bool ___U3CAlwaysMultipartFormDataU3Ek__BackingField_3;
+	// System.Boolean RestSharp.RestRequest::<MultipartFormQuoteParameters>k__BackingField
+	bool ___U3CMultipartFormQuoteParametersU3Ek__BackingField_4;
+	// System.String RestSharp.RestRequest::<FormBoundary>k__BackingField
+	String_t* ___U3CFormBoundaryU3Ek__BackingField_5;
+	// RestSharp.ParametersCollection RestSharp.RestRequest::<Parameters>k__BackingField
+	ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC* ___U3CParametersU3Ek__BackingField_6;
+	// RestSharp.Method RestSharp.RestRequest::<Method>k__BackingField
+	int32_t ___U3CMethodU3Ek__BackingField_7;
+	// System.Int32 RestSharp.RestRequest::<Timeout>k__BackingField
+	int32_t ___U3CTimeoutU3Ek__BackingField_8;
+	// System.String RestSharp.RestRequest::<Resource>k__BackingField
+	String_t* ___U3CResourceU3Ek__BackingField_9;
+	// RestSharp.DataFormat RestSharp.RestRequest::<RequestFormat>k__BackingField
+	int32_t ___U3CRequestFormatU3Ek__BackingField_10;
+	// System.String RestSharp.RestRequest::<RootElement>k__BackingField
+	String_t* ___U3CRootElementU3Ek__BackingField_11;
+	// System.Action`1<RestSharp.RestResponse> RestSharp.RestRequest::<OnBeforeDeserialization>k__BackingField
+	Action_1_t98FF65CE8D9A7BC8507E7B2FFC147356FA5E4355* ___U3COnBeforeDeserializationU3Ek__BackingField_12;
+	// System.Func`2<System.Net.Http.HttpRequestMessage,System.Threading.Tasks.ValueTask> RestSharp.RestRequest::<OnBeforeRequest>k__BackingField
+	Func_2_tECDE84E621EA4187C8AD72E52AD7DE568766C3C6* ___U3COnBeforeRequestU3Ek__BackingField_13;
+	// System.Func`2<System.Net.Http.HttpResponseMessage,System.Threading.Tasks.ValueTask> RestSharp.RestRequest::<OnAfterRequest>k__BackingField
+	Func_2_t84E94B78FA88C30FC08C5F8425D2DADA77D463B1* ___U3COnAfterRequestU3Ek__BackingField_14;
+	// System.Int32 RestSharp.RestRequest::<Attempts>k__BackingField
+	int32_t ___U3CAttemptsU3Ek__BackingField_15;
+	// System.Net.Http.HttpCompletionOption RestSharp.RestRequest::<CompletionOption>k__BackingField
+	int32_t ___U3CCompletionOptionU3Ek__BackingField_16;
+};
+
+// System.String
+struct String_t  : public RuntimeObject
+{
+	// System.Int32 System.String::_stringLength
+	int32_t ____stringLength_4;
+	// System.Char System.String::_firstChar
+	Il2CppChar ____firstChar_5;
+};
+
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.Text.StringBuilder
+struct StringBuilder_t  : public RuntimeObject
+{
+	// System.Char[] System.Text.StringBuilder::m_ChunkChars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_ChunkChars_0;
+	// System.Text.StringBuilder System.Text.StringBuilder::m_ChunkPrevious
+	StringBuilder_t* ___m_ChunkPrevious_1;
+	// System.Int32 System.Text.StringBuilder::m_ChunkLength
+	int32_t ___m_ChunkLength_2;
+	// System.Int32 System.Text.StringBuilder::m_ChunkOffset
+	int32_t ___m_ChunkOffset_3;
+	// System.Int32 System.Text.StringBuilder::m_MaxCapacity
+	int32_t ___m_MaxCapacity_4;
+};
+
+// RestSharp.Authenticators.OAuth.Extensions.StringExtensions
+struct StringExtensions_t10DA19805FC51ABE8458F764EC832EDAC4AE93E0  : public RuntimeObject
+{
+};
+
+// RestSharp.Extensions.StringExtensions
+struct StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42  : public RuntimeObject
+{
+};
+
+struct StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields
+{
+	// System.Text.RegularExpressions.Regex RestSharp.Extensions.StringExtensions::IsUpperCaseRegex
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___IsUpperCaseRegex_0;
+	// System.Text.RegularExpressions.Regex RestSharp.Extensions.StringExtensions::AddUnderscoresRegex1
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___AddUnderscoresRegex1_1;
+	// System.Text.RegularExpressions.Regex RestSharp.Extensions.StringExtensions::AddUnderscoresRegex2
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___AddUnderscoresRegex2_2;
+	// System.Text.RegularExpressions.Regex RestSharp.Extensions.StringExtensions::AddUnderscoresRegex3
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___AddUnderscoresRegex3_3;
+	// System.Text.RegularExpressions.Regex RestSharp.Extensions.StringExtensions::AddDashesRegex1
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___AddDashesRegex1_4;
+	// System.Text.RegularExpressions.Regex RestSharp.Extensions.StringExtensions::AddDashesRegex2
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___AddDashesRegex2_5;
+	// System.Text.RegularExpressions.Regex RestSharp.Extensions.StringExtensions::AddDashesRegex3
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___AddDashesRegex3_6;
+	// System.Text.RegularExpressions.Regex RestSharp.Extensions.StringExtensions::AddSpacesRegex1
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___AddSpacesRegex1_7;
+	// System.Text.RegularExpressions.Regex RestSharp.Extensions.StringExtensions::AddSpacesRegex2
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___AddSpacesRegex2_8;
+	// System.Text.RegularExpressions.Regex RestSharp.Extensions.StringExtensions::AddSpacesRegex3
+	Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* ___AddSpacesRegex3_9;
+};
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
+{
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_taskId
+	int32_t ___m_taskId_1;
+	// System.Delegate System.Threading.Tasks.Task::m_action
+	Delegate_t* ___m_action_2;
+	// System.Object System.Threading.Tasks.Task::m_stateObject
+	RuntimeObject* ___m_stateObject_3;
+	// System.Threading.Tasks.TaskScheduler System.Threading.Tasks.Task::m_taskScheduler
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler_4;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::m_parent
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent_5;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
+	int32_t ___m_stateFlags_6;
+	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
+	RuntimeObject* ___m_continuationObject_23;
+	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
+};
+
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
+{
+	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
+	int32_t ___s_taskIdCounter_0;
+	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
+	RuntimeObject* ___s_taskCompletionSentinel_24;
+	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
+	bool ___s_asyncDebuggingEnabled_25;
+	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
+	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
+	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
+	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
+	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
+	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
+	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
+	RuntimeObject* ___s_activeTasksLock_37;
+};
+
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
+{
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
+	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
+};
+
+// RestSharp.Authenticators.OAuth.Extensions.TimeExtensions
+struct TimeExtensions_t3379A3D6E3F5CB7936B4A6BFB15355ABE6DDDBA4  : public RuntimeObject
+{
+};
+
+// System.Uri
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
+{
+	// System.String System.Uri::m_String
+	String_t* ___m_String_16;
+	// System.String System.Uri::m_originalUnicodeString
+	String_t* ___m_originalUnicodeString_17;
+	// System.UriParser System.Uri::m_Syntax
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_18;
+	// System.String System.Uri::m_DnsSafeHost
+	String_t* ___m_DnsSafeHost_19;
+	// System.Uri/Flags System.Uri::m_Flags
+	uint64_t ___m_Flags_20;
+	// System.Uri/UriInfo System.Uri::m_Info
+	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_21;
+	// System.Boolean System.Uri::m_iriParsing
+	bool ___m_iriParsing_22;
+};
+
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
+{
+	// System.String System.Uri::UriSchemeFile
+	String_t* ___UriSchemeFile_0;
+	// System.String System.Uri::UriSchemeFtp
+	String_t* ___UriSchemeFtp_1;
+	// System.String System.Uri::UriSchemeGopher
+	String_t* ___UriSchemeGopher_2;
+	// System.String System.Uri::UriSchemeHttp
+	String_t* ___UriSchemeHttp_3;
+	// System.String System.Uri::UriSchemeHttps
+	String_t* ___UriSchemeHttps_4;
+	// System.String System.Uri::UriSchemeWs
+	String_t* ___UriSchemeWs_5;
+	// System.String System.Uri::UriSchemeWss
+	String_t* ___UriSchemeWss_6;
+	// System.String System.Uri::UriSchemeMailto
+	String_t* ___UriSchemeMailto_7;
+	// System.String System.Uri::UriSchemeNews
+	String_t* ___UriSchemeNews_8;
+	// System.String System.Uri::UriSchemeNntp
+	String_t* ___UriSchemeNntp_9;
+	// System.String System.Uri::UriSchemeNetTcp
+	String_t* ___UriSchemeNetTcp_10;
+	// System.String System.Uri::UriSchemeNetPipe
+	String_t* ___UriSchemeNetPipe_11;
+	// System.String System.Uri::SchemeDelimiter
+	String_t* ___SchemeDelimiter_12;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
+	bool ___s_ConfigInitialized_23;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
+	bool ___s_ConfigInitializing_24;
+	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
+	int32_t ___s_IdnScope_25;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
+	bool ___s_IriParsing_26;
+	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
+	bool ___useDotNetRelativeOrAbsolute_27;
+	// System.Boolean System.Uri::IsWindowsFileSystem
+	bool ___IsWindowsFileSystem_29;
+	// System.Object System.Uri::s_initLock
+	RuntimeObject* ___s_initLock_30;
+	// System.Char[] System.Uri::HexLowerChars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
+	// System.Char[] System.Uri::_WSchars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
+};
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// RestSharp.Authenticators.OAuth.WebPair
+struct WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A  : public RuntimeObject
+{
+	// System.String RestSharp.Authenticators.OAuth.WebPair::<Name>k__BackingField
+	String_t* ___U3CNameU3Ek__BackingField_0;
+	// System.String RestSharp.Authenticators.OAuth.WebPair::<Value>k__BackingField
+	String_t* ___U3CValueU3Ek__BackingField_1;
+	// System.String RestSharp.Authenticators.OAuth.WebPair::<WebValue>k__BackingField
+	String_t* ___U3CWebValueU3Ek__BackingField_2;
+	// System.Boolean RestSharp.Authenticators.OAuth.WebPair::<Encode>k__BackingField
+	bool ___U3CEncodeU3Ek__BackingField_3;
+};
+
+struct WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_StaticFields
+{
+	// RestSharp.Authenticators.OAuth.WebPair/WebPairComparer RestSharp.Authenticators.OAuth.WebPair::<Comparer>k__BackingField
+	WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* ___U3CComparerU3Ek__BackingField_4;
+};
+
+// RestSharp.Authenticators.OAuth.WebPairCollection
+struct WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C  : public RuntimeObject
+{
+	// System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair> RestSharp.Authenticators.OAuth.WebPairCollection::_parameters
+	List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* ____parameters_0;
+};
+
+// RestSharp.Extensions.WithExtensions
+struct WithExtensions_t8F65A6225B98EC2C72C1AC70AB44F0F2ECF9D06B  : public RuntimeObject
+{
+};
+
+// RestSharp.Authenticators.OAuth1Authenticator/<>c
+struct U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields
+{
+	// RestSharp.Authenticators.OAuth1Authenticator/<>c RestSharp.Authenticators.OAuth1Authenticator/<>c::<>9
+	U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* ___U3CU3E9_0;
+	// System.Func`2<RestSharp.Parameter,System.Boolean> RestSharp.Authenticators.OAuth1Authenticator/<>c::<>9__69_1
+	Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* ___U3CU3E9__69_1_1;
+	// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.GetOrPostParameter> RestSharp.Authenticators.OAuth1Authenticator/<>c::<>9__69_5
+	Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823* ___U3CU3E9__69_5_2;
+	// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.Authenticators.OAuth.WebPair> RestSharp.Authenticators.OAuth1Authenticator/<>c::<>9__69_6
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* ___U3CU3E9__69_6_3;
+	// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,System.String> RestSharp.Authenticators.OAuth1Authenticator/<>c::<>9__69_7
+	Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* ___U3CU3E9__69_7_4;
+};
+
+// RestSharp.Authenticators.OAuth.OAuthTools/<>c
+struct U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields
+{
+	// RestSharp.Authenticators.OAuth.OAuthTools/<>c RestSharp.Authenticators.OAuth.OAuthTools/<>c::<>9
+	U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* ___U3CU3E9_0;
+	// System.Func`2<System.Char,System.String> RestSharp.Authenticators.OAuth.OAuthTools/<>c::<>9__16_0
+	Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D* ___U3CU3E9__16_0_1;
+	// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,System.Boolean> RestSharp.Authenticators.OAuth.OAuthTools/<>c::<>9__18_0
+	Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A* ___U3CU3E9__18_0_2;
+	// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.Authenticators.OAuth.WebPair> RestSharp.Authenticators.OAuth.OAuthTools/<>c::<>9__18_1
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* ___U3CU3E9__18_1_3;
+	// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.Authenticators.OAuth.WebPair> RestSharp.Authenticators.OAuth.OAuthTools/<>c::<>9__18_2
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* ___U3CU3E9__18_2_4;
+	// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,System.String> RestSharp.Authenticators.OAuth.OAuthTools/<>c::<>9__18_3
+	Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* ___U3CU3E9__18_3_5;
+};
+
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/<>c__DisplayClass63_0
+struct U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49  : public RuntimeObject
+{
+	// System.Collections.Specialized.NameValueCollection RestSharp.Authenticators.OAuth.OAuthWorkflow/<>c__DisplayClass63_0::urlParameters
+	NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* ___urlParameters_0;
+};
+
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters
+struct OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F  : public RuntimeObject
+{
+	// RestSharp.Authenticators.OAuth.WebPairCollection RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::<Parameters>k__BackingField
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___U3CParametersU3Ek__BackingField_0;
+	// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::<Signature>k__BackingField
+	String_t* ___U3CSignatureU3Ek__BackingField_1;
+};
+
+// RestSharp.Authenticators.ParametersExtensions/<>c
+struct U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_StaticFields
+{
+	// RestSharp.Authenticators.ParametersExtensions/<>c RestSharp.Authenticators.ParametersExtensions/<>c::<>9
+	U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634* ___U3CU3E9_0;
+	// System.Func`2<RestSharp.Parameter,RestSharp.Authenticators.OAuth.WebPair> RestSharp.Authenticators.ParametersExtensions/<>c::<>9__0_0
+	Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779* ___U3CU3E9__0_0_1;
+};
+
+// RestSharp.Authenticators.OAuth.Extensions.StringExtensions/<>c
+struct U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_StaticFields
+{
+	// RestSharp.Authenticators.OAuth.Extensions.StringExtensions/<>c RestSharp.Authenticators.OAuth.Extensions.StringExtensions/<>c::<>9
+	U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581* ___U3CU3E9_0;
+	// System.Func`2<System.Byte,System.String> RestSharp.Authenticators.OAuth.Extensions.StringExtensions/<>c::<>9__4_0
+	Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E* ___U3CU3E9__4_0_1;
+};
+
+// RestSharp.Extensions.StringExtensions/<>c
+struct U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_StaticFields
+{
+	// RestSharp.Extensions.StringExtensions/<>c RestSharp.Extensions.StringExtensions/<>c::<>9
+	U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5* ___U3CU3E9_0;
+	// System.Func`2<System.String,System.Boolean> RestSharp.Extensions.StringExtensions/<>c::<>9__15_0
+	Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* ___U3CU3E9__15_0_1;
+};
+
+// RestSharp.Extensions.StringExtensions/<>c__DisplayClass15_0
+struct U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052  : public RuntimeObject
+{
+	// System.Globalization.CultureInfo RestSharp.Extensions.StringExtensions/<>c__DisplayClass15_0::culture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture_0;
+};
+
+// RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25
+struct U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114  : public RuntimeObject
+{
+	// System.Int32 RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.String RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::<>2__current
+	String_t* ___U3CU3E2__current_1;
+	// System.Int32 RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::<>l__initialThreadId
+	int32_t ___U3CU3El__initialThreadId_2;
+	// System.String RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::name
+	String_t* ___name_3;
+	// System.String RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::<>3__name
+	String_t* ___U3CU3E3__name_4;
+	// System.Globalization.CultureInfo RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::culture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture_5;
+	// System.Globalization.CultureInfo RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::<>3__culture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___U3CU3E3__culture_6;
+};
+
+// RestSharp.Authenticators.OAuth.WebPair/WebPairComparer
+struct WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5  : public RuntimeObject
+{
+};
+
+// RestSharp.Authenticators.OAuth.WebPairCollection/<>c
+struct U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_StaticFields
+{
+	// RestSharp.Authenticators.OAuth.WebPairCollection/<>c RestSharp.Authenticators.OAuth.WebPairCollection/<>c::<>9
+	U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4* ___U3CU3E9_0;
+	// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.Authenticators.OAuth.WebPair> RestSharp.Authenticators.OAuth.WebPairCollection/<>c::<>9__21_0
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* ___U3CU3E9__21_0_1;
+};
+
+// System.Collections.Generic.List`1/Enumerator<System.Object>
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::_list
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::_index
+	int32_t ____index_1;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::_version
+	int32_t ____version_2;
+	// T System.Collections.Generic.List`1/Enumerator::_current
+	RuntimeObject* ____current_3;
+};
+
+// System.Collections.Generic.List`1/Enumerator<RestSharp.Authenticators.OAuth.WebPair>
+struct Enumerator_t2A0F78EB69A46D77C060920BFD0F8779A183879F 
+{
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::_list
+	List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* ____list_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::_index
+	int32_t ____index_1;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator::_version
+	int32_t ____version_2;
+	// T System.Collections.Generic.List`1/Enumerator::_current
+	WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ____current_3;
+};
+
+// System.Threading.Tasks.Task`1<System.Object>
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	RuntimeObject* ___m_result_38;
+};
+
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.ValueTask`1<System.Object>
+struct ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 
+{
+	// System.Object System.Threading.Tasks.ValueTask`1::_obj
+	RuntimeObject* ____obj_1;
+	// TResult System.Threading.Tasks.ValueTask`1::_result
+	RuntimeObject* ____result_2;
+	// System.Int16 System.Threading.Tasks.ValueTask`1::_token
+	int16_t ____token_3;
+	// System.Boolean System.Threading.Tasks.ValueTask`1::_continueOnCapturedContext
+	bool ____continueOnCapturedContext_4;
+};
+
+struct ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.ValueTask`1::s_canceledTask
+	Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* ___s_canceledTask_0;
+};
+
+// System.Threading.Tasks.ValueTask`1<RestSharp.Parameter>
+struct ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 
+{
+	// System.Object System.Threading.Tasks.ValueTask`1::_obj
+	RuntimeObject* ____obj_1;
+	// TResult System.Threading.Tasks.ValueTask`1::_result
+	Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* ____result_2;
+	// System.Int16 System.Threading.Tasks.ValueTask`1::_token
+	int16_t ____token_3;
+	// System.Boolean System.Threading.Tasks.ValueTask`1::_continueOnCapturedContext
+	bool ____continueOnCapturedContext_4;
+};
+
+struct ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.ValueTask`1::s_canceledTask
+	Task_1_t068F9C7191BA2AFAB6687C07B2057923994E5B0C* ___s_canceledTask_0;
+};
+
+// System.Runtime.CompilerServices.AsyncMethodBuilderCore
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF 
+{
+	// System.Runtime.CompilerServices.IAsyncStateMachine System.Runtime.CompilerServices.AsyncMethodBuilderCore::m_stateMachine
+	RuntimeObject* ___m_stateMachine_0;
+	// System.Action System.Runtime.CompilerServices.AsyncMethodBuilderCore::m_defaultContextAction
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___m_defaultContextAction_1;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.AsyncMethodBuilderCore
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_pinvoke
+{
+	RuntimeObject* ___m_stateMachine_0;
+	Il2CppMethodPointer ___m_defaultContextAction_1;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.AsyncMethodBuilderCore
+struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_com
+{
+	RuntimeObject* ___m_stateMachine_0;
+	Il2CppMethodPointer ___m_defaultContextAction_1;
+};
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+};
+
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Byte
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	// System.Byte System.Byte::m_value
+	uint8_t ___m_value_0;
+};
+
+// System.Char
+struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17 
+{
+	// System.Char System.Char::m_value
+	Il2CppChar ___m_value_0;
+};
+
+struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
+{
+	// System.Byte[] System.Char::s_categoryForLatin1
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_categoryForLatin1_3;
+};
+
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
+{
+	// System.UInt64 System.DateTime::_dateData
+	uint64_t ____dateData_46;
+};
+
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	// System.Int32[] System.DateTime::s_daysToMonth365
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
+	// System.Int32[] System.DateTime::s_daysToMonth366
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
+	// System.DateTime System.DateTime::UnixEpoch
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
+};
+
+// System.Double
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	// System.Double System.Double::m_value
+	double ___m_value_0;
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+
+// RestSharp.HeaderParameter
+struct HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C  : public Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9
+{
+};
+
+// RestSharp.Authenticators.HttpBasicAuthenticator
+struct HttpBasicAuthenticator_t41C01903CF40A590A432EB394210E624CFEB9947  : public AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A
+{
+};
+
+// System.Int16
+struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
+{
+	// System.Int16 System.Int16::m_value
+	int16_t ___m_value_0;
+};
+
+// System.Int32
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+};
+
+// System.Int64
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	// System.Int64 System.Int64::m_value
+	int64_t ___m_value_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// RestSharp.Authenticators.JwtAuthenticator
+struct JwtAuthenticator_t492CEE337695EFDDA504BC5171363036896E3C4A  : public AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A
+{
+};
+
+// System.Security.Cryptography.KeyedHashAlgorithm
+struct KeyedHashAlgorithm_t782AD417BF829DAD1267A7AE4F9B553537CCF263  : public HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D
+{
+	// System.Byte[] System.Security.Cryptography.KeyedHashAlgorithm::KeyValue
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___KeyValue_4;
+};
+
+// System.Collections.Specialized.NameValueCollection
+struct NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7  : public NameObjectCollectionBase_tB6400DF2FA3B64660D79586B79016B4A0BA645FC
+{
+	// System.String[] System.Collections.Specialized.NameValueCollection::_all
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____all_9;
+	// System.String[] System.Collections.Specialized.NameValueCollection::_allKeys
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____allKeys_10;
+};
+
+// RestSharp.NamedParameter
+struct NamedParameter_t31B8BD9A1019FB127C613A55E5E8F6C0748D31B3  : public Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9
+{
+};
+
+// RestSharp.Authenticators.OAuth2.OAuth2AuthorizationRequestHeaderAuthenticator
+struct OAuth2AuthorizationRequestHeaderAuthenticator_t9C6B5F200A1E27CD6BFC78A0CA28D88A33A62A5B  : public AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A
+{
+	// System.String RestSharp.Authenticators.OAuth2.OAuth2AuthorizationRequestHeaderAuthenticator::_tokenType
+	String_t* ____tokenType_1;
+};
+
+// RestSharp.Authenticators.OAuth2.OAuth2UriQueryParameterAuthenticator
+struct OAuth2UriQueryParameterAuthenticator_t8F8B5D2CE2121CFC9A7C4A765364F4FDC1F39857  : public AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A
+{
+};
+
+// System.Security.Cryptography.RSA
+struct RSA_tDDE9BD4C9806074FA9B1C6A5C93523A97116F21A  : public AsymmetricAlgorithm_t5E7E9D26CE0EDCAABD84F616A44E476473BA2AF8
+{
+};
+
+// System.Security.Cryptography.SHA1
+struct SHA1_t0612ADACADC25FB4C22525A579B30354586F0CEE  : public HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D
+{
+};
+
+// System.TimeSpan
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
+{
+	// System.Int64 System.TimeSpan::_ticks
+	int64_t ____ticks_22;
+};
+
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
+{
+	// System.TimeSpan System.TimeSpan::Zero
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
+	// System.TimeSpan System.TimeSpan::MaxValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
+	// System.TimeSpan System.TimeSpan::MinValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
+};
+
+// System.Threading.Tasks.ValueTask
+struct ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F 
+{
+	// System.Object System.Threading.Tasks.ValueTask::_obj
+	RuntimeObject* ____obj_1;
+	// System.Int16 System.Threading.Tasks.ValueTask::_token
+	int16_t ____token_2;
+	// System.Boolean System.Threading.Tasks.ValueTask::_continueOnCapturedContext
+	bool ____continueOnCapturedContext_3;
+};
+
+struct ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F_StaticFields
+{
+	// System.Threading.Tasks.Task System.Threading.Tasks.ValueTask::s_canceledTask
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___s_canceledTask_0;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// RestSharp.Authenticators.OAuth1Authenticator/<>c__DisplayClass69_0
+struct U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453 
+{
+	// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters RestSharp.Authenticators.OAuth1Authenticator/<>c__DisplayClass69_0::oauth
+	OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* ___oauth_0;
+	// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator/<>c__DisplayClass69_0::<>4__this
+	OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* ___U3CU3E4__this_1;
+};
+
+// RestSharp.Authenticators.OAuth.OAuthTools/<>c__DisplayClass23_0
+struct U3CU3Ec__DisplayClass23_0_t6DA003303C7024CA005F28739D08D0052A0E5196 
+{
+	// System.String RestSharp.Authenticators.OAuth.OAuthTools/<>c__DisplayClass23_0::unencodedConsumerSecret
+	String_t* ___unencodedConsumerSecret_0;
+	// System.String RestSharp.Authenticators.OAuth.OAuthTools/<>c__DisplayClass23_0::signatureBase
+	String_t* ___signatureBase_1;
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>
+struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC 
+{
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
+	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___m_task_2;
+};
+
+struct AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC_StaticFields
+{
+	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
+	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_defaultResultTask_0;
+};
+
+// System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1<System.Object>
+struct ConfiguredValueTaskAwaitable_1_t415F5A25DDBFA0019A98D28A4E6DF1E1AE17AE98 
+{
+	// System.Threading.Tasks.ValueTask`1<TResult> System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1::_value
+	ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 ____value_0;
+};
+
+// System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1<RestSharp.Parameter>
+struct ConfiguredValueTaskAwaitable_1_t75D28C5FADA4B604C9EE4946AE41FB0D35BDB318 
+{
+	// System.Threading.Tasks.ValueTask`1<TResult> System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1::_value
+	ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 ____value_0;
+};
+
+// System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<System.Object>
+struct ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99 
+{
+	// System.Threading.Tasks.ValueTask`1<TResult> System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter::_value
+	ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 ____value_0;
+};
+
+// System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<RestSharp.Parameter>
+struct ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7 
+{
+	// System.Threading.Tasks.ValueTask`1<TResult> System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter::_value
+	ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 ____value_0;
+};
+
+// System.Delegate
+struct Delegate_t  : public RuntimeObject
+{
+	// System.IntPtr System.Delegate::method_ptr
+	Il2CppMethodPointer ___method_ptr_0;
+	// System.IntPtr System.Delegate::invoke_impl
+	intptr_t ___invoke_impl_1;
+	// System.Object System.Delegate::m_target
+	RuntimeObject* ___m_target_2;
+	// System.IntPtr System.Delegate::method
+	intptr_t ___method_3;
+	// System.IntPtr System.Delegate::delegate_trampoline
+	intptr_t ___delegate_trampoline_4;
+	// System.IntPtr System.Delegate::extra_arg
+	intptr_t ___extra_arg_5;
+	// System.IntPtr System.Delegate::method_code
+	intptr_t ___method_code_6;
+	// System.IntPtr System.Delegate::interp_method
+	intptr_t ___interp_method_7;
+	// System.IntPtr System.Delegate::interp_invoke_impl
+	intptr_t ___interp_invoke_impl_8;
+	// System.Reflection.MethodInfo System.Delegate::method_info
+	MethodInfo_t* ___method_info_9;
+	// System.Reflection.MethodInfo System.Delegate::original_method_info
+	MethodInfo_t* ___original_method_info_10;
+	// System.DelegateData System.Delegate::data
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	// System.Boolean System.Delegate::method_is_virtual
+	bool ___method_is_virtual_12;
+};
+// Native definition for P/Invoke marshalling of System.Delegate
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+// Native definition for COM marshalling of System.Delegate
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+
+// System.Exception
+struct Exception_t  : public RuntimeObject
+{
+	// System.String System.Exception::_className
+	String_t* ____className_1;
+	// System.String System.Exception::_message
+	String_t* ____message_2;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_3;
+	// System.Exception System.Exception::_innerException
+	Exception_t* ____innerException_4;
+	// System.String System.Exception::_helpURL
+	String_t* ____helpURL_5;
+	// System.Object System.Exception::_stackTrace
+	RuntimeObject* ____stackTrace_6;
+	// System.String System.Exception::_stackTraceString
+	String_t* ____stackTraceString_7;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_8;
+	// System.Int32 System.Exception::_remoteStackIndex
+	int32_t ____remoteStackIndex_9;
+	// System.Object System.Exception::_dynamicMethods
+	RuntimeObject* ____dynamicMethods_10;
+	// System.Int32 System.Exception::_HResult
+	int32_t ____HResult_11;
+	// System.String System.Exception::_source
+	String_t* ____source_12;
+	// System.Runtime.Serialization.SafeSerializationManager System.Exception::_safeSerializationManager
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	// System.Diagnostics.StackTrace[] System.Exception::captured_traces
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	// System.IntPtr[] System.Exception::native_trace_ips
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
+	// System.Int32 System.Exception::caught_in_unmanaged
+	int32_t ___caught_in_unmanaged_16;
+};
+
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+// Native definition for P/Invoke marshalling of System.Exception
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className_1;
+	char* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_pinvoke* ____innerException_4;
+	char* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	char* ____stackTraceString_7;
+	char* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	char* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+// Native definition for COM marshalling of System.Exception
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className_1;
+	Il2CppChar* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_com* ____innerException_4;
+	Il2CppChar* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	Il2CppChar* ____stackTraceString_7;
+	Il2CppChar* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	Il2CppChar* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+
+// RestSharp.GetOrPostParameter
+struct GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94  : public NamedParameter_t31B8BD9A1019FB127C613A55E5E8F6C0748D31B3
+{
+};
+
+// System.Security.Cryptography.HMAC
+struct HMAC_tD2DDF5CB02E7064020823E8EE01DA127E46E1684  : public KeyedHashAlgorithm_t782AD417BF829DAD1267A7AE4F9B553537CCF263
+{
+	// System.Int32 System.Security.Cryptography.HMAC::blockSizeValue
+	int32_t ___blockSizeValue_5;
+	// System.String System.Security.Cryptography.HMAC::m_hashName
+	String_t* ___m_hashName_6;
+	// System.Security.Cryptography.HashAlgorithm System.Security.Cryptography.HMAC::m_hash1
+	HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* ___m_hash1_7;
+	// System.Security.Cryptography.HashAlgorithm System.Security.Cryptography.HMAC::m_hash2
+	HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* ___m_hash2_8;
+	// System.Byte[] System.Security.Cryptography.HMAC::m_inner
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___m_inner_9;
+	// System.Byte[] System.Security.Cryptography.HMAC::m_outer
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___m_outer_10;
+	// System.Boolean System.Security.Cryptography.HMAC::m_hashing
+	bool ___m_hashing_11;
+};
+
+// System.Security.Cryptography.RSACryptoServiceProvider
+struct RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C  : public RSA_tDDE9BD4C9806074FA9B1C6A5C93523A97116F21A
+{
+	// Mono.Security.Cryptography.KeyPairPersistence System.Security.Cryptography.RSACryptoServiceProvider::store
+	KeyPairPersistence_t78D61FCDE172753BFE756B555CBD85127832CDF6* ___store_3;
+	// System.Boolean System.Security.Cryptography.RSACryptoServiceProvider::persistKey
+	bool ___persistKey_4;
+	// System.Boolean System.Security.Cryptography.RSACryptoServiceProvider::persisted
+	bool ___persisted_5;
+	// System.Boolean System.Security.Cryptography.RSACryptoServiceProvider::privateKeyExportable
+	bool ___privateKeyExportable_6;
+	// System.Boolean System.Security.Cryptography.RSACryptoServiceProvider::m_disposed
+	bool ___m_disposed_7;
+	// Mono.Security.Cryptography.RSAManaged System.Security.Cryptography.RSACryptoServiceProvider::rsa
+	RSAManaged_t897B29EF76C459408E11A42680C942716D809001* ___rsa_8;
+};
+
+struct RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C_StaticFields
+{
+	// System.Security.Cryptography.CspProviderFlags modreq(System.Runtime.CompilerServices.IsVolatile) System.Security.Cryptography.RSACryptoServiceProvider::s_UseMachineKeyStore
+	int32_t ___s_UseMachineKeyStore_2;
+};
+
+// System.Text.RegularExpressions.Regex
+struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772  : public RuntimeObject
+{
+	// System.TimeSpan System.Text.RegularExpressions.Regex::internalMatchTimeout
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___internalMatchTimeout_8;
+	// System.String System.Text.RegularExpressions.Regex::pattern
+	String_t* ___pattern_9;
+	// System.Text.RegularExpressions.RegexOptions System.Text.RegularExpressions.Regex::roptions
+	int32_t ___roptions_10;
+	// System.Text.RegularExpressions.RegexRunnerFactory System.Text.RegularExpressions.Regex::factory
+	RegexRunnerFactory_t72373B672C7D8785F63516DDD88834F286AF41E7* ___factory_11;
+	// System.Collections.Hashtable System.Text.RegularExpressions.Regex::caps
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___caps_12;
+	// System.Collections.Hashtable System.Text.RegularExpressions.Regex::capnames
+	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___capnames_13;
+	// System.String[] System.Text.RegularExpressions.Regex::capslist
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___capslist_14;
+	// System.Int32 System.Text.RegularExpressions.Regex::capsize
+	int32_t ___capsize_15;
+	// System.Text.RegularExpressions.ExclusiveReference System.Text.RegularExpressions.Regex::_runnerref
+	ExclusiveReference_t411F04D4CC440EB7399290027E1BBABEF4C28837* ____runnerref_16;
+	// System.WeakReference`1<System.Text.RegularExpressions.RegexReplacement> System.Text.RegularExpressions.Regex::_replref
+	WeakReference_1_tDC6E83496181D1BAFA3B89CBC00BCD0B64450257* ____replref_17;
+	// System.Text.RegularExpressions.RegexCode System.Text.RegularExpressions.Regex::_code
+	RegexCode_tA23175D9DA02AD6A79B073E10EC5D225372ED6C7* ____code_18;
+	// System.Boolean System.Text.RegularExpressions.Regex::_refsInitialized
+	bool ____refsInitialized_19;
+};
+
+struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_StaticFields
+{
+	// System.Int32 System.Text.RegularExpressions.Regex::s_cacheSize
+	int32_t ___s_cacheSize_0;
+	// System.Collections.Generic.Dictionary`2<System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Text.RegularExpressions.Regex/CachedCodeEntry> System.Text.RegularExpressions.Regex::s_cache
+	Dictionary_2_t5B5B38BB06341F50E1C75FB53208A2A66CAE57F7* ___s_cache_1;
+	// System.Int32 System.Text.RegularExpressions.Regex::s_cacheCount
+	int32_t ___s_cacheCount_2;
+	// System.Text.RegularExpressions.Regex/CachedCodeEntry System.Text.RegularExpressions.Regex::s_cacheFirst
+	CachedCodeEntry_tE201C3AD65C234AD9ED7A78C95025824A7A9FF39* ___s_cacheFirst_3;
+	// System.Text.RegularExpressions.Regex/CachedCodeEntry System.Text.RegularExpressions.Regex::s_cacheLast
+	CachedCodeEntry_tE201C3AD65C234AD9ED7A78C95025824A7A9FF39* ___s_cacheLast_4;
+	// System.TimeSpan System.Text.RegularExpressions.Regex::s_maximumMatchTimeout
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___s_maximumMatchTimeout_5;
+	// System.TimeSpan System.Text.RegularExpressions.Regex::s_defaultMatchTimeout
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___s_defaultMatchTimeout_6;
+	// System.TimeSpan System.Text.RegularExpressions.Regex::InfiniteMatchTimeout
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___InfiniteMatchTimeout_7;
+};
+
+// System.ApplicationException
+struct ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A  : public Exception_t
+{
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 
+{
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder::m_builder
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
+};
+
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFields
+{
+	// System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder::s_cachedCompleted
+	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_cachedCompleted_0;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_pinvoke
+{
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_com
+{
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
+};
+
+// System.Security.Cryptography.HMACSHA1
+struct HMACSHA1_t40AB10160C7F8F11EA26E038FD7A335383987030  : public HMAC_tD2DDF5CB02E7064020823E8EE01DA127E46E1684
+{
+};
+
+// System.Security.Cryptography.HMACSHA256
+struct HMACSHA256_t594D178275B0B5AF11CBC0AB816011DED5E20ADF  : public HMAC_tD2DDF5CB02E7064020823E8EE01DA127E46E1684
+{
+};
+
+// System.MulticastDelegate
+struct MulticastDelegate_t  : public Delegate_t
+{
+	// System.Delegate[] System.MulticastDelegate::delegates
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+};
+// Native definition for P/Invoke marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates_13;
+};
+// Native definition for COM marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// System.SystemException
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+
+// System.Func`2<System.Byte,System.String>
+struct Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<System.Char,System.String>
+struct Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<RestSharp.Parameter,System.Boolean>
+struct Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<RestSharp.Parameter,RestSharp.Authenticators.OAuth.WebPair>
+struct Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<System.String,System.Boolean>
+struct Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<System.String,System.String>
+struct Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<System.String,RestSharp.Authenticators.OAuth.WebPair>
+struct Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,System.Boolean>
+struct Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.GetOrPostParameter>
+struct Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,System.String>
+struct Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.Authenticators.OAuth.WebPair>
+struct Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F  : public MulticastDelegate_t
+{
+};
+
+// System.ArgumentException
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	// System.String System.ArgumentException::_paramName
+	String_t* ____paramName_18;
+};
+
+// System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder
+struct AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0 
+{
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::_methodBuilder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ____methodBuilder_0;
+	// System.Boolean System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::_haveResult
+	bool ____haveResult_1;
+	// System.Boolean System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::_useBuilder
+	bool ____useBuilder_2;
+};
+
+// System.NotImplementedException
+struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+
+// System.NotSupportedException
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+
+// System.ArgumentNullException
+struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+};
+
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
+{
+	// System.Object System.ArgumentOutOfRangeException::_actualValue
+	RuntimeObject* ____actualValue_19;
+};
+
+// RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6
+struct U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454 
+{
+	// System.Int32 RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6::<>t__builder
+	AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0 ___U3CU3Et__builder_1;
+	// RestSharp.RestRequest RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6::request
+	RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* ___request_2;
+	// RestSharp.Authenticators.AuthenticatorBase RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6::<>4__this
+	AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* ___U3CU3E4__this_3;
+	// RestSharp.RestRequest RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6::<>7__wrap1
+	RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* ___U3CU3E7__wrap1_4;
+	// System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<RestSharp.Parameter> RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6::<>u__1
+	ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7 ___U3CU3Eu__1_5;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// System.Char[]
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Il2CppChar m_Items[1];
+
+	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.String[]
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// System.Byte[]
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// RestSharp.HeaderParameter[]
+struct HeaderParameterU5BU5D_tC089137D6346FA2DA80A4DA36A31273FF936D2C4  : public RuntimeArray
+{
+	ALIGN_FIELD (8) HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C* m_Items[1];
+
+	inline HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// RestSharp.Authenticators.OAuth.WebPair[]
+struct WebPairU5BU5D_t9ABAA2377626B92EF036CB08D4097695BC916E20  : public RuntimeArray
+{
+	ALIGN_FIELD (8) WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* m_Items[1];
+
+	inline WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// System.Object[]
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+// System.Void System.Func`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared (Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Where<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Where_TisRuntimeObject_m046DED489E38F15407F5825AD753C4090F103893_gshared (RuntimeObject* ___source0, Func_2_tE1F0D41563EE092E5E5540B061449FDE88F1DC00* ___predicate1, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m960CFE6ABFCB6C2399B69DEDFB27765D1FCE57A6_gshared (RuntimeObject* ___source0, Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___selector1, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::Start<RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6>(TStateMachine&)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AsyncValueTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m28B13CB6A26B67B5F5084CC040594F8ED2EE5554_gshared_inline (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* __this, U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1<TResult> System.Threading.Tasks.ValueTask`1<System.Object>::ConfigureAwait(System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredValueTaskAwaitable_1_t415F5A25DDBFA0019A98D28A4E6DF1E1AE17AE98 ValueTask_1_ConfigureAwait_mDC7101E5C4BA5B023AA369E26B2EA37C1D22C1C5_gshared_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, bool ___continueOnCapturedContext0, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1<System.Object>::GetAwaiter()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99 ConfiguredValueTaskAwaitable_1_GetAwaiter_m7BECD774F029605B45F919BF7DEEC348B2B499B8_gshared_inline (ConfiguredValueTaskAwaitable_1_t415F5A25DDBFA0019A98D28A4E6DF1E1AE17AE98* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<System.Object>::get_IsCompleted()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ConfiguredValueTaskAwaiter_get_IsCompleted_mA7BC89851224972805007D736DB02E2B7D4700F2_gshared_inline (ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<System.Object>,RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncValueTaskMethodBuilder_AwaitUnsafeOnCompleted_TisConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_mDE551976B6643E4DB1F00FD5E755820353F8A721_gshared (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* __this, ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99* ___awaiter0, U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* ___stateMachine1, const RuntimeMethod* method) ;
+// TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<System.Object>::GetResult()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ConfiguredValueTaskAwaiter_GetResult_mBB2D627DF9F38F1113F367FF1ACE907F0A82D494_gshared_inline (ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99* __this, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.ValueTask`1<System.Object>::.ctor(TResult)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValueTask_1__ctor_m610EF1C685E8686F67BD23AC98BF48EF45743628_gshared_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, RuntimeObject* ___result0, const RuntimeMethod* method) ;
+// System.Boolean System.Linq.Enumerable::Contains<System.Char>(System.Collections.Generic.IEnumerable`1<TSource>,TSource)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerable_Contains_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m3979BE7355F65890520EC3C8092E2983495AE03D_gshared (RuntimeObject* ___source0, Il2CppChar ___value1, const RuntimeMethod* method) ;
+// System.Linq.IOrderedEnumerable`1<TSource> System.Linq.Enumerable::OrderBy<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TKey>,System.Collections.Generic.IComparer`1<TKey>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_OrderBy_TisRuntimeObject_TisRuntimeObject_m81227D4572EC2FD61F707FB241C10E47321690A6_gshared (RuntimeObject* ___source0, Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___keySelector1, RuntimeObject* ___comparer2, const RuntimeMethod* method) ;
+// System.Collections.Generic.List`1<TSource> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* Enumerable_ToList_TisRuntimeObject_mBDB9895C2D14F2A92043507996018A329BD32A64_gshared (RuntimeObject* ___source0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::Insert(System.Int32,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Insert_m9C9559248941FED50561DB029D55DF08DEF3B094_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, RuntimeObject* ___item1, const RuntimeMethod* method) ;
+// T RestSharp.Ensure::NotNull<System.Object>(T,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Ensure_NotNull_TisRuntimeObject_m385DDBC75429E1619E46FF8A98FFFACAC888A27C_gshared (RuntimeObject* ___value0, String_t* ___name1, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.Char,System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m2C555A786E4CFEF44D9118337A905F9DFB44CF64_gshared (Func_2_t4012A4804CEF770533B75F684A4E0713C46C35CC* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.Char,System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisRuntimeObject_m5791094268CF1FF1DF888A6DF6BAEB1381C2549D_gshared (RuntimeObject* ___source0, Func_2_t4012A4804CEF770533B75F684A4E0713C46C35CC* ___selector1, const RuntimeMethod* method) ;
+// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::Clear()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.List`1<System.Object>::Contains(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::CopyTo(T[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_CopyTo_m1210D480F3EF1C250A53086148C1204B7A99B931_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.List`1<System.Object>::Remove(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.List`1<System.Object>::IndexOf(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+// T System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::set_Item(System.Int32,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.Byte,System.Object>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m356DD0E5E7CE04DB0252EF251F0D812872A08C8B_gshared (Func_2_t6E66BCD31592FAA3B441B68BF938E37260DCFA3C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.Byte,System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisRuntimeObject_m710FEF158EFD274F10583B7B987337D5A7C8D12E_gshared (RuntimeObject* ___source0, Func_2_t6E66BCD31592FAA3B441B68BF938E37260DCFA3C* ___selector1, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m8D9885FE63030ADC24652B4C271E420374CBE881_gshared (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.ValueTask`1<System.Object>::.ctor(System.Object,TResult,System.Int16,System.Boolean)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValueTask_1__ctor_mBA619ABF56CC29800A1964E6C5ED493E8E7D3D5B_gshared_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, RuntimeObject* ___obj0, RuntimeObject* ___result1, int16_t ___token2, bool ___continueOnCapturedContext3, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1<System.Object>::.ctor(System.Threading.Tasks.ValueTask`1<TResult>)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConfiguredValueTaskAwaitable_1__ctor_mEAA2416875911A8D049C7F0FB4477D6AE4BC124B_gshared_inline (ConfiguredValueTaskAwaitable_1_t415F5A25DDBFA0019A98D28A4E6DF1E1AE17AE98* __this, ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 ___value0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<System.Object>::.ctor(System.Threading.Tasks.ValueTask`1<TResult>)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConfiguredValueTaskAwaiter__ctor_m2119C5D2703D1D7748F0D5DAB18AA40C883229CF_gshared_inline (ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99* __this, ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 ___value0, const RuntimeMethod* method) ;
+// System.Boolean System.Threading.Tasks.ValueTask`1<System.Object>::get_IsCompleted()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ValueTask_1_get_IsCompleted_mB5FE6398DBC9CBAECABB6AFC1B3F3A1F51D1479F_gshared_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, const RuntimeMethod* method) ;
+// TResult System.Threading.Tasks.ValueTask`1<System.Object>::get_Result()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ValueTask_1_get_Result_m3035DEA69E68AD985EDB5285416C94558C72B23D_gshared_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, const RuntimeMethod* method) ;
+
+// System.String System.Web.HttpUtility::UrlDecode(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpUtility_UrlDecode_m192E19EBB2893A62F343EBF51F0099D3204FAF9C (String_t* ___str0, const RuntimeMethod* method) ;
+// System.Void System.ArgumentNullException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* __this, String_t* ___paramName0, const RuntimeMethod* method) ;
+// System.Int32 System.String::get_Length()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
+// System.String System.Uri::EscapeDataString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_EscapeDataString_m0D32DB5F61DFFE1E4F61EE513E3419F9DA8F773E (String_t* ___stringToEscape0, const RuntimeMethod* method) ;
+// System.Void System.Text.StringBuilder::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m2619CA8D2C3476DF1A302D9D941498BB1C6164C5 (StringBuilder_t* __this, int32_t ___capacity0, const RuntimeMethod* method) ;
+// System.Int32 System.Math::Min(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Min_m1F346FEDDC77AC1EC0C4EF1AC6BA59F0EC7980F8 (int32_t ___val10, int32_t ___val21, const RuntimeMethod* method) ;
+// System.Char System.String::get_Chars(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3 (String_t* __this, int32_t ___index0, const RuntimeMethod* method) ;
+// System.Globalization.UnicodeCategory System.Globalization.CharUnicodeInfo::GetUnicodeCategory(System.Char)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharUnicodeInfo_GetUnicodeCategory_m1EA8314CF89D9C744D5B2BED9F3479C7C5467319 (Il2CppChar ___ch0, const RuntimeMethod* method) ;
+// System.String System.String::Substring(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___startIndex0, int32_t ___length1, const RuntimeMethod* method) ;
+// System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.String System.Web.HttpUtility::UrlEncode(System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpUtility_UrlEncode_m829C75A680B716AA6E2A3921B344DCDF9DEBB1C3 (String_t* ___str0, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___e1, const RuntimeMethod* method) ;
+// System.String System.String::Replace(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___oldValue0, String_t* ___newValue1, const RuntimeMethod* method) ;
+// System.String RestSharp.Extensions.StringExtensions::ToPascalCase(System.String,System.Boolean,System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_ToPascalCase_m43444B3121B4F824C98B18633493778975F5F5F1 (String_t* ___text0, bool ___removeUnderscores1, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture2, const RuntimeMethod* method) ;
+// System.Void RestSharp.Extensions.StringExtensions/<>c__DisplayClass15_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass15_0__ctor_m96EFBD9C97102A183729B5C4CFA3BF5703DB74DA (U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052* __this, const RuntimeMethod* method) ;
+// System.Boolean System.String::IsNullOrEmpty(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A (String_t* ___value0, const RuntimeMethod* method) ;
+// System.String System.String::Replace(System.Char,System.Char)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_m86403DC5F422D8D5E1CFAAF255B103CB807EDAAF (String_t* __this, Il2CppChar ___oldChar0, Il2CppChar ___newChar1, const RuntimeMethod* method) ;
+// System.String[] System.String::Split(System.Char[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* String_Split_m101D35FEC86371D2BB4E3480F6F896880093B2E9 (String_t* __this, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___separator0, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.String,System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m247D5044A4E1F518CA84A38B9A9F30E66BDD8184 (Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Where<System.String>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+inline RuntimeObject* Enumerable_Where_TisString_t_m3AC8838FF43F171EDE6F84319C3CA82832F1D6A1 (RuntimeObject* ___source0, Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* ___predicate1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D*, const RuntimeMethod*))Enumerable_Where_TisRuntimeObject_m046DED489E38F15407F5825AD753C4090F103893_gshared)(___source0, ___predicate1, method);
+}
+// System.Void System.Func`2<System.String,System.String>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m6A29D0BC8A4BCF6079AD2737B4119D3802B41814 (Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.String,System.String>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisString_t_TisString_t_m60A7751DBEA2577100838E550C6AEDF59AA3F4AC (RuntimeObject* ___source0, Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m960CFE6ABFCB6C2399B69DEDFB27765D1FCE57A6_gshared)(___source0, ___selector1, method);
+}
+// System.String RestSharp.Extensions.StringExtensions::JoinToString(System.Collections.Generic.IEnumerable`1<System.String>,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_JoinToString_m67116B819F642A2CCA5DED014C76F9B26821533B (RuntimeObject* ___strings0, String_t* ___separator1, const RuntimeMethod* method) ;
+// System.String RestSharp.Extensions.StringExtensions::ToPascalCase(System.String,System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_ToPascalCase_m4E5417B7B0458617005A20DA06BB1200FC3517C0 (String_t* ___lowercaseAndUnderscoredWord0, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture1, const RuntimeMethod* method) ;
+// System.String RestSharp.Extensions.StringExtensions::MakeInitialLowerCase(System.String,System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_MakeInitialLowerCase_mE3670D664C32D28C819867C91C33DB2BFFB7AFB1 (String_t* ___word0, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture1, const RuntimeMethod* method) ;
+// System.String System.String::ToLower(System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLower_mD22E5D18F36015484078F5BA0F1687DA95904D1E (String_t* __this, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture0, const RuntimeMethod* method) ;
+// System.String System.String::Substring(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472 (String_t* __this, int32_t ___startIndex0, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+// System.String System.Text.RegularExpressions.Regex::Replace(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90 (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* __this, String_t* ___input0, String_t* ___replacement1, const RuntimeMethod* method) ;
+// System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Regex_IsMatch_m7E96E666FBE7259D7638A3A6A21BE824D2406F49 (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* __this, String_t* ___input0, const RuntimeMethod* method) ;
+// System.Boolean System.String::IsNullOrWhiteSpace(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrWhiteSpace_m360E06F52DEE3AD60832FAE8D32E499B6F9B386B (String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetNameVariantsU3Ed__25__ctor_mF0138B06988AB25AB0200CE9A34345FCDAC17110 (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+// System.String System.String::Join(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Join_m675422BC1927F19F7135C5211B45EE7AC9F7D632 (String_t* ___separator0, RuntimeObject* ___values1, const RuntimeMethod* method) ;
+// System.Void System.Text.RegularExpressions.Regex::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* __this, String_t* ___pattern0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Extensions.StringExtensions/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m45E283C904BA99FA756F3E5C8C08F75B0A6F5B04 (U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5* __this, const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Char System.Char::ToUpper(System.Char,System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar Char_ToUpper_mD26273F94C47579826EBDD1A30FD12CD3DF054A9 (Il2CppChar ___c0, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture1, const RuntimeMethod* method) ;
+// System.Boolean RestSharp.Extensions.StringExtensions::IsUpperCase(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExtensions_IsUpperCase_mA16521EE5E07DD6C874CA55B734B46FF88E126EF (String_t* ___inputString0, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mE4A010CB7CF79DB447EA695143BB9402FF04D82A (RuntimeObject* ___arg00, RuntimeObject* ___arg11, const RuntimeMethod* method) ;
+// System.Int32 System.Environment::get_CurrentManagedThreadId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Environment_get_CurrentManagedThreadId_mEC09D20ED666BC3277AC9D16B68AA287E5AFE1B2 (const RuntimeMethod* method) ;
+// System.String RestSharp.Extensions.StringExtensions::ToCamelCase(System.String,System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_ToCamelCase_mBD4CD1EC91FEA60A7ACD98229AB55B40C0B7E5A3 (String_t* ___lowercaseAndUnderscoredWord0, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture1, const RuntimeMethod* method) ;
+// System.String RestSharp.Extensions.StringExtensions::AddUnderscores(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_AddUnderscores_m5B11ED4FC82518B227AA9C46BFEEBED3F01FCBFC (String_t* ___pascalCasedWord0, const RuntimeMethod* method) ;
+// System.String RestSharp.Extensions.StringExtensions::AddDashes(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_AddDashes_mE6A6FB2448C611CCC94173F033B3E07C58B53B95 (String_t* ___pascalCasedWord0, const RuntimeMethod* method) ;
+// System.String RestSharp.Extensions.StringExtensions::AddUnderscorePrefix(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_AddUnderscorePrefix_m21E8F328278CDD6EAD16BA13E0D3F223D688A750 (String_t* ___pascalCasedWord0, const RuntimeMethod* method) ;
+// System.String RestSharp.Extensions.StringExtensions::AddSpaces(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_AddSpaces_mE8E7F4E9276C71F94D627DEFC2607F0DE3A74877 (String_t* ___pascalCasedWord0, const RuntimeMethod* method) ;
+// System.Void System.NotSupportedException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerator`1<System.String> RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::System.Collections.Generic.IEnumerable<System.String>.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetNameVariantsU3Ed__25_System_Collections_Generic_IEnumerableU3CSystem_StringU3E_GetEnumerator_mA25FBB94619F1BE1AD9DA128BB8DC59FE1AD9071 (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.AuthenticatorBase::set_Token(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AuthenticatorBase_set_Token_m2A6D2F720C56E00EB9A25FC567191120A1486002_inline (AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0 AsyncValueTaskMethodBuilder_Create_mC1232B9E0C0AB30DFCC0CA84FA94EF6E19CE643C (const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::Start<RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6>(TStateMachine&)
+inline void AsyncValueTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m28B13CB6A26B67B5F5084CC040594F8ED2EE5554_inline (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* __this, U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* ___stateMachine0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0*, U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454*, const RuntimeMethod*))AsyncValueTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m28B13CB6A26B67B5F5084CC040594F8ED2EE5554_gshared_inline)(__this, ___stateMachine0, method);
+}
+// System.Threading.Tasks.ValueTask System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::get_Task()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F AsyncValueTaskMethodBuilder_get_Task_m17C626DECA32A746EB432AE9643B96073895A183 (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.AuthenticatorBase::get_Token()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AuthenticatorBase_get_Token_mB74736CFEF9952D6EBD4643038F2FCD3D8A41689_inline (AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* __this, const RuntimeMethod* method) ;
+// System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1<TResult> System.Threading.Tasks.ValueTask`1<RestSharp.Parameter>::ConfigureAwait(System.Boolean)
+inline ConfiguredValueTaskAwaitable_1_t75D28C5FADA4B604C9EE4946AE41FB0D35BDB318 ValueTask_1_ConfigureAwait_m48B1C7117068DC6B7D0CAC96B08B060412E87AB4_inline (ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92* __this, bool ___continueOnCapturedContext0, const RuntimeMethod* method)
+{
+	return ((  ConfiguredValueTaskAwaitable_1_t75D28C5FADA4B604C9EE4946AE41FB0D35BDB318 (*) (ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92*, bool, const RuntimeMethod*))ValueTask_1_ConfigureAwait_mDC7101E5C4BA5B023AA369E26B2EA37C1D22C1C5_gshared_inline)(__this, ___continueOnCapturedContext0, method);
+}
+// System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<TResult> System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1<RestSharp.Parameter>::GetAwaiter()
+inline ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7 ConfiguredValueTaskAwaitable_1_GetAwaiter_mFB3D664A00EC2497589EF2BCFD37311AE420943E_inline (ConfiguredValueTaskAwaitable_1_t75D28C5FADA4B604C9EE4946AE41FB0D35BDB318* __this, const RuntimeMethod* method)
+{
+	return ((  ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7 (*) (ConfiguredValueTaskAwaitable_1_t75D28C5FADA4B604C9EE4946AE41FB0D35BDB318*, const RuntimeMethod*))ConfiguredValueTaskAwaitable_1_GetAwaiter_m7BECD774F029605B45F919BF7DEEC348B2B499B8_gshared_inline)(__this, method);
+}
+// System.Boolean System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<RestSharp.Parameter>::get_IsCompleted()
+inline bool ConfiguredValueTaskAwaiter_get_IsCompleted_m27A396AAC1A800CC7744CB40823027DAF8309E2A_inline (ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7*, const RuntimeMethod*))ConfiguredValueTaskAwaiter_get_IsCompleted_mA7BC89851224972805007D736DB02E2B7D4700F2_gshared_inline)(__this, method);
+}
+// System.Void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<RestSharp.Parameter>,RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6>(TAwaiter&,TStateMachine&)
+inline void AsyncValueTaskMethodBuilder_AwaitUnsafeOnCompleted_TisConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m019A8E7C10D64D6BCA380AF574250E5423572B68 (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* __this, ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7* ___awaiter0, U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* ___stateMachine1, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0*, ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7*, U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454*, const RuntimeMethod*))AsyncValueTaskMethodBuilder_AwaitUnsafeOnCompleted_TisConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_mDE551976B6643E4DB1F00FD5E755820353F8A721_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+}
+// TResult System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<RestSharp.Parameter>::GetResult()
+inline Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* ConfiguredValueTaskAwaiter_GetResult_mF57814E01E72030936A2705ED318052A19E2EDA5_inline (ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7* __this, const RuntimeMethod* method)
+{
+	return ((  Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* (*) (ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7*, const RuntimeMethod*))ConfiguredValueTaskAwaiter_GetResult_mBB2D627DF9F38F1113F367FF1ACE907F0A82D494_gshared_inline)(__this, method);
+}
+// RestSharp.RestRequest RestSharp.RestRequestExtensions::AddOrUpdateParameter(RestSharp.RestRequest,RestSharp.Parameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* RestRequestExtensions_AddOrUpdateParameter_m43513A12980A765052CC701FFA986CB5745BC48D (RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* ___request0, Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* ___parameter1, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::SetException(System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncValueTaskMethodBuilder_SetException_m23D091732A2B28C4E1C7DD8BC6F03565182B86A8 (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* __this, Exception_t* ___exception0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::SetResult()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncValueTaskMethodBuilder_SetResult_m4B85F17F25C75DFF03BFFCB3C6CF8FA1277E6D5B (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAuthenticateU3Ed__6_MoveNext_m83699F3E29142C61A05ADA66AEE7EE0977E561DC (U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncValueTaskMethodBuilder_SetStateMachine_mD8EA8B17877EE09084F472D69B91D8D32FE504EE (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAuthenticateU3Ed__6_SetStateMachine_m069149359FA811972794098F44BEBDE68AE91659 (U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Text.Encoding System.Text.Encoding::get_UTF8()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336 (const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.HttpBasicAuthenticator::.ctor(System.String,System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpBasicAuthenticator__ctor_m20BE2213EB91F74D56E469920A5F5C329C094A32 (HttpBasicAuthenticator_t41C01903CF40A590A432EB394210E624CFEB9947* __this, String_t* ___username0, String_t* ___password1, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___encoding2, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.HttpBasicAuthenticator::GetHeader(System.String,System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpBasicAuthenticator_GetHeader_mA4023A5FBDC77DCA6EB4A37988CB530C83CE6352 (String_t* ___username0, String_t* ___password1, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___encoding2, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.AuthenticatorBase::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthenticatorBase__ctor_m35E59B4E9F6551ACA6A412BA3BAA3957B2821142 (AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* __this, String_t* ___token0, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+// System.String System.Convert::ToBase64String(System.Byte[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Convert_ToBase64String_mB276B21511FB01CDE030619C81757E786F91B9F3 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___inArray0, const RuntimeMethod* method) ;
+// System.Void RestSharp.HeaderParameter::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HeaderParameter__ctor_m366376C7D6B77DACA6AFE9E237A5B6DA5FFC0D4C (HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C* __this, String_t* ___name0, String_t* ___value1, const RuntimeMethod* method) ;
+// System.Void System.Threading.Tasks.ValueTask`1<RestSharp.Parameter>::.ctor(TResult)
+inline void ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_inline (ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92* __this, Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* ___result0, const RuntimeMethod* method)
+{
+	((  void (*) (ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92*, Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9*, const RuntimeMethod*))ValueTask_1__ctor_m610EF1C685E8686F67BD23AC98BF48EF45743628_gshared_inline)(__this, ___result0, method);
+}
+// System.String RestSharp.Authenticators.JwtAuthenticator::GetToken(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JwtAuthenticator_GetToken_m6D270F7DC2FB5E70346FD191F87E912A3293C672 (String_t* ___accessToken0, const RuntimeMethod* method) ;
+// System.String RestSharp.Ensure::NotEmpty(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F (String_t* ___value0, String_t* ___name1, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow__ctor_m3D3AB87A9B0E092B32B69BE4F8129008A192112D (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_ConsumerKey(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ConsumerKey_m50F49036E14F099EB016BE6E9D6617144E4D3ACE_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_ConsumerSecret(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ConsumerSecret_m01C342C57E5B8D8310382426733F23D35EA9BD4B_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_ParameterHandling(RestSharp.Authenticators.OAuth.OAuthParameterHandling)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ParameterHandling_m4F169B379C273208099BDA25147C4720F9B1E027_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_SignatureMethod(RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_SignatureMethod_mFA1B86A752886566F525BB1901435F2F3D130A7A_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_SignatureTreatment(RestSharp.Authenticators.OAuth.OAuthSignatureTreatment)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_SignatureTreatment_mA9056E856DBF8BAFFC78445D056E4D48BE51DAFC_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_Verifier(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_Verifier_mD1018A51013DF3A44ACEB2E25DBE4B53FB507F1D_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_Version(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_Version_mA53DF4AB574A26C4DA0B6B6B2CF7CC6285648CFE_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_CallbackUrl(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_CallbackUrl_mDF016D4CDAB48DD230B027E4525491EB37846930_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_SessionHandle(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_SessionHandle_m4BCF928E3C817402BED665A0F00C0F6A8F5D8A22_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_Token(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_Token_m54851F74FAFA0185EEA48CC98077283FC993F5C4_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_TokenSecret(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_TokenSecret_mF9584508E3523F65C2164600BE5C2F0ED8665AC7_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_ClientUsername(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ClientUsername_mD5A044342E3262498386EACBA1B09EB1DF6DBE99_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_ClientPassword(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ClientPassword_mFFAAACB3972D3B6B824152F37270301209797100_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::AddOAuthData(RestSharp.RestClient,RestSharp.RestRequest,RestSharp.Authenticators.OAuth.OAuthWorkflow)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_AddOAuthData_mA654D9B873B0660787E6FEC6526261D6FC094EB4 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* ___client0, RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* ___request1, OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* ___workflow2, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator__ctor_mEFB037E769A0CB67E0C9F70B11EEE73A63E93960 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator::ForRequestToken(System.String,System.String,RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* OAuth1Authenticator_ForRequestToken_m363D48AE3FA0379E486F7EE0A3ADDA9DA6E5A1ED (String_t* ___consumerKey0, String_t* ___consumerSecret1, int32_t ___signatureMethod2, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator::ForAccessToken(System.String,System.String,System.String,System.String,RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* OAuth1Authenticator_ForAccessToken_m967B3C4C874FB47E33BF895E6B71E745D5E0DD33 (String_t* ___consumerKey0, String_t* ___consumerSecret1, String_t* ___token2, String_t* ___tokenSecret3, int32_t ___signatureMethod4, const RuntimeMethod* method) ;
+// System.Uri RestSharp.RestClient::BuildUriWithoutQueryParameters(RestSharp.RestRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* RestClient_BuildUriWithoutQueryParameters_m77A98709899AA3A5216E69A6351C20F0BD44C8D1 (RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* __this, RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* ___request0, const RuntimeMethod* method) ;
+// System.String System.Uri::get_AbsoluteUri()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_get_AbsoluteUri_m080934F4F2E2160EBEABDF00F8B6D59888EA63AE (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Linq.Enumerable::Contains<System.Char>(System.Collections.Generic.IEnumerable`1<TSource>,TSource)
+inline bool Enumerable_Contains_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m3979BE7355F65890520EC3C8092E2983495AE03D (RuntimeObject* ___source0, Il2CppChar ___value1, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RuntimeObject*, Il2CppChar, const RuntimeMethod*))Enumerable_Contains_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m3979BE7355F65890520EC3C8092E2983495AE03D_gshared)(___source0, ___value1, method);
+}
+// System.Void System.ApplicationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationException__ctor_mE51100DFCDB0A0DF23B482CC43EC8E396BE7BE82 (ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.Uri RestSharp.RestClient::BuildUri(RestSharp.RestRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* RestClient_BuildUri_m6ED3241CF7FD90DD572B27B35CA3F8FEBA3BD9BE (RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* __this, RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* ___request0, const RuntimeMethod* method) ;
+// System.Int32 System.String::IndexOf(System.Char)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966 (String_t* __this, Il2CppChar ___value0, const RuntimeMethod* method) ;
+// RestSharp.Method RestSharp.RestRequest::get_Method()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t RestRequest_get_Method_m53914EBA0C1F76D2050D7BBCB4C77F5C0D3B1E4D_inline (RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* __this, const RuntimeMethod* method) ;
+// System.String System.Enum::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.String System.String::ToUpperInvariant()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToUpperInvariant_mD73F658CDE1280A527231DC305B66CF09B64E5AB (String_t* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection__ctor_m5F36EF1257D1083E96EE38A77467DD9FE92CF0D3 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, const RuntimeMethod* method) ;
+// System.Boolean RestSharp.RestRequest::get_AlwaysMultipartFormData()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RestRequest_get_AlwaysMultipartFormData_m8538F718B21354C389FF0325D0E7CA9460C9D948_inline (RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IReadOnlyCollection`1<RestSharp.FileParameter> RestSharp.RestRequest::get_Files()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RestRequest_get_Files_m0BAA16B81C943EF0AF88F0BAADA3780090D33C2D (RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* __this, const RuntimeMethod* method) ;
+// System.Void System.Func`2<RestSharp.Parameter,System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_mEDB3540DA1494B2AD574962D3A2801FFF9EEE78A (Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared)(__this, ___object0, ___method1, method);
+}
+// RestSharp.ParametersCollection RestSharp.RestClient::get_DefaultParameters()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC* RestClient_get_DefaultParameters_mF4237B3ADE7C7859636DE3274B8A4C27DA373AEA_inline (RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Where<RestSharp.Parameter>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+inline RuntimeObject* Enumerable_Where_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_m92EFAA34CE9AD7A04BC9FD43A6A9FC008A8E564E (RuntimeObject* ___source0, Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* ___predicate1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021*, const RuntimeMethod*))Enumerable_Where_TisRuntimeObject_m046DED489E38F15407F5825AD753C4090F103893_gshared)(___source0, ___predicate1, method);
+}
+// System.Collections.Generic.IEnumerable`1<RestSharp.Authenticators.OAuth.WebPair> RestSharp.Authenticators.ParametersExtensions::ToWebParameters(System.Collections.Generic.IEnumerable`1<RestSharp.Parameter>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ParametersExtensions_ToWebParameters_m92F9D1ABEB56699349FB0BF920255B69F51A05C5 (RuntimeObject* ___p0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::AddRange(System.Collections.Generic.IEnumerable`1<RestSharp.Authenticators.OAuth.WebPair>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
+// RestSharp.ParametersCollection RestSharp.RestRequest::get_Parameters()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC* RestRequest_get_Parameters_mC2B11B966F4E034B8D0A39CDA4F5CD99FE8445EE_inline (RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_RequestTokenUrl(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_RequestTokenUrl_m818D7EC52E0CD934B7B74D2153DA4339AAC22CFF_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_AccessTokenUrl(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_AccessTokenUrl_m68969978AD11C264742C8F5E0DC4C0557CC1311C_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters RestSharp.Authenticators.OAuth.OAuthWorkflow::BuildRequestTokenInfo(System.String,RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* OAuthWorkflow_BuildRequestTokenInfo_m6862A16E328B665F17343E1E25557710B659802A (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___method0, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters1, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters RestSharp.Authenticators.OAuth.OAuthWorkflow::BuildAccessTokenSignature(System.String,RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* OAuthWorkflow_BuildAccessTokenSignature_m19EA2DEA13C76BD00F7A20F64FC8C7C19FC6A60B (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___method0, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters1, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters RestSharp.Authenticators.OAuth.OAuthWorkflow::BuildClientAuthAccessTokenSignature(System.String,RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* OAuthWorkflow_BuildClientAuthAccessTokenSignature_mED21596277239383365121668B87C06C6D5DE7DF (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___method0, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters1, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters RestSharp.Authenticators.OAuth.OAuthWorkflow::BuildProtectedResourceSignature(System.String,RestSharp.Authenticators.OAuth.WebPairCollection,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* OAuthWorkflow_BuildProtectedResourceSignature_m9AF20042612DEE011E531382C9CF26875FA1289F (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___method0, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters1, String_t* ___url2, const RuntimeMethod* method) ;
+// System.Void System.ArgumentOutOfRangeException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___paramName0, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth.WebPairCollection RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::get_Parameters()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* OAuthParameters_get_Parameters_m77DAC6DD9066512629F6D6926B878D9220EFC6F0_inline (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::get_Signature()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthParameters_get_Signature_mCAB0B4A993739FAACA680AD1BA9774B3F197DFB2_inline (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::Add(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_Add_m1C3D23C7AFE884E618A8AEE118ABCDB05CE857AE (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, String_t* ___name0, String_t* ___value1, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<RestSharp.Parameter> RestSharp.Authenticators.OAuth1Authenticator::<AddOAuthData>g__CreateHeaderParameters|69_2(RestSharp.Authenticators.OAuth1Authenticator/<>c__DisplayClass69_0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OAuth1Authenticator_U3CAddOAuthDataU3Eg__CreateHeaderParametersU7C69_2_mD0C3E4D629B4712D3063902FEC5AE47DF0F946C9 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453* p0, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<RestSharp.Parameter> RestSharp.Authenticators.OAuth1Authenticator::<AddOAuthData>g__CreateUrlParameters|69_3(RestSharp.Authenticators.OAuth1Authenticator/<>c__DisplayClass69_0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OAuth1Authenticator_U3CAddOAuthDataU3Eg__CreateUrlParametersU7C69_3_m9C3BF173F36CF0B6C793F60D586210DFD38E35D4 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453* p0, const RuntimeMethod* method) ;
+// RestSharp.RestRequest RestSharp.RestRequestExtensions::AddOrUpdateParameters(RestSharp.RestRequest,System.Collections.Generic.IEnumerable`1<RestSharp.Parameter>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* RestRequestExtensions_AddOrUpdateParameters_mF2035F425B094636AE834CCFD7FE649C2E53037B (RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* ___request0, RuntimeObject* ___parameters1, const RuntimeMethod* method) ;
+// RestSharp.ParameterType RestSharp.Parameter::get_Type()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Parameter_get_Type_m0C92F85002EF872C3D2AB9B8FC94E69C15FCA919_inline (Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth1Authenticator::<AddOAuthData>g__GetAuthorizationHeader|69_4(RestSharp.Authenticators.OAuth1Authenticator/<>c__DisplayClass69_0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_U3CAddOAuthDataU3Eg__GetAuthorizationHeaderU7C69_4_m844575FBC05B0B3E9520469C257790B72BE3099F (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453* p0, const RuntimeMethod* method) ;
+// System.Void System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.GetOrPostParameter>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_mED51E98757FC227420750E8BEDFDCA5F56102036 (Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<RestSharp.Authenticators.OAuth.WebPair,RestSharp.GetOrPostParameter>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisGetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94_m315BF5FB71245FE465FFCF4587EA55BF4422F757 (RuntimeObject* ___source0, Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823* ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m960CFE6ABFCB6C2399B69DEDFB27765D1FCE57A6_gshared)(___source0, ___selector1, method);
+}
+// System.Void System.Func`2<RestSharp.Authenticators.OAuth.WebPair,RestSharp.Authenticators.OAuth.WebPair>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_mBE1F96DC67EB64CC41FC7E290BCC60E3E1800609 (Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___object0, ___method1, method);
+}
+// RestSharp.Authenticators.OAuth.WebPair/WebPairComparer RestSharp.Authenticators.OAuth.WebPair::get_Comparer()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* WebPair_get_Comparer_mD649EE790F81C4EC8022637AB41667D2B28E6EF8_inline (const RuntimeMethod* method) ;
+// System.Linq.IOrderedEnumerable`1<TSource> System.Linq.Enumerable::OrderBy<RestSharp.Authenticators.OAuth.WebPair,RestSharp.Authenticators.OAuth.WebPair>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TKey>,System.Collections.Generic.IComparer`1<TKey>)
+inline RuntimeObject* Enumerable_OrderBy_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m38418B68F77C02D9941B04CA556A919923AFDB4C (RuntimeObject* ___source0, Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* ___keySelector1, RuntimeObject* ___comparer2, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F*, RuntimeObject*, const RuntimeMethod*))Enumerable_OrderBy_TisRuntimeObject_TisRuntimeObject_m81227D4572EC2FD61F707FB241C10E47321690A6_gshared)(___source0, ___keySelector1, ___comparer2, method);
+}
+// System.Void System.Func`2<RestSharp.Authenticators.OAuth.WebPair,System.String>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m5A658177572DB7468FD1682B24223C94565F2502 (Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<RestSharp.Authenticators.OAuth.WebPair,System.String>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisString_t_m93582DB1B704BF4831307402892E8927DB0F671B (RuntimeObject* ___source0, Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m960CFE6ABFCB6C2399B69DEDFB27765D1FCE57A6_gshared)(___source0, ___selector1, method);
+}
+// System.Collections.Generic.List`1<TSource> System.Linq.Enumerable::ToList<System.String>(System.Collections.Generic.IEnumerable`1<TSource>)
+inline List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* Enumerable_ToList_TisString_t_mA7BFFF205C0EB2F8CE0436E85FC70A2449EDD7C5 (RuntimeObject* ___source0, const RuntimeMethod* method)
+{
+	return ((  List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToList_TisRuntimeObject_mBDB9895C2D14F2A92043507996018A329BD32A64_gshared)(___source0, method);
+}
+// System.Boolean RestSharp.Extensions.StringExtensions::IsEmpty(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExtensions_IsEmpty_mD4B908BEE4A60650D118BADEDE28EE1F629B6D52 (String_t* ___value0, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::UrlEncodeRelaxed(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_UrlEncodeRelaxed_m14F32915A8E605C49CE7AB5AA491B3EFA0562D35 (String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<System.String>::Insert(System.Int32,T)
+inline void List_1_Insert_m4663EF87406A87696D170E2F4594CDB8C316DB49 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___index0, String_t* ___item1, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, String_t*, const RuntimeMethod*))List_1_Insert_m9C9559248941FED50561DB029D55DF08DEF3B094_gshared)(__this, ___index0, ___item1, method);
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m6F0A3C24D8112BB0E52D7E6FF4D70809F9EC3E6D (U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* __this, const RuntimeMethod* method) ;
+// System.Boolean RestSharp.Authenticators.OAuth1Authenticator::<AddOAuthData>g__BaseQuery|69_0(RestSharp.Parameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OAuth1Authenticator_U3CAddOAuthDataU3Eg__BaseQueryU7C69_0_mE93C721B1ED5E65A9A9BE213762452AE500ED497 (Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* ___x0, const RuntimeMethod* method) ;
+// System.String RestSharp.Parameter::get_Name()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Parameter_get_Name_m4D091026B1CC3DD7804285DA5DC6C670D21BB734_inline (Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* __this, const RuntimeMethod* method) ;
+// System.Boolean System.String::StartsWith(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0 (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.WebPair::get_Name()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596_inline (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.WebPair::get_Value()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* WebPair_get_Value_mED5F766949A2E912450E8EA34EE0B7A57DCC4E5B_inline (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.GetOrPostParameter::.ctor(System.String,System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetOrPostParameter__ctor_m1047328ECB1C96E2E807C6A5433FA86140995108 (GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94* __this, String_t* ___name0, String_t* ___value1, bool ___encode2, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.WebPair::get_WebValue()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* WebPair_get_WebValue_m9C18AEC37F843846DFD0781D7EDCB70D98588F8D_inline (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D (String_t* ___str00, String_t* ___str11, String_t* ___str22, String_t* ___str33, const RuntimeMethod* method) ;
+// System.Void System.Func`2<RestSharp.Parameter,RestSharp.Authenticators.OAuth.WebPair>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_mA023EB955222A7D1BC166F6804490182E59C2F77 (Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<RestSharp.Parameter,RestSharp.Authenticators.OAuth.WebPair>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m59DCC8D6E703BCF259E13582056BAED2BA53D7FE (RuntimeObject* ___source0, Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779* ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m960CFE6ABFCB6C2399B69DEDFB27765D1FCE57A6_gshared)(___source0, ___selector1, method);
+}
+// System.Void RestSharp.Authenticators.ParametersExtensions/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m19887F12FFC2C9BBBF226AE18123C50C9A5088E6 (U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634* __this, const RuntimeMethod* method) ;
+// T RestSharp.Ensure::NotNull<System.String>(T,System.String)
+inline String_t* Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC (String_t* ___value0, String_t* ___name1, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (String_t*, String_t*, const RuntimeMethod*))Ensure_NotNull_TisRuntimeObject_m385DDBC75429E1619E46FF8A98FFFACAC888A27C_gshared)(___value0, ___name1, method);
+}
+// System.Object RestSharp.Parameter::get_Value()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Parameter_get_Value_m63B0CC9624F65616B07DCD8CE7EE733370673A9C_inline (Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* __this, const RuntimeMethod* method) ;
+// T RestSharp.Ensure::NotNull<System.Object>(T,System.String)
+inline RuntimeObject* Ensure_NotNull_TisRuntimeObject_m385DDBC75429E1619E46FF8A98FFFACAC888A27C (RuntimeObject* ___value0, String_t* ___name1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, String_t*, const RuntimeMethod*))Ensure_NotNull_TisRuntimeObject_m385DDBC75429E1619E46FF8A98FFFACAC888A27C_gshared)(___value0, ___name1, method);
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPair::.ctor(System.String,System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, String_t* ___name0, String_t* ___value1, bool ___encode2, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth2.OAuth2AuthorizationRequestHeaderAuthenticator::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth2AuthorizationRequestHeaderAuthenticator__ctor_m167B3F6BE15044AB2951942DC71D0DBA67C20DE6 (OAuth2AuthorizationRequestHeaderAuthenticator_t9C6B5F200A1E27CD6BFC78A0CA28D88A33A62A5B* __this, String_t* ___accessToken0, String_t* ___tokenType1, const RuntimeMethod* method) ;
+// System.Security.Cryptography.RandomNumberGenerator System.Security.Cryptography.RandomNumberGenerator::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3* RandomNumberGenerator_Create_mA8AC78824FF028898D2CEA52AF9B5BE6D6081009 (const RuntimeMethod* method) ;
+// System.Int32 System.BitConverter::ToInt32(System.Byte[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BitConverter_ToInt32_m745DF4DCC23461AB3035A92BC0C4D59AE12E6880 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___value0, int32_t ___startIndex1, const RuntimeMethod* method) ;
+// System.Void System.Random::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Random__ctor_mFB386F0C0ED85F26CD069C3527052B81878A2F1E (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* __this, int32_t ___Seed0, const RuntimeMethod* method) ;
+// System.Void System.Threading.Monitor::Exit(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9 (RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+// System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4 (RuntimeObject* ___obj0, bool* ___lockTaken1, const RuntimeMethod* method) ;
+// System.String System.String::CreateString(System.Char[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_CreateString_mFBC28D2E3EB87D497F7E702E4FFAD65F635E44DF (String_t* __this, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___val0, const RuntimeMethod* method) ;
+// System.DateTime System.DateTime::get_UtcNow()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_get_UtcNow_m5D776FFEBC81592B361E4C7AF373297C5DFB46FD (const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetTimestamp(System.DateTime)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetTimestamp_m2E17E84574A8E0000DDEA9C6F64E572C9A3C0B1E (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime0, const RuntimeMethod* method) ;
+// System.Int64 RestSharp.Authenticators.OAuth.Extensions.TimeExtensions::ToUnixTime(System.DateTime)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TimeExtensions_ToUnixTime_mEA3448226F3091BB03FEE84AFE1CE8E6FF73DB62 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime0, const RuntimeMethod* method) ;
+// System.String System.Int64::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int64_ToString_m284E4E55662818E38654309A41C2B07CD436F36B (int64_t* __this, const RuntimeMethod* method) ;
+// System.Void System.Text.StringBuilder::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_mCD797D942316CB356205FD96415B0B7581CDAD60 (StringBuilder_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Text.StringBuilder System.Text.StringBuilder::Replace(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Replace_mEACDB7793357B7ABB5E7BFB59CE2C2DE27673950 (StringBuilder_t* __this, String_t* ___oldValue0, String_t* ___newValue1, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.Char,System.String>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_mB0BA75E8F41869557ADB2E2978A3BAC616C5052D (Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m2C555A786E4CFEF44D9118337A905F9DFB44CF64_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.Char,System.String>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisString_t_m48DF4E2B8BB230E1E065E6E370511448F8667BC4 (RuntimeObject* ___source0, Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D* ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D*, const RuntimeMethod*))Enumerable_Select_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisRuntimeObject_m5791094268CF1FF1DF888A6DF6BAEB1381C2549D_gshared)(___source0, ___selector1, method);
+}
+// System.Collections.Generic.IEnumerable`1<System.String> RestSharp.Authenticators.OAuth.OAuthTools::SortParametersExcludingSignature(RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OAuthTools_SortParametersExcludingSignature_mDD1C713A8A2728D3C753DA9D5205C949A06546FC (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters0, const RuntimeMethod* method) ;
+// System.Void System.Func`2<RestSharp.Authenticators.OAuth.WebPair,System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m7B3E1D2D7DFCFB36D0FF6A0B037D25F4D1C08213 (Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m13C0A7F33154D861E2A041B52E88461832DA1697_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Where<RestSharp.Authenticators.OAuth.WebPair>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+inline RuntimeObject* Enumerable_Where_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mBC34E2A02A52263761D12AA6431F298B60B9888C (RuntimeObject* ___source0, Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A* ___predicate1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A*, const RuntimeMethod*))Enumerable_Where_TisRuntimeObject_m046DED489E38F15407F5825AD753C4090F103893_gshared)(___source0, ___predicate1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<RestSharp.Authenticators.OAuth.WebPair,RestSharp.Authenticators.OAuth.WebPair>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mA990023ECEA548A62600614E46104B1D37491D22 (RuntimeObject* ___source0, Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m960CFE6ABFCB6C2399B69DEDFB27765D1FCE57A6_gshared)(___source0, ___selector1, method);
+}
+// T RestSharp.Ensure::NotNull<System.Uri>(T,System.String)
+inline Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* Ensure_NotNull_TisUri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_m28E7A4AFC87BD8BD881784AB0ADE64EB25D12CC3 (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___value0, String_t* ___name1, const RuntimeMethod* method)
+{
+	return ((  Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* (*) (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*, String_t*, const RuntimeMethod*))Ensure_NotNull_TisRuntimeObject_m385DDBC75429E1619E46FF8A98FFFACAC888A27C_gshared)(___value0, ___name1, method);
+}
+// System.String System.Uri::get_Scheme()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_get_Scheme_m29106D5109538220B22FC49DE7B44040E51B0F6F (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, const RuntimeMethod* method) ;
+// System.Boolean System.String::op_Equality(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
+// System.Int32 System.Uri::get_Port()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Uri_get_Port_m7A1413AC9D9A2FC5DC8A7F89DF4A01ACA0241A02 (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, const RuntimeMethod* method) ;
+// System.String System.String::Format(System.String,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
+// System.String System.Uri::get_Host()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_get_Host_m2C0E258C7DFF7A340049BE9BC08FF45E90988D8C (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, const RuntimeMethod* method) ;
+// System.String System.Uri::get_AbsolutePath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_get_AbsolutePath_mABB93DD30D4C0F11948DE5C117650B1C3A9925CA (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, const RuntimeMethod* method) ;
+// System.String System.String::Concat(System.String[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m6B0734B65813C8EA093D78E5C2D16534EB6FE8C0 (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___values0, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.Extensions.StringExtensions::Then(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_Then_mF194DE172CDDBCA71B161B570BC7C72969A08F5F (String_t* ___input0, String_t* ___value1, const RuntimeMethod* method) ;
+// System.Uri RestSharp.Authenticators.OAuth.Extensions.StringExtensions::AsUri(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* StringExtensions_AsUri_m0ECA791084AB74DE082980318B52B7C0C3E53B48 (String_t* ___value0, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::ConstructRequestUrl(System.Uri)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_ConstructRequestUrl_m6D7D73E1E27F8EC50D509ACABE746D7C4A1DC5F5 (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___url0, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::NormalizeRequestParameters(RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_NormalizeRequestParameters_m3D884C2B752EEAC50E6830EF696EE0C330C01D18 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters0, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetSignature(RestSharp.Authenticators.OAuth.OAuthSignatureMethod,RestSharp.Authenticators.OAuth.OAuthSignatureTreatment,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetSignature_mFD926D31026F2B8D5F9FC28B82326B8BD999EF26 (int32_t ___signatureMethod0, int32_t ___signatureTreatment1, String_t* ___signatureBase2, String_t* ___consumerSecret3, String_t* ___tokenSecret4, const RuntimeMethod* method) ;
+// System.Void System.Security.Cryptography.HMACSHA1::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HMACSHA1__ctor_mE8F89BF4875DCAEBEE8B07C1F9B246E0C4FD18AF (HMACSHA1_t40AB10160C7F8F11EA26E038FD7A335383987030* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetHmacSignature(System.Security.Cryptography.KeyedHashAlgorithm,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetHmacSignature_mBEEB2065698D0E3B81D7B4F7CBDDB034A55C54CF (KeyedHashAlgorithm_t782AD417BF829DAD1267A7AE4F9B553537CCF263* ___crypto0, String_t* ___consumerSecret1, String_t* ___tokenSecret2, String_t* ___signatureBase3, const RuntimeMethod* method) ;
+// System.Void System.Security.Cryptography.HMACSHA256::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HMACSHA256__ctor_m86CF8A849CFBD7C17338C3FC0B1BF7B2D645FC4A (HMACSHA256_t594D178275B0B5AF11CBC0AB816011DED5E20ADF* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::<GetSignature>g__GetRsaSignature|23_0(RestSharp.Authenticators.OAuth.OAuthTools/<>c__DisplayClass23_0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_U3CGetSignatureU3Eg__GetRsaSignatureU7C23_0_m380E15AA7D8A68AAE7CC23052CFAFCFDE8048207 (U3CU3Ec__DisplayClass23_0_t6DA003303C7024CA005F28739D08D0052A0E5196* p0, const RuntimeMethod* method) ;
+// System.Void System.NotImplementedException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742 (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* __this, String_t* ___message0, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.Extensions.OAuthExtensions::HashWith(System.String,System.Security.Cryptography.HashAlgorithm)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthExtensions_HashWith_m3FD0952E28149298D01C5C47250AFE1C07A574A7 (String_t* ___input0, HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* ___algorithm1, const RuntimeMethod* method) ;
+// System.Void System.Security.Cryptography.RSACryptoServiceProvider::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RSACryptoServiceProvider__ctor_mE4BC404364B89F41C863EC3860ED4B9D7DD7A06F (RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C* __this, const RuntimeMethod* method) ;
+// System.Void System.Security.Cryptography.RSACryptoServiceProvider::set_PersistKeyInCsp(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RSACryptoServiceProvider_set_PersistKeyInCsp_m91DF253AD1EC780ECBB9E8AA9B756D4CA81BACA8 (RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C* __this, bool ___value0, const RuntimeMethod* method) ;
+// System.Security.Cryptography.SHA1 System.Security.Cryptography.SHA1::Create()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SHA1_t0612ADACADC25FB4C22525A579B30354586F0CEE* SHA1_Create_m6F713539D55576456BDF91B7BFC7103ED8CB766C (const RuntimeMethod* method) ;
+// System.Byte[] System.Security.Cryptography.HashAlgorithm::ComputeHash(System.Byte[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB (HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer0, const RuntimeMethod* method) ;
+// System.String System.Security.Cryptography.CryptoConfig::MapNameToOID(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CryptoConfig_MapNameToOID_m93A1FE1104368BC4032B463DFB51BFBD17F522B6 (String_t* ___name0, const RuntimeMethod* method) ;
+// System.Byte[] System.Security.Cryptography.RSACryptoServiceProvider::SignHash(System.Byte[],System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* RSACryptoServiceProvider_SignHash_m9037E027D0EC9B5A5E85F861E834A6F39E3BC508 (RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___rgbHash0, String_t* ___str1, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthTools/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mEF3061BDE23AE6F9937F488BBF9EA5486E179CF8 (U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* __this, const RuntimeMethod* method) ;
+// System.String System.Char::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C (Il2CppChar* __this, const RuntimeMethod* method) ;
+// System.Boolean RestSharp.Authenticators.OAuth.Extensions.StringExtensions::EqualsIgnoreCase(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExtensions_EqualsIgnoreCase_m3FF512AABC7A042156A9C5AD5FA1D56CA07CE332 (String_t* ___left0, String_t* ___right1, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::UrlEncodeStrict(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_UrlEncodeStrict_mF95E62939D8339E151820D57BEA86A7215027950 (String_t* ___value0, const RuntimeMethod* method) ;
+// System.Boolean RestSharp.Authenticators.OAuth.WebPair::get_Encode()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool WebPair_get_Encode_mE44E64FBD01A1BB9533CE6DB371F8A8A93B7EAB1_inline (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::ValidateTokenRequestState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_ValidateTokenRequestState_mA39FE9B29582516DDBF36371F29DB85FDA88F3C3 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetTimestamp()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetTimestamp_m26997D356AC352E7211C19C233CE4CB386C78CA9 (const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetNonce()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetNonce_m32B3DAFEDE3547CA4A45F77588E6A9C661F96860 (const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth.WebPairCollection RestSharp.Authenticators.OAuth.OAuthWorkflow::GenerateAuthParameters(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* OAuthWorkflow_GenerateAuthParameters_m590F606B09828F4828631706EED2C8D483A56980 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___timestamp0, String_t* ___nonce1, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_RequestTokenUrl()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_RequestTokenUrl_m70173FD0479675A15489FFCE31964B9367956798_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::ConcatenateRequestElements(System.String,System.String,RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_ConcatenateRequestElements_m5E04F37775E01A5FA44E949A93217FACB8A0D7E3 (String_t* ___method0, String_t* ___url1, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters2, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthParameters__ctor_m789B32D879D7CDDA7A239C101F0BA495C078EFF1 (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth.OAuthSignatureMethod RestSharp.Authenticators.OAuth.OAuthWorkflow::get_SignatureMethod()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OAuthWorkflow_get_SignatureMethod_mDE262AD2FCF9FE736B8D807E7BDEF9D78CDF1A54_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth.OAuthSignatureTreatment RestSharp.Authenticators.OAuth.OAuthWorkflow::get_SignatureTreatment()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OAuthWorkflow_get_SignatureTreatment_mF6167D2443C3C713D79186B17FE06CFBCB9AC432_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_ConsumerSecret()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ConsumerSecret_m6DD58012F74A51DA3439A6847751C7DEF22BFE96_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetSignature(RestSharp.Authenticators.OAuth.OAuthSignatureMethod,RestSharp.Authenticators.OAuth.OAuthSignatureTreatment,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetSignature_m90FF8FA9B2132DB444B3BF43FF48770EF2BC98EA (int32_t ___signatureMethod0, int32_t ___signatureTreatment1, String_t* ___signatureBase2, String_t* ___consumerSecret3, const RuntimeMethod* method) ;
+// System.Void modreq(System.Runtime.CompilerServices.IsExternalInit) RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::set_Signature(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthParameters_set_Signature_mB27EC45CF8E32E610A990C5C3558604ADD51B1DB_inline (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, String_t* ___value0, const RuntimeMethod* method) ;
+// System.Void modreq(System.Runtime.CompilerServices.IsExternalInit) RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::set_Parameters(RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthParameters_set_Parameters_m5FBA999FC93C091D90A3744F5897E56BC4241A4B_inline (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___value0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::ValidateAccessRequestState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_ValidateAccessRequestState_mDE633E24AD164CCD30275E6CEB2A499500F812C7 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_AccessTokenUrl()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_AccessTokenUrl_m2879B0467D1B69EDFAB636BFBCD3E6FC72AAB440_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Ensure::NotEmptyString(System.Object,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Ensure_NotEmptyString_mC713FFB526D5FE533951FEE9B5F1EA9287F3B129 (RuntimeObject* ___value0, String_t* ___name1, const RuntimeMethod* method) ;
+// System.Void System.Uri::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, String_t* ___uriString0, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_TokenSecret()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_TokenSecret_m283A7E057844EBEF495B1781E33A422EA67DF34C_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::ValidateClientAuthAccessRequestState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_ValidateClientAuthAccessRequestState_m631216C19DC494BE6613EE0666FB20118FC4727A (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth.WebPairCollection RestSharp.Authenticators.OAuth.OAuthWorkflow::GenerateXAuthParameters(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* OAuthWorkflow_GenerateXAuthParameters_mC19AD5999E230D5CFBD0954E629CC9F12435D2D9 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___timestamp0, String_t* ___nonce1, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow/<>c__DisplayClass63_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0__ctor_m3AD59A8D3E2CDAD6560EF33145E054E7085BAB5B (U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::ValidateProtectedResourceState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_ValidateProtectedResourceState_mD7337F083A70F9CE0FD3CC9134339F150A7D6CDF (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String System.Uri::get_Query()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_get_Query_m17DEC663263C486C8C8177AF9C4BFE2FFBE51178 (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, const RuntimeMethod* method) ;
+// System.Collections.Specialized.NameValueCollection System.Web.HttpUtility::ParseQueryString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* HttpUtility_ParseQueryString_mA4328640AF55A627D3AFEFF4550A5987CD9F17F2 (String_t* ___query0, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.String,RestSharp.Authenticators.OAuth.WebPair>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m328078575A6B01245B3BD7E6D369CC89F62789F8 (Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.String,RestSharp.Authenticators.OAuth.WebPair>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisString_t_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m720B560C52D4F53014C38AC8BB9EEB4B7F378627 (RuntimeObject* ___source0, Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC* ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC*, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisRuntimeObject_m960CFE6ABFCB6C2399B69DEDFB27765D1FCE57A6_gshared)(___source0, ___selector1, method);
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_ConsumerKey()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ConsumerKey_m09CDE844EB6ED33565DA0A8309F0B6A58A86142A_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_Token()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_Token_m4857D7E4BFD99A698333560359AA96D34EFBD81A_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_ClientUsername()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ClientUsername_m0043BE62F9E8B3A3AFC1AB6BBD92FCDBA0AF1E35_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::Add(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___parameter0, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.Extensions.OAuthExtensions::ToRequestValue(RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthExtensions_ToRequestValue_m4C6C2EF948D83ABA99569C8041E9E62BFB5EEE8F (int32_t ___signatureMethod0, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_Version()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_Version_m38668645A9A68C6334B238C003F79BB5CA423034_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// RestSharp.Authenticators.OAuth.WebPairCollection RestSharp.Authenticators.OAuth.WebPairCollection::AddNotEmpty(System.String,System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* WebPairCollection_AddNotEmpty_m2173168A809DB065AB62A2EF6F45B3BFB694691B (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, String_t* ___name0, String_t* ___value1, bool ___encode2, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_CallbackUrl()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_CallbackUrl_m5B7F1856A84D1177131BDF85CC5D5A01A1711BFA_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_Verifier()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_Verifier_mA0E12289BEC16DAD4B66034684F717171C4EB05D_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_SessionHandle()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_SessionHandle_mDBEA01DADB8DE4C67682733A5D918757AA73D520_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_ClientPassword()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ClientPassword_mD0D4BA28933B470DC6AC5BC54761F378A9E5BE88_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) ;
+// System.String System.Collections.Specialized.NameValueCollection::get_Item(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NameValueCollection_get_Item_mE3ED755803E67BC852123C70EEF8D53774FA635F (NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* __this, String_t* ___name0, const RuntimeMethod* method) ;
+// System.Void RestSharp.Authenticators.OAuth.WebPair/WebPairComparer::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairComparer__ctor_mE6125DF1C3156F9BB9D5AAC9A9326F95D00FA93F (WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* __this, const RuntimeMethod* method) ;
+// System.Int32 System.String::CompareOrdinal(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_CompareOrdinal_m17317B459AF49A42A2DCB2951261BE9FD186B78F (String_t* ___strA0, String_t* ___strB1, const RuntimeMethod* method) ;
+// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::GetEnumerator()
+inline Enumerator_t2A0F78EB69A46D77C060920BFD0F8779A183879F List_1_GetEnumerator_m03AF1418526E8A2257AFD0A008879817F572288D (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t2A0F78EB69A46D77C060920BFD0F8779A183879F (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+// System.Collections.Generic.IEnumerator`1<RestSharp.Authenticators.OAuth.WebPair> RestSharp.Authenticators.OAuth.WebPairCollection::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WebPairCollection_GetEnumerator_m8930469081E60CAACBC73FA405E678C2AA74588D (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::Add(T)
+inline void List_1_Add_m61169D3FBFC80441D4D4DD381A4C34593D45EC3D_inline (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___item0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::AddCollection(System.Collections.Generic.IEnumerable`1<RestSharp.Authenticators.OAuth.WebPair>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_AddCollection_mEE0A942CF284572F210F762136319C208D277B53 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::Clear()
+inline void List_1_Clear_m8C360CD5A911E31BECD455BB62A092036FA7A7F8_inline (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+// System.Boolean System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::Contains(T)
+inline bool List_1_Contains_mA27E275ACD40D93D1AFADCA9C7D26753515CD575 (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___item0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*, const RuntimeMethod*))List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared)(__this, ___item0, method);
+}
+// System.Void System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::CopyTo(T[],System.Int32)
+inline void List_1_CopyTo_mD5AA6D5F784BC48FE41F1BE88C2A4F602D75E891 (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, WebPairU5BU5D_t9ABAA2377626B92EF036CB08D4097695BC916E20* ___array0, int32_t ___arrayIndex1, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, WebPairU5BU5D_t9ABAA2377626B92EF036CB08D4097695BC916E20*, int32_t, const RuntimeMethod*))List_1_CopyTo_m1210D480F3EF1C250A53086148C1204B7A99B931_gshared)(__this, ___array0, ___arrayIndex1, method);
+}
+// System.Boolean System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::Remove(T)
+inline bool List_1_Remove_m121B77B0F7A73ADB7B645B16499DF6AE53BF12DD (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___item0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*, const RuntimeMethod*))List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7_gshared)(__this, ___item0, method);
+}
+// System.Int32 System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::get_Count()
+inline int32_t List_1_get_Count_m1648D04B896F773512723528CDBD3EDA1EE802E7_inline (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+// System.Int32 System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::IndexOf(T)
+inline int32_t List_1_IndexOf_m7FFE5C6F6A7A2344D7AE1742785914A20386143C (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___item0, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*, const RuntimeMethod*))List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared)(__this, ___item0, method);
+}
+// System.Void System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::Insert(System.Int32,T)
+inline void List_1_Insert_m05ED63E0A81CC776CAB5D45EB606CF86EE5DE308 (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, int32_t ___index0, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___item1, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, int32_t, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*, const RuntimeMethod*))List_1_Insert_m9C9559248941FED50561DB029D55DF08DEF3B094_gshared)(__this, ___index0, ___item1, method);
+}
+// System.Void System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::RemoveAt(System.Int32)
+inline void List_1_RemoveAt_m9CB98C5A6362B23ABAAF032FBB7C62D8752F0C96 (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___index0, method);
+}
+// T System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::get_Item(System.Int32)
+inline WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* List_1_get_Item_m248BCCF2D270DD1D6D1A71141FF8367DD2D719C1 (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	return ((  WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+}
+// System.Void System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::set_Item(System.Int32,T)
+inline void List_1_set_Item_mC8CE6025746A56DB4565CF1837A2649BEAD5855C (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, int32_t ___index0, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, int32_t, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*, const RuntimeMethod*))List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared)(__this, ___index0, ___value1, method);
+}
+// System.Void System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
+inline void List_1_AddRange_mE1CE8D8570BAC70963E8FFCDE67C90F2A19E3ADD (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, RuntimeObject*, const RuntimeMethod*))List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared)(__this, ___collection0, method);
+}
+// System.Void System.Collections.Generic.List`1<RestSharp.Authenticators.OAuth.WebPair>::.ctor()
+inline void List_1__ctor_mD3150A51C752E9FFE5E5C4DE97AEC456DC1DA12E (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA490E7E8C85A16CB2D26D7A5A76DE97B0DC191ED (U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4* __this, const RuntimeMethod* method) ;
+// System.Int32 System.String::IndexOf(System.String,System.StringComparison)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_m490810CB7ADA9230AC0F8D78E213A8EFED129F55 (String_t* __this, String_t* ___value0, int32_t ___comparisonType1, const RuntimeMethod* method) ;
+// System.String System.String::Insert(System.Int32,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Insert_mA279E748F06514A6D0B9B680D651D6A6C6BB561A (String_t* __this, int32_t ___startIndex0, String_t* ___value1, const RuntimeMethod* method) ;
+// System.Boolean System.String::Equals(System.String,System.String,System.StringComparison)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_m80124ECC809968E69F952E2A49EBC03F81A23E43 (String_t* ___a0, String_t* ___b1, int32_t ___comparisonType2, const RuntimeMethod* method) ;
+// System.Byte[] RestSharp.Authenticators.OAuth.Extensions.StringExtensions::GetBytes(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* StringExtensions_GetBytes_mFEB1773EABB7D9EF3BA9111BBFD37E22A460AB35 (String_t* ___input0, const RuntimeMethod* method) ;
+// System.Void System.Func`2<System.Byte,System.String>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_mB31E88A2C3F2063BDBA38CD35564CDC13C344109 (Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m356DD0E5E7CE04DB0252EF251F0D812872A08C8B_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.Byte,System.String>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+inline RuntimeObject* Enumerable_Select_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisString_t_m734BFAAED4C204F8642C17A167BF9A9B7B1582B9 (RuntimeObject* ___source0, Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E* ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E*, const RuntimeMethod*))Enumerable_Select_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisRuntimeObject_m710FEF158EFD274F10583B7B987337D5A7C8D12E_gshared)(___source0, ___selector1, method);
+}
+// System.Void RestSharp.Authenticators.OAuth.Extensions.StringExtensions/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mB8936E24B9E65CF094D97245D861CAFD32DED8CB (U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581* __this, const RuntimeMethod* method) ;
+// System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, int32_t ___year0, int32_t ___month1, int32_t ___day2, const RuntimeMethod* method) ;
+// System.TimeSpan System.DateTime::op_Subtraction(System.DateTime,System.DateTime)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A DateTime_op_Subtraction_m41335EF0E6DCD52B23C64916CB973A0B4A9E0387 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___d10, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___d21, const RuntimeMethod* method) ;
+// System.Double System.TimeSpan::get_TotalSeconds()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double TimeSpan_get_TotalSeconds_mED686E7CECE6A76A7DC38518698B9199DB8CDEA8 (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6>(TStateMachine&)
+inline void AsyncTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m8D9885FE63030ADC24652B4C271E420374CBE881 (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* ___stateMachine0, const RuntimeMethod* method)
+{
+	((  void (*) (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*, U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454*, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m8D9885FE63030ADC24652B4C271E420374CBE881_gshared)(__this, ___stateMachine0, method);
+}
+// System.Void System.Threading.Tasks.ValueTask`1<System.Object>::.ctor(System.Object,TResult,System.Int16,System.Boolean)
+inline void ValueTask_1__ctor_mBA619ABF56CC29800A1964E6C5ED493E8E7D3D5B_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, RuntimeObject* ___obj0, RuntimeObject* ___result1, int16_t ___token2, bool ___continueOnCapturedContext3, const RuntimeMethod* method)
+{
+	((  void (*) (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215*, RuntimeObject*, RuntimeObject*, int16_t, bool, const RuntimeMethod*))ValueTask_1__ctor_mBA619ABF56CC29800A1964E6C5ED493E8E7D3D5B_gshared_inline)(__this, ___obj0, ___result1, ___token2, ___continueOnCapturedContext3, method);
+}
+// System.Void System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1<System.Object>::.ctor(System.Threading.Tasks.ValueTask`1<TResult>)
+inline void ConfiguredValueTaskAwaitable_1__ctor_mEAA2416875911A8D049C7F0FB4477D6AE4BC124B_inline (ConfiguredValueTaskAwaitable_1_t415F5A25DDBFA0019A98D28A4E6DF1E1AE17AE98* __this, ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 ___value0, const RuntimeMethod* method)
+{
+	((  void (*) (ConfiguredValueTaskAwaitable_1_t415F5A25DDBFA0019A98D28A4E6DF1E1AE17AE98*, ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215, const RuntimeMethod*))ConfiguredValueTaskAwaitable_1__ctor_mEAA2416875911A8D049C7F0FB4477D6AE4BC124B_gshared_inline)(__this, ___value0, method);
+}
+// System.Void System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter<System.Object>::.ctor(System.Threading.Tasks.ValueTask`1<TResult>)
+inline void ConfiguredValueTaskAwaiter__ctor_m2119C5D2703D1D7748F0D5DAB18AA40C883229CF_inline (ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99* __this, ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 ___value0, const RuntimeMethod* method)
+{
+	((  void (*) (ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99*, ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215, const RuntimeMethod*))ConfiguredValueTaskAwaiter__ctor_m2119C5D2703D1D7748F0D5DAB18AA40C883229CF_gshared_inline)(__this, ___value0, method);
+}
+// System.Boolean System.Threading.Tasks.ValueTask`1<System.Object>::get_IsCompleted()
+inline bool ValueTask_1_get_IsCompleted_mB5FE6398DBC9CBAECABB6AFC1B3F3A1F51D1479F_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215*, const RuntimeMethod*))ValueTask_1_get_IsCompleted_mB5FE6398DBC9CBAECABB6AFC1B3F3A1F51D1479F_gshared_inline)(__this, method);
+}
+// TResult System.Threading.Tasks.ValueTask`1<System.Object>::get_Result()
+inline RuntimeObject* ValueTask_1_get_Result_m3035DEA69E68AD985EDB5285416C94558C72B23D_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215*, const RuntimeMethod*))ValueTask_1_get_Result_m3035DEA69E68AD985EDB5285416C94558C72B23D_gshared_inline)(__this, method);
+}
+// System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m48B57EC27CADC3463CA98A33373D557DA587FF1B (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
+// System.Boolean System.Threading.Tasks.Task::get_IsCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.TaskAwaiter::ValidateEnd(System.Threading.Tasks.Task)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskAwaiter_ValidateEnd_m77AFBEEEAAEBE164437337F88120EA8D8CD5D680 (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___task0, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String RestSharp.Extensions.StringExtensions::UrlDecode(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_UrlDecode_mAB5FDE6B3CFD0360A00512E1C17187B262AE2188 (String_t* ___input0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___input0;
+		String_t* L_1;
+		L_1 = HttpUtility_UrlDecode_m192E19EBB2893A62F343EBF51F0099D3204FAF9C(L_0, NULL);
+		return L_1;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::UrlEncode(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_UrlEncode_m0729E0E5A85CA833E1782A53CA4163C89A9CC69F (String_t* ___input0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	{
+		String_t* L_0 = ___input0;
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral15088A7C50E83E49058833A4287B3C2F1CD730D2)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringExtensions_UrlEncode_m0729E0E5A85CA833E1782A53CA4163C89A9CC69F_RuntimeMethod_var)));
+	}
+
+IL_000e:
+	{
+		String_t* L_2 = ___input0;
+		int32_t L_3;
+		L_3 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_2, NULL);
+		if ((((int32_t)L_3) > ((int32_t)((int32_t)32766))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		String_t* L_4 = ___input0;
+		il2cpp_codegen_runtime_class_init_inline(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		String_t* L_5;
+		L_5 = Uri_EscapeDataString_m0D32DB5F61DFFE1E4F61EE513E3419F9DA8F773E(L_4, NULL);
+		return L_5;
+	}
+
+IL_0022:
+	{
+		String_t* L_6 = ___input0;
+		int32_t L_7;
+		L_7 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_6, NULL);
+		StringBuilder_t* L_8 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m2619CA8D2C3476DF1A302D9D941498BB1C6164C5(L_8, ((int32_t)il2cpp_codegen_multiply(L_7, 2)), NULL);
+		V_0 = L_8;
+		V_1 = 0;
+		goto IL_0080;
+	}
+
+IL_0034:
+	{
+		String_t* L_9 = ___input0;
+		int32_t L_10;
+		L_10 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_9, NULL);
+		int32_t L_11 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_12;
+		L_12 = Math_Min_m1F346FEDDC77AC1EC0C4EF1AC6BA59F0EC7980F8(((int32_t)il2cpp_codegen_subtract(L_10, L_11)), ((int32_t)32766), NULL);
+		V_2 = L_12;
+		goto IL_004d;
+	}
+
+IL_0049:
+	{
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_13, 1));
+	}
+
+IL_004d:
+	{
+		String_t* L_14 = ___input0;
+		int32_t L_15 = V_1;
+		int32_t L_16 = V_2;
+		Il2CppChar L_17;
+		L_17 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_14, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_15, L_16)), 1)), NULL);
+		int32_t L_18;
+		L_18 = CharUnicodeInfo_GetUnicodeCategory_m1EA8314CF89D9C744D5B2BED9F3479C7C5467319(L_17, NULL);
+		if ((((int32_t)L_18) == ((int32_t)((int32_t)16))))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		String_t* L_19 = ___input0;
+		int32_t L_20 = V_1;
+		int32_t L_21 = V_2;
+		String_t* L_22;
+		L_22 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_19, L_20, L_21, NULL);
+		V_3 = L_22;
+		StringBuilder_t* L_23 = V_0;
+		String_t* L_24 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = Uri_EscapeDataString_m0D32DB5F61DFFE1E4F61EE513E3419F9DA8F773E(L_24, NULL);
+		StringBuilder_t* L_26;
+		L_26 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_23, L_25, NULL);
+		int32_t L_27 = V_1;
+		String_t* L_28 = V_3;
+		int32_t L_29;
+		L_29 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_28, NULL);
+		V_1 = ((int32_t)il2cpp_codegen_add(L_27, L_29));
+	}
+
+IL_0080:
+	{
+		int32_t L_30 = V_1;
+		String_t* L_31 = ___input0;
+		int32_t L_32;
+		L_32 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_31, NULL);
+		if ((((int32_t)L_30) < ((int32_t)L_32)))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		StringBuilder_t* L_33 = V_0;
+		String_t* L_34;
+		L_34 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_33);
+		return L_34;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::UrlEncode(System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_UrlEncode_mA78CACA7323F666C6147897A89658F259D37FA54 (String_t* ___input0, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___encoding1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral122DAEB6E112576FD0519243E425F6CD2E97BA90);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral20E39C3AB7068FAFD9E4B868E16D2E5BC64D4952);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* G_B2_0 = NULL;
+	String_t* G_B1_0 = NULL;
+	{
+		String_t* L_0 = ___input0;
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_1 = ___encoding1;
+		String_t* L_2;
+		L_2 = HttpUtility_UrlEncode_m829C75A680B716AA6E2A3921B344DCDF9DEBB1C3(L_0, L_1, NULL);
+		String_t* L_3 = L_2;
+		G_B1_0 = L_3;
+		if (L_3)
+		{
+			G_B2_0 = L_3;
+			goto IL_000d;
+		}
+	}
+	{
+		return (String_t*)NULL;
+	}
+
+IL_000d:
+	{
+		String_t* L_4;
+		L_4 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(G_B2_0, _stringLiteral20E39C3AB7068FAFD9E4B868E16D2E5BC64D4952, _stringLiteral122DAEB6E112576FD0519243E425F6CD2E97BA90, NULL);
+		return L_4;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::RemoveUnderscoresAndDashes(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_RemoveUnderscoresAndDashes_m62BD9B68D765AB40BEC3FD468D08A205FC617242 (String_t* ___input0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___input0;
+		String_t* L_1;
+		L_1 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_0, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		String_t* L_2;
+		L_2 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_1, _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		return L_2;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::ToPascalCase(System.String,System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_ToPascalCase_m4E5417B7B0458617005A20DA06BB1200FC3517C0 (String_t* ___lowercaseAndUnderscoredWord0, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___lowercaseAndUnderscoredWord0;
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_1 = ___culture1;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_2;
+		L_2 = StringExtensions_ToPascalCase_m43444B3121B4F824C98B18633493778975F5F5F1(L_0, (bool)1, L_1, NULL);
+		return L_2;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::ToPascalCase(System.String,System.Boolean,System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_ToPascalCase_m43444B3121B4F824C98B18633493778975F5F5F1 (String_t* ___text0, bool ___removeUnderscores1, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisString_t_TisString_t_m60A7751DBEA2577100838E550C6AEDF59AA3F4AC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Where_TisString_t_m3AC8838FF43F171EDE6F84319C3CA82832F1D6A1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CToPascalCaseU3Eb__15_0_mEB65389213B079DA5DA417FE0085E620ACD7F3AE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass15_0_U3CToPascalCaseU3Eg__CaseWordU7C1_m72F8B2D11004C24062D418087EE3C29B33EA02DB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052* V_0 = NULL;
+	String_t* V_1 = NULL;
+	String_t* G_B5_0 = NULL;
+	Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* G_B7_0 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B7_1 = NULL;
+	Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* G_B6_0 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B6_1 = NULL;
+	{
+		U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052* L_0 = (U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass15_0__ctor_m96EFBD9C97102A183729B5C4CFA3BF5703DB74DA(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052* L_1 = V_0;
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_2 = ___culture2;
+		L_1->___culture_0 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___culture_0), (void*)L_2);
+		String_t* L_3 = ___text0;
+		bool L_4;
+		L_4 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		String_t* L_5 = ___text0;
+		return L_5;
+	}
+
+IL_0017:
+	{
+		String_t* L_6 = ___text0;
+		String_t* L_7;
+		L_7 = String_Replace_m86403DC5F422D8D5E1CFAAF255B103CB807EDAAF(L_6, ((int32_t)95), ((int32_t)32), NULL);
+		___text0 = L_7;
+		bool L_8 = ___removeUnderscores1;
+		if (L_8)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		G_B5_0 = _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C;
+		goto IL_0032;
+	}
+
+IL_002d:
+	{
+		String_t* L_9 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
+		G_B5_0 = L_9;
+	}
+
+IL_0032:
+	{
+		V_1 = G_B5_0;
+		String_t* L_10 = ___text0;
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_11 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)1);
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_12 = L_11;
+		(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)32));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13;
+		L_13 = String_Split_m101D35FEC86371D2BB4E3480F6F896880093B2E9(L_10, L_12, NULL);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var);
+		Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* L_14 = ((U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var))->___U3CU3E9__15_0_1;
+		Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* L_15 = L_14;
+		G_B6_0 = L_15;
+		G_B6_1 = L_13;
+		if (L_15)
+		{
+			G_B7_0 = L_15;
+			G_B7_1 = L_13;
+			goto IL_0063;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var);
+		U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5* L_16 = ((U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* L_17 = (Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D*)il2cpp_codegen_object_new(Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D_il2cpp_TypeInfo_var);
+		Func_2__ctor_m247D5044A4E1F518CA84A38B9A9F30E66BDD8184(L_17, L_16, (intptr_t)((void*)U3CU3Ec_U3CToPascalCaseU3Eb__15_0_mEB65389213B079DA5DA417FE0085E620ACD7F3AE_RuntimeMethod_var), NULL);
+		Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* L_18 = L_17;
+		((U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var))->___U3CU3E9__15_0_1 = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var))->___U3CU3E9__15_0_1), (void*)L_18);
+		G_B7_0 = L_18;
+		G_B7_1 = G_B6_1;
+	}
+
+IL_0063:
+	{
+		RuntimeObject* L_19;
+		L_19 = Enumerable_Where_TisString_t_m3AC8838FF43F171EDE6F84319C3CA82832F1D6A1((RuntimeObject*)G_B7_1, G_B7_0, Enumerable_Where_TisString_t_m3AC8838FF43F171EDE6F84319C3CA82832F1D6A1_RuntimeMethod_var);
+		U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052* L_20 = V_0;
+		Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* L_21 = (Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93*)il2cpp_codegen_object_new(Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93_il2cpp_TypeInfo_var);
+		Func_2__ctor_m6A29D0BC8A4BCF6079AD2737B4119D3802B41814(L_21, L_20, (intptr_t)((void*)U3CU3Ec__DisplayClass15_0_U3CToPascalCaseU3Eg__CaseWordU7C1_m72F8B2D11004C24062D418087EE3C29B33EA02DB_RuntimeMethod_var), NULL);
+		RuntimeObject* L_22;
+		L_22 = Enumerable_Select_TisString_t_TisString_t_m60A7751DBEA2577100838E550C6AEDF59AA3F4AC(L_19, L_21, Enumerable_Select_TisString_t_TisString_t_m60A7751DBEA2577100838E550C6AEDF59AA3F4AC_RuntimeMethod_var);
+		String_t* L_23 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = StringExtensions_JoinToString_m67116B819F642A2CCA5DED014C76F9B26821533B(L_22, L_23, NULL);
+		return L_24;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::ToCamelCase(System.String,System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_ToCamelCase_mBD4CD1EC91FEA60A7ACD98229AB55B40C0B7E5A3 (String_t* ___lowercaseAndUnderscoredWord0, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___lowercaseAndUnderscoredWord0;
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_1 = ___culture1;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_2;
+		L_2 = StringExtensions_ToPascalCase_m4E5417B7B0458617005A20DA06BB1200FC3517C0(L_0, L_1, NULL);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_3 = ___culture1;
+		String_t* L_4;
+		L_4 = StringExtensions_MakeInitialLowerCase_mE3670D664C32D28C819867C91C33DB2BFFB7AFB1(L_2, L_3, NULL);
+		return L_4;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::MakeInitialLowerCase(System.String,System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_MakeInitialLowerCase_mE3670D664C32D28C819867C91C33DB2BFFB7AFB1 (String_t* ___word0, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture1, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___word0;
+		String_t* L_1;
+		L_1 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_0, 0, 1, NULL);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_2 = ___culture1;
+		String_t* L_3;
+		L_3 = String_ToLower_mD22E5D18F36015484078F5BA0F1687DA95904D1E(L_1, L_2, NULL);
+		String_t* L_4 = ___word0;
+		String_t* L_5;
+		L_5 = String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472(L_4, 1, NULL);
+		String_t* L_6;
+		L_6 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(L_3, L_5, NULL);
+		return L_6;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::AddUnderscores(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_AddUnderscores_m5B11ED4FC82518B227AA9C46BFEEBED3F01FCBFC (String_t* ___pascalCasedWord0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral828FD05C2F34D19E40FBF146DD7DC433E04813E2);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_0 = ((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddUnderscoresRegex1_1;
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_1 = ((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddUnderscoresRegex2_2;
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_2 = ((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddUnderscoresRegex3_3;
+		String_t* L_3 = ___pascalCasedWord0;
+		String_t* L_4;
+		L_4 = Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90(L_2, L_3, _stringLiteral828FD05C2F34D19E40FBF146DD7DC433E04813E2, NULL);
+		String_t* L_5;
+		L_5 = Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90(L_1, L_4, _stringLiteral828FD05C2F34D19E40FBF146DD7DC433E04813E2, NULL);
+		String_t* L_6;
+		L_6 = Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90(L_0, L_5, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, NULL);
+		return L_6;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::AddDashes(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_AddDashes_mE6A6FB2448C611CCC94173F033B3E07C58B53B95 (String_t* ___pascalCasedWord0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral07CB433B972817D99D5B9224AB324A23897BD53C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_0 = ((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddDashesRegex1_4;
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_1 = ((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddDashesRegex2_5;
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_2 = ((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddDashesRegex3_6;
+		String_t* L_3 = ___pascalCasedWord0;
+		String_t* L_4;
+		L_4 = Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90(L_2, L_3, _stringLiteral07CB433B972817D99D5B9224AB324A23897BD53C, NULL);
+		String_t* L_5;
+		L_5 = Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90(L_1, L_4, _stringLiteral07CB433B972817D99D5B9224AB324A23897BD53C, NULL);
+		String_t* L_6;
+		L_6 = Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90(L_0, L_5, _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0, NULL);
+		return L_6;
+	}
+}
+// System.Boolean RestSharp.Extensions.StringExtensions::IsUpperCase(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExtensions_IsUpperCase_mA16521EE5E07DD6C874CA55B734B46FF88E126EF (String_t* ___inputString0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_0 = ((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___IsUpperCaseRegex_0;
+		String_t* L_1 = ___inputString0;
+		bool L_2;
+		L_2 = Regex_IsMatch_m7E96E666FBE7259D7638A3A6A21BE824D2406F49(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::AddUnderscorePrefix(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_AddUnderscorePrefix_m21E8F328278CDD6EAD16BA13E0D3F223D688A750 (String_t* ___pascalCasedWord0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___pascalCasedWord0;
+		String_t* L_1;
+		L_1 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_0, NULL);
+		return L_1;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::AddSpaces(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_AddSpaces_mE8E7F4E9276C71F94D627DEFC2607F0DE3A74877 (String_t* ___pascalCasedWord0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral94D92116D5FEFD4DDDBAE49BEC55B18F8EFE8B25);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_0 = ((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddSpacesRegex1_7;
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_1 = ((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddSpacesRegex2_8;
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_2 = ((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddSpacesRegex3_9;
+		String_t* L_3 = ___pascalCasedWord0;
+		String_t* L_4;
+		L_4 = Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90(L_2, L_3, _stringLiteral94D92116D5FEFD4DDDBAE49BEC55B18F8EFE8B25, NULL);
+		String_t* L_5;
+		L_5 = Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90(L_1, L_4, _stringLiteral94D92116D5FEFD4DDDBAE49BEC55B18F8EFE8B25, NULL);
+		String_t* L_6;
+		L_6 = Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90(L_0, L_5, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, NULL);
+		return L_6;
+	}
+}
+// System.Boolean RestSharp.Extensions.StringExtensions::IsEmpty(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExtensions_IsEmpty_mD4B908BEE4A60650D118BADEDE28EE1F629B6D52 (String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		bool L_1;
+		L_1 = String_IsNullOrWhiteSpace_m360E06F52DEE3AD60832FAE8D32E499B6F9B386B(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Boolean RestSharp.Extensions.StringExtensions::IsNotEmpty(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExtensions_IsNotEmpty_mCFE6D255689AE4F99C533CBCFFE289F19E214281 (String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		bool L_1;
+		L_1 = String_IsNullOrWhiteSpace_m360E06F52DEE3AD60832FAE8D32E499B6F9B386B(L_0, NULL);
+		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Collections.Generic.IEnumerable`1<System.String> RestSharp.Extensions.StringExtensions::GetNameVariants(System.String,System.Globalization.CultureInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StringExtensions_GetNameVariants_m9BC0F3A7AD35820059938A26923129211475B390 (String_t* ___name0, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___culture1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* L_0 = (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114*)il2cpp_codegen_object_new(U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114_il2cpp_TypeInfo_var);
+		U3CGetNameVariantsU3Ed__25__ctor_mF0138B06988AB25AB0200CE9A34345FCDAC17110(L_0, ((int32_t)-2), NULL);
+		U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* L_1 = L_0;
+		String_t* L_2 = ___name0;
+		L_1->___U3CU3E3__name_4 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E3__name_4), (void*)L_2);
+		U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* L_3 = L_1;
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_4 = ___culture1;
+		L_3->___U3CU3E3__culture_6 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U3CU3E3__culture_6), (void*)L_4);
+		return L_3;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions::JoinToString(System.Collections.Generic.IEnumerable`1<System.String>,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_JoinToString_m67116B819F642A2CCA5DED014C76F9B26821533B (RuntimeObject* ___strings0, String_t* ___separator1, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___separator1;
+		RuntimeObject* L_1 = ___strings0;
+		String_t* L_2;
+		L_2 = String_Join_m675422BC1927F19F7135C5211B45EE7AC9F7D632(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// System.Void RestSharp.Extensions.StringExtensions::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringExtensions__cctor_mBE918A228F298ED837CF7B8F93F760C3058CCD83 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral976C1000FC380F50A871E18534C52C50C9BB54C2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA526A97D6E0CE5DAEEB6BA5AB0D8EC1C6C724E6B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD906EC24D03B79DEAAB3562B31BF8226292A163D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE650EA2895127AA26C8F10EC73EC5489F9B70309);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEF84A5A29FF35FDD7A385E5895A6BFCAE580644B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_0 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_0, _stringLiteralA526A97D6E0CE5DAEEB6BA5AB0D8EC1C6C724E6B, NULL);
+		((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___IsUpperCaseRegex_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___IsUpperCaseRegex_0), (void*)L_0);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_1 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_1, _stringLiteralEF84A5A29FF35FDD7A385E5895A6BFCAE580644B, NULL);
+		((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddUnderscoresRegex1_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddUnderscoresRegex1_1), (void*)L_1);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_2 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_2, _stringLiteral976C1000FC380F50A871E18534C52C50C9BB54C2, NULL);
+		((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddUnderscoresRegex2_2 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddUnderscoresRegex2_2), (void*)L_2);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_3 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_3, _stringLiteralE650EA2895127AA26C8F10EC73EC5489F9B70309, NULL);
+		((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddUnderscoresRegex3_3 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddUnderscoresRegex3_3), (void*)L_3);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_4 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_4, _stringLiteralD906EC24D03B79DEAAB3562B31BF8226292A163D, NULL);
+		((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddDashesRegex1_4 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddDashesRegex1_4), (void*)L_4);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_5 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_5, _stringLiteral976C1000FC380F50A871E18534C52C50C9BB54C2, NULL);
+		((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddDashesRegex2_5 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddDashesRegex2_5), (void*)L_5);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_6 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_6, _stringLiteralE650EA2895127AA26C8F10EC73EC5489F9B70309, NULL);
+		((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddDashesRegex3_6 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddDashesRegex3_6), (void*)L_6);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_7 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_7, _stringLiteralEF84A5A29FF35FDD7A385E5895A6BFCAE580644B, NULL);
+		((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddSpacesRegex1_7 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddSpacesRegex1_7), (void*)L_7);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_8 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_8, _stringLiteral976C1000FC380F50A871E18534C52C50C9BB54C2, NULL);
+		((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddSpacesRegex2_8 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddSpacesRegex2_8), (void*)L_8);
+		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_9 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
+		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_9, _stringLiteralE650EA2895127AA26C8F10EC73EC5489F9B70309, NULL);
+		((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddSpacesRegex3_9 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&((StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_StaticFields*)il2cpp_codegen_static_fields_for(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var))->___AddSpacesRegex3_9), (void*)L_9);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Extensions.StringExtensions/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m8D2B19333C6F62CB9E1A557323EA199211ABAC0E (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5* L_0 = (U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5*)il2cpp_codegen_object_new(U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_m45E283C904BA99FA756F3E5C8C08F75B0A6F5B04(L_0, NULL);
+		((U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void RestSharp.Extensions.StringExtensions/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m45E283C904BA99FA756F3E5C8C08F75B0A6F5B04 (U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Boolean RestSharp.Extensions.StringExtensions/<>c::<ToPascalCase>b__15_0(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CToPascalCaseU3Eb__15_0_mEB65389213B079DA5DA417FE0085E620ACD7F3AE (U3CU3Ec_t59ECC70136BEDD4D0FF65D5DEBC4E1DF3C76F0A5* __this, String_t* ___x0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___x0;
+		int32_t L_1;
+		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
+		return (bool)((((int32_t)L_1) > ((int32_t)0))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Extensions.StringExtensions/<>c__DisplayClass15_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass15_0__ctor_m96EFBD9C97102A183729B5C4CFA3BF5703DB74DA (U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions/<>c__DisplayClass15_0::<ToPascalCase>g__CaseWord|1(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec__DisplayClass15_0_U3CToPascalCaseU3Eg__CaseWordU7C1_m72F8B2D11004C24062D418087EE3C29B33EA02DB (U3CU3Ec__DisplayClass15_0_tF8590E6CA7972A18B7CF444F8393AB8401183052* __this, String_t* ___word0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	Il2CppChar G_B2_0 = 0x0;
+	Il2CppChar G_B1_0 = 0x0;
+	{
+		String_t* L_0 = ___word0;
+		String_t* L_1;
+		L_1 = String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472(L_0, 1, NULL);
+		V_0 = L_1;
+		String_t* L_2 = ___word0;
+		Il2CppChar L_3;
+		L_3 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_2, 0, NULL);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_4 = __this->___culture_0;
+		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
+		Il2CppChar L_5;
+		L_5 = Char_ToUpper_mD26273F94C47579826EBDD1A30FD12CD3DF054A9(L_3, L_4, NULL);
+		String_t* L_6 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = StringExtensions_IsUpperCase_mA16521EE5E07DD6C874CA55B734B46FF88E126EF(L_6, NULL);
+		G_B1_0 = L_5;
+		if (!L_7)
+		{
+			G_B2_0 = L_5;
+			goto IL_002f;
+		}
+	}
+	{
+		String_t* L_8 = V_0;
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_9 = __this->___culture_0;
+		String_t* L_10;
+		L_10 = String_ToLower_mD22E5D18F36015484078F5BA0F1687DA95904D1E(L_8, L_9, NULL);
+		V_0 = L_10;
+		G_B2_0 = G_B1_0;
+	}
+
+IL_002f:
+	{
+		Il2CppChar L_11 = G_B2_0;
+		RuntimeObject* L_12 = Box(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var, &L_11);
+		String_t* L_13 = V_0;
+		String_t* L_14;
+		L_14 = String_Concat_mE4A010CB7CF79DB447EA695143BB9402FF04D82A(L_12, L_13, NULL);
+		return L_14;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetNameVariantsU3Ed__25__ctor_mF0138B06988AB25AB0200CE9A34345FCDAC17110 (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___U3CU3E1__state0;
+		__this->___U3CU3E1__state_0 = L_0;
+		int32_t L_1;
+		L_1 = Environment_get_CurrentManagedThreadId_mEC09D20ED666BC3277AC9D16B68AA287E5AFE1B2(NULL);
+		__this->___U3CU3El__initialThreadId_2 = L_1;
+		return;
+	}
+}
+// System.Void RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetNameVariantsU3Ed__25_System_IDisposable_Dispose_mF979BC07C18654D236630B7AD51A86051E01DF66 (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetNameVariantsU3Ed__25_MoveNext_mC2B36795C6DAF6F3774D588000118C99EF23A8EF (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_0047;
+			}
+			case 1:
+			{
+				goto IL_0072;
+			}
+			case 2:
+			{
+				goto IL_0099;
+			}
+			case 3:
+			{
+				goto IL_00c0;
+			}
+			case 4:
+			{
+				goto IL_00e1;
+			}
+			case 5:
+			{
+				goto IL_010d;
+			}
+			case 6:
+			{
+				goto IL_012e;
+			}
+			case 7:
+			{
+				goto IL_015a;
+			}
+			case 8:
+			{
+				goto IL_017b;
+			}
+			case 9:
+			{
+				goto IL_01a8;
+			}
+			case 10:
+			{
+				goto IL_01d5;
+			}
+			case 11:
+			{
+				goto IL_0207;
+			}
+			case 12:
+			{
+				goto IL_0229;
+			}
+			case 13:
+			{
+				goto IL_0256;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0047:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_2 = __this->___name_3;
+		bool L_3;
+		L_3 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_005d:
+	{
+		String_t* L_4 = __this->___name_3;
+		__this->___U3CU3E2__current_1 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_4);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_0072:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_5 = __this->___name_3;
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_6 = __this->___culture_5;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_7;
+		L_7 = StringExtensions_ToCamelCase_mBD4CD1EC91FEA60A7ACD98229AB55B40C0B7E5A3(L_5, L_6, NULL);
+		__this->___U3CU3E2__current_1 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_7);
+		__this->___U3CU3E1__state_0 = 2;
+		return (bool)1;
+	}
+
+IL_0099:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_8 = __this->___name_3;
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_9 = __this->___culture_5;
+		String_t* L_10;
+		L_10 = String_ToLower_mD22E5D18F36015484078F5BA0F1687DA95904D1E(L_8, L_9, NULL);
+		__this->___U3CU3E2__current_1 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_10);
+		__this->___U3CU3E1__state_0 = 3;
+		return (bool)1;
+	}
+
+IL_00c0:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_11 = __this->___name_3;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_12;
+		L_12 = StringExtensions_AddUnderscores_m5B11ED4FC82518B227AA9C46BFEEBED3F01FCBFC(L_11, NULL);
+		__this->___U3CU3E2__current_1 = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_12);
+		__this->___U3CU3E1__state_0 = 4;
+		return (bool)1;
+	}
+
+IL_00e1:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_13 = __this->___name_3;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_14;
+		L_14 = StringExtensions_AddUnderscores_m5B11ED4FC82518B227AA9C46BFEEBED3F01FCBFC(L_13, NULL);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_15 = __this->___culture_5;
+		String_t* L_16;
+		L_16 = String_ToLower_mD22E5D18F36015484078F5BA0F1687DA95904D1E(L_14, L_15, NULL);
+		__this->___U3CU3E2__current_1 = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_16);
+		__this->___U3CU3E1__state_0 = 5;
+		return (bool)1;
+	}
+
+IL_010d:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_17 = __this->___name_3;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_18;
+		L_18 = StringExtensions_AddDashes_mE6A6FB2448C611CCC94173F033B3E07C58B53B95(L_17, NULL);
+		__this->___U3CU3E2__current_1 = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_18);
+		__this->___U3CU3E1__state_0 = 6;
+		return (bool)1;
+	}
+
+IL_012e:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_19 = __this->___name_3;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_20;
+		L_20 = StringExtensions_AddDashes_mE6A6FB2448C611CCC94173F033B3E07C58B53B95(L_19, NULL);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_21 = __this->___culture_5;
+		String_t* L_22;
+		L_22 = String_ToLower_mD22E5D18F36015484078F5BA0F1687DA95904D1E(L_20, L_21, NULL);
+		__this->___U3CU3E2__current_1 = L_22;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_22);
+		__this->___U3CU3E1__state_0 = 7;
+		return (bool)1;
+	}
+
+IL_015a:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_23 = __this->___name_3;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = StringExtensions_AddUnderscorePrefix_m21E8F328278CDD6EAD16BA13E0D3F223D688A750(L_23, NULL);
+		__this->___U3CU3E2__current_1 = L_24;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_24);
+		__this->___U3CU3E1__state_0 = 8;
+		return (bool)1;
+	}
+
+IL_017b:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_25 = __this->___name_3;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_26;
+		L_26 = StringExtensions_AddUnderscores_m5B11ED4FC82518B227AA9C46BFEEBED3F01FCBFC(L_25, NULL);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_27 = __this->___culture_5;
+		String_t* L_28;
+		L_28 = StringExtensions_ToCamelCase_mBD4CD1EC91FEA60A7ACD98229AB55B40C0B7E5A3(L_26, L_27, NULL);
+		__this->___U3CU3E2__current_1 = L_28;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_28);
+		__this->___U3CU3E1__state_0 = ((int32_t)9);
+		return (bool)1;
+	}
+
+IL_01a8:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_29 = __this->___name_3;
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_30 = __this->___culture_5;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_31;
+		L_31 = StringExtensions_ToCamelCase_mBD4CD1EC91FEA60A7ACD98229AB55B40C0B7E5A3(L_29, L_30, NULL);
+		String_t* L_32;
+		L_32 = StringExtensions_AddUnderscorePrefix_m21E8F328278CDD6EAD16BA13E0D3F223D688A750(L_31, NULL);
+		__this->___U3CU3E2__current_1 = L_32;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_32);
+		__this->___U3CU3E1__state_0 = ((int32_t)10);
+		return (bool)1;
+	}
+
+IL_01d5:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_33 = __this->___name_3;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_34;
+		L_34 = StringExtensions_AddUnderscores_m5B11ED4FC82518B227AA9C46BFEEBED3F01FCBFC(L_33, NULL);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_35 = __this->___culture_5;
+		String_t* L_36;
+		L_36 = StringExtensions_ToCamelCase_mBD4CD1EC91FEA60A7ACD98229AB55B40C0B7E5A3(L_34, L_35, NULL);
+		String_t* L_37;
+		L_37 = StringExtensions_AddUnderscorePrefix_m21E8F328278CDD6EAD16BA13E0D3F223D688A750(L_36, NULL);
+		__this->___U3CU3E2__current_1 = L_37;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_37);
+		__this->___U3CU3E1__state_0 = ((int32_t)11);
+		return (bool)1;
+	}
+
+IL_0207:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_38 = __this->___name_3;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_39;
+		L_39 = StringExtensions_AddSpaces_mE8E7F4E9276C71F94D627DEFC2607F0DE3A74877(L_38, NULL);
+		__this->___U3CU3E2__current_1 = L_39;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_39);
+		__this->___U3CU3E1__state_0 = ((int32_t)12);
+		return (bool)1;
+	}
+
+IL_0229:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		String_t* L_40 = __this->___name_3;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		String_t* L_41;
+		L_41 = StringExtensions_AddSpaces_mE8E7F4E9276C71F94D627DEFC2607F0DE3A74877(L_40, NULL);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_42 = __this->___culture_5;
+		String_t* L_43;
+		L_43 = String_ToLower_mD22E5D18F36015484078F5BA0F1687DA95904D1E(L_41, L_42, NULL);
+		__this->___U3CU3E2__current_1 = L_43;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_43);
+		__this->___U3CU3E1__state_0 = ((int32_t)13);
+		return (bool)1;
+	}
+
+IL_0256:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		return (bool)0;
+	}
+}
+// System.String RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::System.Collections.Generic.IEnumerator<System.String>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CGetNameVariantsU3Ed__25_System_Collections_Generic_IEnumeratorU3CSystem_StringU3E_get_Current_m4D77EB3F57324F903E3F0E605B77103C7A2E6139 (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetNameVariantsU3Ed__25_System_Collections_IEnumerator_Reset_m39B5E3F8C708A6F12655E7ED191FD32F6B2AC4A1 (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGetNameVariantsU3Ed__25_System_Collections_IEnumerator_Reset_m39B5E3F8C708A6F12655E7ED191FD32F6B2AC4A1_RuntimeMethod_var)));
+	}
+}
+// System.Object RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetNameVariantsU3Ed__25_System_Collections_IEnumerator_get_Current_mE83C9F498878645AFF9F7A16795805D37864788A (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<System.String> RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::System.Collections.Generic.IEnumerable<System.String>.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetNameVariantsU3Ed__25_System_Collections_Generic_IEnumerableU3CSystem_StringU3E_GetEnumerator_mA25FBB94619F1BE1AD9DA128BB8DC59FE1AD9071 (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* V_0 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		int32_t L_1 = __this->___U3CU3El__initialThreadId_2;
+		int32_t L_2;
+		L_2 = Environment_get_CurrentManagedThreadId_mEC09D20ED666BC3277AC9D16B68AA287E5AFE1B2(NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		__this->___U3CU3E1__state_0 = 0;
+		V_0 = __this;
+		goto IL_0029;
+	}
+
+IL_0022:
+	{
+		U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* L_3 = (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114*)il2cpp_codegen_object_new(U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114_il2cpp_TypeInfo_var);
+		U3CGetNameVariantsU3Ed__25__ctor_mF0138B06988AB25AB0200CE9A34345FCDAC17110(L_3, 0, NULL);
+		V_0 = L_3;
+	}
+
+IL_0029:
+	{
+		U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* L_4 = V_0;
+		String_t* L_5 = __this->___U3CU3E3__name_4;
+		L_4->___name_3 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___name_3), (void*)L_5);
+		U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* L_6 = V_0;
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_7 = __this->___U3CU3E3__culture_6;
+		L_6->___culture_5 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&L_6->___culture_5), (void*)L_7);
+		U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* L_8 = V_0;
+		return L_8;
+	}
+}
+// System.Collections.IEnumerator RestSharp.Extensions.StringExtensions/<GetNameVariants>d__25::System.Collections.IEnumerable.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetNameVariantsU3Ed__25_System_Collections_IEnumerable_GetEnumerator_m0E1F75CE18E2522BC28B5D969D3D7AD2C7BB3345 (U3CGetNameVariantsU3Ed__25_t7292801FEB28419BF8059A7A634AC36221F7F114* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0;
+		L_0 = U3CGetNameVariantsU3Ed__25_System_Collections_Generic_IEnumerableU3CSystem_StringU3E_GetEnumerator_mA25FBB94619F1BE1AD9DA128BB8DC59FE1AD9071(__this, NULL);
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.AuthenticatorBase::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthenticatorBase__ctor_m35E59B4E9F6551ACA6A412BA3BAA3957B2821142 (AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* __this, String_t* ___token0, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		String_t* L_0 = ___token0;
+		AuthenticatorBase_set_Token_m2A6D2F720C56E00EB9A25FC567191120A1486002_inline(__this, L_0, NULL);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.AuthenticatorBase::get_Token()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthenticatorBase_get_Token_mB74736CFEF9952D6EBD4643038F2FCD3D8A41689 (AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.AuthenticatorBase::set_Token(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AuthenticatorBase_set_Token_m2A6D2F720C56E00EB9A25FC567191120A1486002 (AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CTokenU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+// System.Threading.Tasks.ValueTask RestSharp.Authenticators.AuthenticatorBase::Authenticate(RestSharp.RestClient,RestSharp.RestRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F AuthenticatorBase_Authenticate_mB472F2781EFBCB24DE865D54CA39F540CF727704 (AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* __this, RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* ___client0, RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* ___request1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncValueTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m28B13CB6A26B67B5F5084CC040594F8ED2EE5554_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0 L_0;
+		L_0 = AsyncValueTaskMethodBuilder_Create_mC1232B9E0C0AB30DFCC0CA84FA94EF6E19CE643C(NULL);
+		(&V_0)->___U3CU3Et__builder_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&((&(((&(&V_0)->___U3CU3Et__builder_1))->____methodBuilder_0))->___m_builder_1))->___m_coreState_1))->___m_stateMachine_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&((&(((&(&V_0)->___U3CU3Et__builder_1))->____methodBuilder_0))->___m_builder_1))->___m_coreState_1))->___m_defaultContextAction_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&(&V_0)->___U3CU3Et__builder_1))->____methodBuilder_0))->___m_builder_1))->___m_task_2), (void*)NULL);
+		#endif
+		(&V_0)->___U3CU3E4__this_3 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this_3), (void*)__this);
+		RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_1 = ___request1;
+		(&V_0)->___request_2 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___request_2), (void*)L_1);
+		(&V_0)->___U3CU3E1__state_0 = (-1);
+		AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* L_2 = (&(&V_0)->___U3CU3Et__builder_1);
+		AsyncValueTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m28B13CB6A26B67B5F5084CC040594F8ED2EE5554_inline(L_2, (&V_0), AsyncValueTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m28B13CB6A26B67B5F5084CC040594F8ED2EE5554_RuntimeMethod_var);
+		AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* L_3 = (&(&V_0)->___U3CU3Et__builder_1);
+		ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F L_4;
+		L_4 = AsyncValueTaskMethodBuilder_get_Task_m17C626DECA32A746EB432AE9643B96073895A183(L_3, NULL);
+		return L_4;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAuthenticateU3Ed__6_MoveNext_m83699F3E29142C61A05ADA66AEE7EE0977E561DC (U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncValueTaskMethodBuilder_AwaitUnsafeOnCompleted_TisConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m019A8E7C10D64D6BCA380AF574250E5423572B68_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfiguredValueTaskAwaitable_1_GetAwaiter_mFB3D664A00EC2497589EF2BCFD37311AE420943E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfiguredValueTaskAwaiter_GetResult_mF57814E01E72030936A2705ED318052A19E2EDA5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConfiguredValueTaskAwaiter_get_IsCompleted_m27A396AAC1A800CC7744CB40823027DAF8309E2A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RestRequestExtensions_t03ACCC12CDCAD3CF61F369380332569F811234FE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueTask_1_ConfigureAwait_m48B1C7117068DC6B7D0CAC96B08B060412E87AB4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* V_1 = NULL;
+	Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* V_2 = NULL;
+	ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	ConfiguredValueTaskAwaitable_1_t75D28C5FADA4B604C9EE4946AE41FB0D35BDB318 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Exception_t* V_6 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* L_1 = __this->___U3CU3E4__this_3;
+		V_1 = L_1;
+	}
+	try
+	{// begin try (depth: 1)
+		{
+			int32_t L_2 = V_0;
+			if (!L_2)
+			{
+				goto IL_0066_1;
+			}
+		}
+		{
+			RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_3 = __this->___request_2;
+			__this->___U3CU3E7__wrap1_4 = L_3;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1_4), (void*)L_3);
+			AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* L_4 = V_1;
+			AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* L_5 = V_1;
+			String_t* L_6;
+			L_6 = AuthenticatorBase_get_Token_mB74736CFEF9952D6EBD4643038F2FCD3D8A41689_inline(L_5, NULL);
+			ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 L_7;
+			L_7 = VirtualFuncInvoker1< ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92, String_t* >::Invoke(5 /* System.Threading.Tasks.ValueTask`1<RestSharp.Parameter> RestSharp.Authenticators.AuthenticatorBase::GetAuthenticationParameter(System.String) */, L_4, L_6);
+			V_4 = L_7;
+			ConfiguredValueTaskAwaitable_1_t75D28C5FADA4B604C9EE4946AE41FB0D35BDB318 L_8;
+			L_8 = ValueTask_1_ConfigureAwait_m48B1C7117068DC6B7D0CAC96B08B060412E87AB4_inline((&V_4), (bool)0, ValueTask_1_ConfigureAwait_m48B1C7117068DC6B7D0CAC96B08B060412E87AB4_RuntimeMethod_var);
+			V_5 = L_8;
+			ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7 L_9;
+			L_9 = ConfiguredValueTaskAwaitable_1_GetAwaiter_mFB3D664A00EC2497589EF2BCFD37311AE420943E_inline((&V_5), ConfiguredValueTaskAwaitable_1_GetAwaiter_mFB3D664A00EC2497589EF2BCFD37311AE420943E_RuntimeMethod_var);
+			V_3 = L_9;
+			bool L_10;
+			L_10 = ConfiguredValueTaskAwaiter_get_IsCompleted_m27A396AAC1A800CC7744CB40823027DAF8309E2A_inline((&V_3), ConfiguredValueTaskAwaiter_get_IsCompleted_m27A396AAC1A800CC7744CB40823027DAF8309E2A_RuntimeMethod_var);
+			if (L_10)
+			{
+				goto IL_0082_1;
+			}
+		}
+		{
+			int32_t L_11 = 0;
+			V_0 = L_11;
+			__this->___U3CU3E1__state_0 = L_11;
+			ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7 L_12 = V_3;
+			__this->___U3CU3Eu__1_5 = L_12;
+			Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___U3CU3Eu__1_5))->____value_0))->____obj_1), (void*)NULL);
+			#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+			Il2CppCodeGenWriteBarrier((void**)&((&(((&__this->___U3CU3Eu__1_5))->____value_0))->____result_2), (void*)NULL);
+			#endif
+			AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* L_13 = (&__this->___U3CU3Et__builder_1);
+			AsyncValueTaskMethodBuilder_AwaitUnsafeOnCompleted_TisConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m019A8E7C10D64D6BCA380AF574250E5423572B68(L_13, (&V_3), __this, AsyncValueTaskMethodBuilder_AwaitUnsafeOnCompleted_TisConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m019A8E7C10D64D6BCA380AF574250E5423572B68_RuntimeMethod_var);
+			goto IL_00cc;
+		}
+
+IL_0066_1:
+		{
+			ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7 L_14 = __this->___U3CU3Eu__1_5;
+			V_3 = L_14;
+			ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7* L_15 = (&__this->___U3CU3Eu__1_5);
+			il2cpp_codegen_initobj(L_15, sizeof(ConfiguredValueTaskAwaiter_t633E4AC21BCEA11C349655FD542C581D6AFBE1D7));
+			int32_t L_16 = (-1);
+			V_0 = L_16;
+			__this->___U3CU3E1__state_0 = L_16;
+		}
+
+IL_0082_1:
+		{
+			Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* L_17;
+			L_17 = ConfiguredValueTaskAwaiter_GetResult_mF57814E01E72030936A2705ED318052A19E2EDA5_inline((&V_3), ConfiguredValueTaskAwaiter_GetResult_mF57814E01E72030936A2705ED318052A19E2EDA5_RuntimeMethod_var);
+			V_2 = L_17;
+			RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_18 = __this->___U3CU3E7__wrap1_4;
+			Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* L_19 = V_2;
+			il2cpp_codegen_runtime_class_init_inline(RestRequestExtensions_t03ACCC12CDCAD3CF61F369380332569F811234FE_il2cpp_TypeInfo_var);
+			RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_20;
+			L_20 = RestRequestExtensions_AddOrUpdateParameter_m43513A12980A765052CC701FFA986CB5745BC48D(L_18, L_19, NULL);
+			__this->___U3CU3E7__wrap1_4 = (RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E7__wrap1_4), (void*)(RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94*)NULL);
+			goto IL_00b9;
+		}
+	}// end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_00a0;
+		}
+		throw e;
+	}
+
+CATCH_00a0:
+	{// begin catch(System.Exception)
+		V_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* L_21 = (&__this->___U3CU3Et__builder_1);
+		Exception_t* L_22 = V_6;
+		AsyncValueTaskMethodBuilder_SetException_m23D091732A2B28C4E1C7DD8BC6F03565182B86A8(L_21, L_22, NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
+		goto IL_00cc;
+	}// end catch (depth: 1)
+
+IL_00b9:
+	{
+		__this->___U3CU3E1__state_0 = ((int32_t)-2);
+		AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* L_23 = (&__this->___U3CU3Et__builder_1);
+		AsyncValueTaskMethodBuilder_SetResult_m4B85F17F25C75DFF03BFFCB3C6CF8FA1277E6D5B(L_23, NULL);
+	}
+
+IL_00cc:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CAuthenticateU3Ed__6_MoveNext_m83699F3E29142C61A05ADA66AEE7EE0977E561DC_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454*>(__this + _offset);
+	U3CAuthenticateU3Ed__6_MoveNext_m83699F3E29142C61A05ADA66AEE7EE0977E561DC(_thisAdjusted, method);
+}
+// System.Void RestSharp.Authenticators.AuthenticatorBase/<Authenticate>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAuthenticateU3Ed__6_SetStateMachine_m069149359FA811972794098F44BEBDE68AE91659 (U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) 
+{
+	{
+		AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* L_0 = (&__this->___U3CU3Et__builder_1);
+		RuntimeObject* L_1 = ___stateMachine0;
+		AsyncValueTaskMethodBuilder_SetStateMachine_mD8EA8B17877EE09084F472D69B91D8D32FE504EE(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void U3CAuthenticateU3Ed__6_SetStateMachine_m069149359FA811972794098F44BEBDE68AE91659_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+{
+	U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454*>(__this + _offset);
+	U3CAuthenticateU3Ed__6_SetStateMachine_m069149359FA811972794098F44BEBDE68AE91659(_thisAdjusted, ___stateMachine0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.HttpBasicAuthenticator::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpBasicAuthenticator__ctor_mFEE8C3CD6B9AD65A77708620C18B0694C9C04912 (HttpBasicAuthenticator_t41C01903CF40A590A432EB394210E624CFEB9947* __this, String_t* ___username0, String_t* ___password1, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___username0;
+		String_t* L_1 = ___password1;
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_2;
+		L_2 = Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336(NULL);
+		HttpBasicAuthenticator__ctor_m20BE2213EB91F74D56E469920A5F5C329C094A32(__this, L_0, L_1, L_2, NULL);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.HttpBasicAuthenticator::.ctor(System.String,System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HttpBasicAuthenticator__ctor_m20BE2213EB91F74D56E469920A5F5C329C094A32 (HttpBasicAuthenticator_t41C01903CF40A590A432EB394210E624CFEB9947* __this, String_t* ___username0, String_t* ___password1, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___encoding2, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___username0;
+		String_t* L_1 = ___password1;
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_2 = ___encoding2;
+		String_t* L_3;
+		L_3 = HttpBasicAuthenticator_GetHeader_mA4023A5FBDC77DCA6EB4A37988CB530C83CE6352(L_0, L_1, L_2, NULL);
+		AuthenticatorBase__ctor_m35E59B4E9F6551ACA6A412BA3BAA3957B2821142(__this, L_3, NULL);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.HttpBasicAuthenticator::GetHeader(System.String,System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HttpBasicAuthenticator_GetHeader_mA4023A5FBDC77DCA6EB4A37988CB530C83CE6352 (String_t* ___username0, String_t* ___password1, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___encoding2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_0 = ___encoding2;
+		String_t* L_1 = ___username0;
+		String_t* L_2 = ___password1;
+		String_t* L_3;
+		L_3 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_1, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_2, NULL);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
+		L_4 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_3);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		String_t* L_5;
+		L_5 = Convert_ToBase64String_mB276B21511FB01CDE030619C81757E786F91B9F3(L_4, NULL);
+		return L_5;
+	}
+}
+// System.Threading.Tasks.ValueTask`1<RestSharp.Parameter> RestSharp.Authenticators.HttpBasicAuthenticator::GetAuthenticationParameter(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 HttpBasicAuthenticator_GetAuthenticationParameter_mFD638B57A0F4D6747D8749B56DA4780FF9DB0798 (HttpBasicAuthenticator_t41C01903CF40A590A432EB394210E624CFEB9947* __this, String_t* ___accessToken0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9EB642385221D006B3B8DB45C10F626FD2A3DB7C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___accessToken0;
+		String_t* L_1;
+		L_1 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral9EB642385221D006B3B8DB45C10F626FD2A3DB7C, L_0, NULL);
+		HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C* L_2 = (HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C*)il2cpp_codegen_object_new(HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C_il2cpp_TypeInfo_var);
+		HeaderParameter__ctor_m366376C7D6B77DACA6AFE9E237A5B6DA5FFC0D4C(L_2, _stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907, L_1, NULL);
+		ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_inline((&L_3), L_2, /*hidden argument*/ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_RuntimeMethod_var);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.JwtAuthenticator::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JwtAuthenticator__ctor_mB02137B8D4C423B9EB7880FEBB5C110F5E2E4868 (JwtAuthenticator_t492CEE337695EFDDA504BC5171363036896E3C4A* __this, String_t* ___accessToken0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___accessToken0;
+		String_t* L_1;
+		L_1 = JwtAuthenticator_GetToken_m6D270F7DC2FB5E70346FD191F87E912A3293C672(L_0, NULL);
+		AuthenticatorBase__ctor_m35E59B4E9F6551ACA6A412BA3BAA3957B2821142(__this, L_1, NULL);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.JwtAuthenticator::SetBearerToken(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JwtAuthenticator_SetBearerToken_m020322751554AA398422C6598B3B7BEB36506048 (JwtAuthenticator_t492CEE337695EFDDA504BC5171363036896E3C4A* __this, String_t* ___accessToken0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___accessToken0;
+		String_t* L_1;
+		L_1 = JwtAuthenticator_GetToken_m6D270F7DC2FB5E70346FD191F87E912A3293C672(L_0, NULL);
+		AuthenticatorBase_set_Token_m2A6D2F720C56E00EB9A25FC567191120A1486002_inline(__this, L_1, NULL);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.JwtAuthenticator::GetToken(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JwtAuthenticator_GetToken_m6D270F7DC2FB5E70346FD191F87E912A3293C672 (String_t* ___accessToken0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC2DA60AE96E2C9EF3EAF20897A5AA957AFDF64EC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC738372F9EABB0FC755ECE7CC80E939A5E3C4AF7);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___accessToken0;
+		String_t* L_1;
+		L_1 = Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F(L_0, _stringLiteralC738372F9EABB0FC755ECE7CC80E939A5E3C4AF7, NULL);
+		String_t* L_2;
+		L_2 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralC2DA60AE96E2C9EF3EAF20897A5AA957AFDF64EC, L_1, NULL);
+		return L_2;
+	}
+}
+// System.Threading.Tasks.ValueTask`1<RestSharp.Parameter> RestSharp.Authenticators.JwtAuthenticator::GetAuthenticationParameter(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 JwtAuthenticator_GetAuthenticationParameter_m5CE7EDA09D70005BFF760A023E505E1F14D28E67 (JwtAuthenticator_t492CEE337695EFDDA504BC5171363036896E3C4A* __this, String_t* ___accessToken0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___accessToken0;
+		HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C* L_1 = (HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C*)il2cpp_codegen_object_new(HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C_il2cpp_TypeInfo_var);
+		HeaderParameter__ctor_m366376C7D6B77DACA6AFE9E237A5B6DA5FFC0D4C(L_1, _stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907, L_0, NULL);
+		ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_inline((&L_2), L_1, /*hidden argument*/ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_RuntimeMethod_var);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_Realm()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_Realm_mF627437F8AC5EEEA95B9F04DB10F464BD52FC229 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CRealmU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Realm(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_Realm_m174A5DDC0BB554929E09AECDF34012677C451A0E (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CRealmU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRealmU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthParameterHandling RestSharp.Authenticators.OAuth1Authenticator::get_ParameterHandling()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OAuth1Authenticator_get_ParameterHandling_mD705058269D250F49CA06E834461C8800259836A (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CParameterHandlingU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ParameterHandling(RestSharp.Authenticators.OAuth.OAuthParameterHandling)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_ParameterHandling_mF60D510758B6FD482EA186ECDD188961BB5E3F90 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CParameterHandlingU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthSignatureMethod RestSharp.Authenticators.OAuth1Authenticator::get_SignatureMethod()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OAuth1Authenticator_get_SignatureMethod_mA3C8902EF34953FE2F105EC07064144551FACAE8 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CSignatureMethodU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SignatureMethod(RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_SignatureMethod_mC8DFDB0B7999C3F28E961F757A670034EE171412 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CSignatureMethodU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthSignatureTreatment RestSharp.Authenticators.OAuth1Authenticator::get_SignatureTreatment()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OAuth1Authenticator_get_SignatureTreatment_mF55C8C8CA62382B6A1A6EB52E3C846839B6368EB (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CSignatureTreatmentU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SignatureTreatment(RestSharp.Authenticators.OAuth.OAuthSignatureTreatment)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_SignatureTreatment_m1CA6D5FC446E893C31D572892FCC3230BAE5046E (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CSignatureTreatmentU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthType RestSharp.Authenticators.OAuth1Authenticator::get_Type()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OAuth1Authenticator_get_Type_m6CEBE75EF57344ABD39ABD8D9EFF100A1A745D3C (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CTypeU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Type(RestSharp.Authenticators.OAuth.OAuthType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_Type_mBD7DA40E2D980C642EF259E83CFE9D0D59795B90 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CTypeU3Ek__BackingField_4 = L_0;
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_ConsumerKey()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_ConsumerKey_mF207CDFB0C3E15B104632C0CFB0F486DA0A392FC (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CConsumerKeyU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ConsumerKey(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_ConsumerKey_mDDEC873DBA25AE949F76979AF09D84D1EA9F2341 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CConsumerKeyU3Ek__BackingField_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConsumerKeyU3Ek__BackingField_5), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_ConsumerSecret()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_ConsumerSecret_m82166E414A7B4B289EC2D15977C1C5161B038269 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CConsumerSecretU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ConsumerSecret(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_ConsumerSecret_m08A24ABCCE00F22E6682C6F3695F34FAE89D2CC4 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CConsumerSecretU3Ek__BackingField_6 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConsumerSecretU3Ek__BackingField_6), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_Token()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_Token_m84F233C85D45E9CB770F102C26E0080FE81BA72F (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField_7;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Token(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_Token_mFC0CB08EA2A1C2AE1776B0CA6D01186B78FBDC84 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CTokenU3Ek__BackingField_7 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField_7), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_TokenSecret()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_TokenSecret_mC786C9F97A5EBA9C37C731EC1C3618B17573B87A (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CTokenSecretU3Ek__BackingField_8;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_TokenSecret(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_TokenSecret_mDA8C22A049559A013A0989A12702366CBFDC42F8 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CTokenSecretU3Ek__BackingField_8 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenSecretU3Ek__BackingField_8), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_Verifier()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_Verifier_m8E9291EB6AB1CCF2BAC8CBC2C249059A0B9495CB (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CVerifierU3Ek__BackingField_9;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Verifier(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_Verifier_mE9B5DDF7C150D08F9D9B183246AF169E1AD8201C (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CVerifierU3Ek__BackingField_9 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CVerifierU3Ek__BackingField_9), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_Version()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_Version_mB3519991C7F020190B309732716E768993541D23 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CVersionU3Ek__BackingField_10;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Version(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_Version_m8777AD46C5556C5E1C293F4AF9800CF088736166 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CVersionU3Ek__BackingField_10 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CVersionU3Ek__BackingField_10), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_CallbackUrl()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_CallbackUrl_m7635F17398FD4C12B2B13EEEAE094E71CBD150BD (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CCallbackUrlU3Ek__BackingField_11;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_CallbackUrl(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_CallbackUrl_m58AC264123D784848C6DD0D068C9B138789CB9F2 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CCallbackUrlU3Ek__BackingField_11 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCallbackUrlU3Ek__BackingField_11), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_SessionHandle()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_SessionHandle_m602B2FD2A75B8DDD99CA9804ED899F67C26E789D (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CSessionHandleU3Ek__BackingField_12;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SessionHandle(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_SessionHandle_m1279478368B6D2E99A4C64D8B70365E11094A199 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CSessionHandleU3Ek__BackingField_12 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSessionHandleU3Ek__BackingField_12), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_ClientUsername()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_ClientUsername_mFBC9716AF9A12B0C622743BDB194B3DDE943CB31 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CClientUsernameU3Ek__BackingField_13;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ClientUsername(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_ClientUsername_mFF09131D6FAAB9C5ECC25138BA94FE106867089C (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CClientUsernameU3Ek__BackingField_13 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CClientUsernameU3Ek__BackingField_13), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::get_ClientPassword()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_get_ClientPassword_mD97752E7AA4449C4371CFABAA6C5ADCCF494714F (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CClientPasswordU3Ek__BackingField_14;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ClientPassword(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_set_ClientPassword_m4424898B1A30583B3374448B53A731003BB4259D (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CClientPasswordU3Ek__BackingField_14 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CClientPasswordU3Ek__BackingField_14), (void*)L_0);
+		return;
+	}
+}
+// System.Threading.Tasks.ValueTask RestSharp.Authenticators.OAuth1Authenticator::Authenticate(RestSharp.RestClient,RestSharp.RestRequest)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F OAuth1Authenticator_Authenticate_m9A5E32C420B69187ECC22C46902CA7A26BADE986 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* ___client0, RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* ___request1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* V_0 = NULL;
+	ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_0 = (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9*)il2cpp_codegen_object_new(OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9_il2cpp_TypeInfo_var);
+		OAuthWorkflow__ctor_m3D3AB87A9B0E092B32B69BE4F8129008A192112D(L_0, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_1 = L_0;
+		String_t* L_2;
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(15 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_ConsumerKey() */, __this);
+		OAuthWorkflow_set_ConsumerKey_m50F49036E14F099EB016BE6E9D6617144E4D3ACE_inline(L_1, L_2, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_3 = L_1;
+		String_t* L_4;
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(17 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_ConsumerSecret() */, __this);
+		OAuthWorkflow_set_ConsumerSecret_m01C342C57E5B8D8310382426733F23D35EA9BD4B_inline(L_3, L_4, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_5 = L_3;
+		int32_t L_6;
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* RestSharp.Authenticators.OAuth.OAuthParameterHandling RestSharp.Authenticators.OAuth1Authenticator::get_ParameterHandling() */, __this);
+		OAuthWorkflow_set_ParameterHandling_m4F169B379C273208099BDA25147C4720F9B1E027_inline(L_5, L_6, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_7 = L_5;
+		int32_t L_8;
+		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(9 /* RestSharp.Authenticators.OAuth.OAuthSignatureMethod RestSharp.Authenticators.OAuth1Authenticator::get_SignatureMethod() */, __this);
+		OAuthWorkflow_set_SignatureMethod_mFA1B86A752886566F525BB1901435F2F3D130A7A_inline(L_7, L_8, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_9 = L_7;
+		int32_t L_10;
+		L_10 = VirtualFuncInvoker0< int32_t >::Invoke(11 /* RestSharp.Authenticators.OAuth.OAuthSignatureTreatment RestSharp.Authenticators.OAuth1Authenticator::get_SignatureTreatment() */, __this);
+		OAuthWorkflow_set_SignatureTreatment_mA9056E856DBF8BAFFC78445D056E4D48BE51DAFC_inline(L_9, L_10, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_11 = L_9;
+		String_t* L_12;
+		L_12 = VirtualFuncInvoker0< String_t* >::Invoke(23 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_Verifier() */, __this);
+		OAuthWorkflow_set_Verifier_mD1018A51013DF3A44ACEB2E25DBE4B53FB507F1D_inline(L_11, L_12, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_13 = L_11;
+		String_t* L_14;
+		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_Version() */, __this);
+		OAuthWorkflow_set_Version_mA53DF4AB574A26C4DA0B6B6B2CF7CC6285648CFE_inline(L_13, L_14, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_15 = L_13;
+		String_t* L_16;
+		L_16 = VirtualFuncInvoker0< String_t* >::Invoke(27 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_CallbackUrl() */, __this);
+		OAuthWorkflow_set_CallbackUrl_mDF016D4CDAB48DD230B027E4525491EB37846930_inline(L_15, L_16, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_17 = L_15;
+		String_t* L_18;
+		L_18 = VirtualFuncInvoker0< String_t* >::Invoke(29 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_SessionHandle() */, __this);
+		OAuthWorkflow_set_SessionHandle_m4BCF928E3C817402BED665A0F00C0F6A8F5D8A22_inline(L_17, L_18, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_19 = L_17;
+		String_t* L_20;
+		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(19 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_Token() */, __this);
+		OAuthWorkflow_set_Token_m54851F74FAFA0185EEA48CC98077283FC993F5C4_inline(L_19, L_20, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_21 = L_19;
+		String_t* L_22;
+		L_22 = VirtualFuncInvoker0< String_t* >::Invoke(21 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_TokenSecret() */, __this);
+		OAuthWorkflow_set_TokenSecret_mF9584508E3523F65C2164600BE5C2F0ED8665AC7_inline(L_21, L_22, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_23 = L_21;
+		String_t* L_24;
+		L_24 = VirtualFuncInvoker0< String_t* >::Invoke(31 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_ClientUsername() */, __this);
+		OAuthWorkflow_set_ClientUsername_mD5A044342E3262498386EACBA1B09EB1DF6DBE99_inline(L_23, L_24, NULL);
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_25 = L_23;
+		String_t* L_26;
+		L_26 = VirtualFuncInvoker0< String_t* >::Invoke(33 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_ClientPassword() */, __this);
+		OAuthWorkflow_set_ClientPassword_mFFAAACB3972D3B6B824152F37270301209797100_inline(L_25, L_26, NULL);
+		V_0 = L_25;
+		RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* L_27 = ___client0;
+		RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_28 = ___request1;
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_29 = V_0;
+		OAuth1Authenticator_AddOAuthData_mA654D9B873B0660787E6FEC6526261D6FC094EB4(__this, L_27, L_28, L_29, NULL);
+		il2cpp_codegen_initobj((&V_1), sizeof(ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F));
+		ValueTask_t10B4B5DDF5C582607D0E634FA912F8CB94FCD49F L_30 = V_1;
+		return L_30;
+	}
+}
+// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator::ForRequestToken(System.String,System.String,RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* OAuth1Authenticator_ForRequestToken_m363D48AE3FA0379E486F7EE0A3ADDA9DA6E5A1ED (String_t* ___consumerKey0, String_t* ___consumerSecret1, int32_t ___signatureMethod2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_0 = (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600*)il2cpp_codegen_object_new(OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600_il2cpp_TypeInfo_var);
+		OAuth1Authenticator__ctor_mEFB037E769A0CB67E0C9F70B11EEE73A63E93960(L_0, NULL);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_1 = L_0;
+		VirtualActionInvoker1< int32_t >::Invoke(8 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ParameterHandling(RestSharp.Authenticators.OAuth.OAuthParameterHandling) */, L_1, 0);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_2 = L_1;
+		int32_t L_3 = ___signatureMethod2;
+		VirtualActionInvoker1< int32_t >::Invoke(10 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SignatureMethod(RestSharp.Authenticators.OAuth.OAuthSignatureMethod) */, L_2, L_3);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_4 = L_2;
+		VirtualActionInvoker1< int32_t >::Invoke(12 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SignatureTreatment(RestSharp.Authenticators.OAuth.OAuthSignatureTreatment) */, L_4, 0);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_5 = L_4;
+		String_t* L_6 = ___consumerKey0;
+		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ConsumerKey(System.String) */, L_5, L_6);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_7 = L_5;
+		String_t* L_8 = ___consumerSecret1;
+		VirtualActionInvoker1< String_t* >::Invoke(18 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ConsumerSecret(System.String) */, L_7, L_8);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_9 = L_7;
+		VirtualActionInvoker1< int32_t >::Invoke(14 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Type(RestSharp.Authenticators.OAuth.OAuthType) */, L_9, 0);
+		return L_9;
+	}
+}
+// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator::ForRequestToken(System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* OAuth1Authenticator_ForRequestToken_mC7ABC3557C9356D982698FCAA8E78E5FD6898B86 (String_t* ___consumerKey0, String_t* ___consumerSecret1, String_t* ___callbackUrl2, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___consumerKey0;
+		String_t* L_1 = ___consumerSecret1;
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_2;
+		L_2 = OAuth1Authenticator_ForRequestToken_m363D48AE3FA0379E486F7EE0A3ADDA9DA6E5A1ED(L_0, L_1, 0, NULL);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_3 = L_2;
+		String_t* L_4 = ___callbackUrl2;
+		VirtualActionInvoker1< String_t* >::Invoke(28 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_CallbackUrl(System.String) */, L_3, L_4);
+		return L_3;
+	}
+}
+// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator::ForAccessToken(System.String,System.String,System.String,System.String,RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* OAuth1Authenticator_ForAccessToken_m967B3C4C874FB47E33BF895E6B71E745D5E0DD33 (String_t* ___consumerKey0, String_t* ___consumerSecret1, String_t* ___token2, String_t* ___tokenSecret3, int32_t ___signatureMethod4, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_0 = (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600*)il2cpp_codegen_object_new(OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600_il2cpp_TypeInfo_var);
+		OAuth1Authenticator__ctor_mEFB037E769A0CB67E0C9F70B11EEE73A63E93960(L_0, NULL);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_1 = L_0;
+		VirtualActionInvoker1< int32_t >::Invoke(8 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ParameterHandling(RestSharp.Authenticators.OAuth.OAuthParameterHandling) */, L_1, 0);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_2 = L_1;
+		int32_t L_3 = ___signatureMethod4;
+		VirtualActionInvoker1< int32_t >::Invoke(10 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SignatureMethod(RestSharp.Authenticators.OAuth.OAuthSignatureMethod) */, L_2, L_3);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_4 = L_2;
+		VirtualActionInvoker1< int32_t >::Invoke(12 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SignatureTreatment(RestSharp.Authenticators.OAuth.OAuthSignatureTreatment) */, L_4, 0);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_5 = L_4;
+		String_t* L_6 = ___consumerKey0;
+		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ConsumerKey(System.String) */, L_5, L_6);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_7 = L_5;
+		String_t* L_8 = ___consumerSecret1;
+		VirtualActionInvoker1< String_t* >::Invoke(18 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ConsumerSecret(System.String) */, L_7, L_8);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_9 = L_7;
+		String_t* L_10 = ___token2;
+		VirtualActionInvoker1< String_t* >::Invoke(20 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Token(System.String) */, L_9, L_10);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_11 = L_9;
+		String_t* L_12 = ___tokenSecret3;
+		VirtualActionInvoker1< String_t* >::Invoke(22 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_TokenSecret(System.String) */, L_11, L_12);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_13 = L_11;
+		VirtualActionInvoker1< int32_t >::Invoke(14 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Type(RestSharp.Authenticators.OAuth.OAuthType) */, L_13, 1);
+		return L_13;
+	}
+}
+// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator::ForAccessToken(System.String,System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* OAuth1Authenticator_ForAccessToken_mFF4D5041D7FAA76893F1100AA5D6A39B4A6C0D0A (String_t* ___consumerKey0, String_t* ___consumerSecret1, String_t* ___token2, String_t* ___tokenSecret3, String_t* ___verifier4, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___consumerKey0;
+		String_t* L_1 = ___consumerSecret1;
+		String_t* L_2 = ___token2;
+		String_t* L_3 = ___tokenSecret3;
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_4;
+		L_4 = OAuth1Authenticator_ForAccessToken_m967B3C4C874FB47E33BF895E6B71E745D5E0DD33(L_0, L_1, L_2, L_3, 0, NULL);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_5 = L_4;
+		String_t* L_6 = ___verifier4;
+		VirtualActionInvoker1< String_t* >::Invoke(24 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Verifier(System.String) */, L_5, L_6);
+		return L_5;
+	}
+}
+// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator::ForAccessTokenRefresh(System.String,System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* OAuth1Authenticator_ForAccessTokenRefresh_m3DF48AB3D449851EBB8CBC7A89C3CD9FAB89B0BE (String_t* ___consumerKey0, String_t* ___consumerSecret1, String_t* ___token2, String_t* ___tokenSecret3, String_t* ___sessionHandle4, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___consumerKey0;
+		String_t* L_1 = ___consumerSecret1;
+		String_t* L_2 = ___token2;
+		String_t* L_3 = ___tokenSecret3;
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_4;
+		L_4 = OAuth1Authenticator_ForAccessToken_m967B3C4C874FB47E33BF895E6B71E745D5E0DD33(L_0, L_1, L_2, L_3, 0, NULL);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_5 = L_4;
+		String_t* L_6 = ___sessionHandle4;
+		VirtualActionInvoker1< String_t* >::Invoke(30 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SessionHandle(System.String) */, L_5, L_6);
+		return L_5;
+	}
+}
+// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator::ForAccessTokenRefresh(System.String,System.String,System.String,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* OAuth1Authenticator_ForAccessTokenRefresh_mE70BB178113B06F73EB8741618B18D4F6A2763FA (String_t* ___consumerKey0, String_t* ___consumerSecret1, String_t* ___token2, String_t* ___tokenSecret3, String_t* ___verifier4, String_t* ___sessionHandle5, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___consumerKey0;
+		String_t* L_1 = ___consumerSecret1;
+		String_t* L_2 = ___token2;
+		String_t* L_3 = ___tokenSecret3;
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_4;
+		L_4 = OAuth1Authenticator_ForAccessToken_m967B3C4C874FB47E33BF895E6B71E745D5E0DD33(L_0, L_1, L_2, L_3, 0, NULL);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_5 = L_4;
+		String_t* L_6 = ___sessionHandle5;
+		VirtualActionInvoker1< String_t* >::Invoke(30 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SessionHandle(System.String) */, L_5, L_6);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_7 = L_5;
+		String_t* L_8 = ___verifier4;
+		VirtualActionInvoker1< String_t* >::Invoke(24 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Verifier(System.String) */, L_7, L_8);
+		return L_7;
+	}
+}
+// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator::ForClientAuthentication(System.String,System.String,System.String,System.String,RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* OAuth1Authenticator_ForClientAuthentication_mC07703A66F1DEE3572F976136074589EDEB6466E (String_t* ___consumerKey0, String_t* ___consumerSecret1, String_t* ___username2, String_t* ___password3, int32_t ___signatureMethod4, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_0 = (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600*)il2cpp_codegen_object_new(OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600_il2cpp_TypeInfo_var);
+		OAuth1Authenticator__ctor_mEFB037E769A0CB67E0C9F70B11EEE73A63E93960(L_0, NULL);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_1 = L_0;
+		VirtualActionInvoker1< int32_t >::Invoke(8 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ParameterHandling(RestSharp.Authenticators.OAuth.OAuthParameterHandling) */, L_1, 0);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_2 = L_1;
+		int32_t L_3 = ___signatureMethod4;
+		VirtualActionInvoker1< int32_t >::Invoke(10 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SignatureMethod(RestSharp.Authenticators.OAuth.OAuthSignatureMethod) */, L_2, L_3);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_4 = L_2;
+		VirtualActionInvoker1< int32_t >::Invoke(12 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SignatureTreatment(RestSharp.Authenticators.OAuth.OAuthSignatureTreatment) */, L_4, 0);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_5 = L_4;
+		String_t* L_6 = ___consumerKey0;
+		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ConsumerKey(System.String) */, L_5, L_6);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_7 = L_5;
+		String_t* L_8 = ___consumerSecret1;
+		VirtualActionInvoker1< String_t* >::Invoke(18 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ConsumerSecret(System.String) */, L_7, L_8);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_9 = L_7;
+		String_t* L_10 = ___username2;
+		VirtualActionInvoker1< String_t* >::Invoke(32 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ClientUsername(System.String) */, L_9, L_10);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_11 = L_9;
+		String_t* L_12 = ___password3;
+		VirtualActionInvoker1< String_t* >::Invoke(34 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ClientPassword(System.String) */, L_11, L_12);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_13 = L_11;
+		VirtualActionInvoker1< int32_t >::Invoke(14 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Type(RestSharp.Authenticators.OAuth.OAuthType) */, L_13, 3);
+		return L_13;
+	}
+}
+// RestSharp.Authenticators.OAuth1Authenticator RestSharp.Authenticators.OAuth1Authenticator::ForProtectedResource(System.String,System.String,System.String,System.String,RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* OAuth1Authenticator_ForProtectedResource_mD36B543C16BC8479A220D2D5DF68FBEDFFB6CFE6 (String_t* ___consumerKey0, String_t* ___consumerSecret1, String_t* ___accessToken2, String_t* ___accessTokenSecret3, int32_t ___signatureMethod4, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_0 = (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600*)il2cpp_codegen_object_new(OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600_il2cpp_TypeInfo_var);
+		OAuth1Authenticator__ctor_mEFB037E769A0CB67E0C9F70B11EEE73A63E93960(L_0, NULL);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_1 = L_0;
+		VirtualActionInvoker1< int32_t >::Invoke(14 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Type(RestSharp.Authenticators.OAuth.OAuthType) */, L_1, 2);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_2 = L_1;
+		VirtualActionInvoker1< int32_t >::Invoke(8 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ParameterHandling(RestSharp.Authenticators.OAuth.OAuthParameterHandling) */, L_2, 0);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_3 = L_2;
+		int32_t L_4 = ___signatureMethod4;
+		VirtualActionInvoker1< int32_t >::Invoke(10 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SignatureMethod(RestSharp.Authenticators.OAuth.OAuthSignatureMethod) */, L_3, L_4);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_5 = L_3;
+		VirtualActionInvoker1< int32_t >::Invoke(12 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_SignatureTreatment(RestSharp.Authenticators.OAuth.OAuthSignatureTreatment) */, L_5, 0);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_6 = L_5;
+		String_t* L_7 = ___consumerKey0;
+		VirtualActionInvoker1< String_t* >::Invoke(16 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ConsumerKey(System.String) */, L_6, L_7);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_8 = L_6;
+		String_t* L_9 = ___consumerSecret1;
+		VirtualActionInvoker1< String_t* >::Invoke(18 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_ConsumerSecret(System.String) */, L_8, L_9);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_10 = L_8;
+		String_t* L_11 = ___accessToken2;
+		VirtualActionInvoker1< String_t* >::Invoke(20 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_Token(System.String) */, L_10, L_11);
+		OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* L_12 = L_10;
+		String_t* L_13 = ___accessTokenSecret3;
+		VirtualActionInvoker1< String_t* >::Invoke(22 /* System.Void RestSharp.Authenticators.OAuth1Authenticator::set_TokenSecret(System.String) */, L_12, L_13);
+		return L_12;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::AddOAuthData(RestSharp.RestClient,RestSharp.RestRequest,RestSharp.Authenticators.OAuth.OAuthWorkflow)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator_AddOAuthData_mA654D9B873B0660787E6FEC6526261D6FC094EB4 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* ___client0, RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* ___request1, OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* ___workflow2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Contains_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m3979BE7355F65890520EC3C8092E2983495AE03D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Where_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_m92EFAA34CE9AD7A04BC9FD43A6A9FC008A8E564E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IReadOnlyCollection_1_tCC61A141CF064BC96347A76FD217E58AF8F9C361_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Method_tA3339A9CC98C69554E537C084FDD833D165F75BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuth1Authenticator_U3CAddOAuthDataU3Eg__BaseQueryU7C69_0_mE93C721B1ED5E65A9A9BE213762452AE500ED497_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RestRequestExtensions_t03ACCC12CDCAD3CF61F369380332569F811234FE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CAddOAuthDataU3Eb__69_1_m4BD4EEF7480A86B59A0B8A5449C567F57656D332_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC7056336939AE54D16452D29578EB11734B64BE5);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* V_4 = NULL;
+	Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* V_5 = NULL;
+	RuntimeObject* V_6 = NULL;
+	int32_t V_7 = 0;
+	OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* V_8 = NULL;
+	int32_t V_9 = 0;
+	RuntimeObject* V_10 = NULL;
+	int32_t V_11 = 0;
+	Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* G_B9_0 = NULL;
+	Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* G_B8_0 = NULL;
+	{
+		(&V_0)->___U3CU3E4__this_1 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this_1), (void*)__this);
+		RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* L_0 = ___client0;
+		RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_1 = ___request1;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_2;
+		L_2 = RestClient_BuildUriWithoutQueryParameters_m77A98709899AA3A5216E69A6351C20F0BD44C8D1(L_0, L_1, NULL);
+		String_t* L_3;
+		L_3 = Uri_get_AbsoluteUri_m080934F4F2E2160EBEABDF00F8B6D59888EA63AE(L_2, NULL);
+		bool L_4;
+		L_4 = Enumerable_Contains_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m3979BE7355F65890520EC3C8092E2983495AE03D(L_3, ((int32_t)63), Enumerable_Contains_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m3979BE7355F65890520EC3C8092E2983495AE03D_RuntimeMethod_var);
+		if (!L_4)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A* L_5 = (ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ApplicationException_tA744BED4E90266BD255285CD4CF909BAB3EE811A_il2cpp_TypeInfo_var)));
+		ApplicationException__ctor_mE51100DFCDB0A0DF23B482CC43EC8E396BE7BE82(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC1CC5E3487A21EB16C8E71C5D1BA15917961F0C0)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OAuth1Authenticator_AddOAuthData_mA654D9B873B0660787E6FEC6526261D6FC094EB4_RuntimeMethod_var)));
+	}
+
+IL_0028:
+	{
+		RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* L_6 = ___client0;
+		RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_7 = ___request1;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_8;
+		L_8 = RestClient_BuildUri_m6ED3241CF7FD90DD572B27B35CA3F8FEBA3BD9BE(L_6, L_7, NULL);
+		String_t* L_9;
+		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_8);
+		V_1 = L_9;
+		String_t* L_10 = V_1;
+		int32_t L_11;
+		L_11 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_10, ((int32_t)63), NULL);
+		V_2 = L_11;
+		int32_t L_12 = V_2;
+		if ((((int32_t)L_12) == ((int32_t)(-1))))
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		String_t* L_13 = V_1;
+		int32_t L_14 = V_2;
+		String_t* L_15;
+		L_15 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_13, 0, L_14, NULL);
+		V_1 = L_15;
+	}
+
+IL_004b:
+	{
+		RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_16 = ___request1;
+		int32_t L_17;
+		L_17 = RestRequest_get_Method_m53914EBA0C1F76D2050D7BBCB4C77F5C0D3B1E4D_inline(L_16, NULL);
+		V_7 = L_17;
+		Il2CppFakeBox<int32_t> L_18(Method_tA3339A9CC98C69554E537C084FDD833D165F75BC_il2cpp_TypeInfo_var, (&V_7));
+		String_t* L_19;
+		L_19 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_18), NULL);
+		String_t* L_20;
+		L_20 = String_ToUpperInvariant_mD73F658CDE1280A527231DC305B66CF09B64E5AB(L_19, NULL);
+		V_3 = L_20;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_21 = (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C*)il2cpp_codegen_object_new(WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		WebPairCollection__ctor_m5F36EF1257D1083E96EE38A77467DD9FE92CF0D3(L_21, NULL);
+		V_4 = L_21;
+		RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_22 = ___request1;
+		bool L_23;
+		L_23 = RestRequest_get_AlwaysMultipartFormData_m8538F718B21354C389FF0325D0E7CA9460C9D948_inline(L_22, NULL);
+		if (L_23)
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_24 = ___request1;
+		RuntimeObject* L_25;
+		L_25 = RestRequest_get_Files_m0BAA16B81C943EF0AF88F0BAADA3780090D33C2D(L_24, NULL);
+		int32_t L_26;
+		L_26 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.IReadOnlyCollection`1<RestSharp.FileParameter>::get_Count() */, IReadOnlyCollection_1_tCC61A141CF064BC96347A76FD217E58AF8F9C361_il2cpp_TypeInfo_var, L_25);
+		if ((((int32_t)L_26) > ((int32_t)0)))
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* L_27 = (Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021*)il2cpp_codegen_object_new(Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021_il2cpp_TypeInfo_var);
+		Func_2__ctor_mEDB3540DA1494B2AD574962D3A2801FFF9EEE78A(L_27, NULL, (intptr_t)((void*)OAuth1Authenticator_U3CAddOAuthDataU3Eg__BaseQueryU7C69_0_mE93C721B1ED5E65A9A9BE213762452AE500ED497_RuntimeMethod_var), NULL);
+		G_B9_0 = L_27;
+		goto IL_00b0;
+	}
+
+IL_0091:
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* L_28 = ((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_1_1;
+		Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* L_29 = L_28;
+		G_B8_0 = L_29;
+		if (L_29)
+		{
+			G_B9_0 = L_29;
+			goto IL_00b0;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* L_30 = ((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* L_31 = (Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021*)il2cpp_codegen_object_new(Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021_il2cpp_TypeInfo_var);
+		Func_2__ctor_mEDB3540DA1494B2AD574962D3A2801FFF9EEE78A(L_31, L_30, (intptr_t)((void*)U3CU3Ec_U3CAddOAuthDataU3Eb__69_1_m4BD4EEF7480A86B59A0B8A5449C567F57656D332_RuntimeMethod_var), NULL);
+		Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* L_32 = L_31;
+		((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_1_1 = L_32;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_1_1), (void*)L_32);
+		G_B9_0 = L_32;
+	}
+
+IL_00b0:
+	{
+		V_5 = G_B9_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_33 = V_4;
+		RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* L_34 = ___client0;
+		ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC* L_35;
+		L_35 = RestClient_get_DefaultParameters_mF4237B3ADE7C7859636DE3274B8A4C27DA373AEA_inline(L_34, NULL);
+		Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* L_36 = V_5;
+		RuntimeObject* L_37;
+		L_37 = Enumerable_Where_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_m92EFAA34CE9AD7A04BC9FD43A6A9FC008A8E564E(L_35, L_36, Enumerable_Where_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_m92EFAA34CE9AD7A04BC9FD43A6A9FC008A8E564E_RuntimeMethod_var);
+		RuntimeObject* L_38;
+		L_38 = ParametersExtensions_ToWebParameters_m92F9D1ABEB56699349FB0BF920255B69F51A05C5(L_37, NULL);
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_33, L_38, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_39 = V_4;
+		RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_40 = ___request1;
+		ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC* L_41;
+		L_41 = RestRequest_get_Parameters_mC2B11B966F4E034B8D0A39CDA4F5CD99FE8445EE_inline(L_40, NULL);
+		Func_2_t14B479601AF36B52ECE7DD3F5ADEE5F29DE6D021* L_42 = V_5;
+		RuntimeObject* L_43;
+		L_43 = Enumerable_Where_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_m92EFAA34CE9AD7A04BC9FD43A6A9FC008A8E564E(L_41, L_42, Enumerable_Where_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_m92EFAA34CE9AD7A04BC9FD43A6A9FC008A8E564E_RuntimeMethod_var);
+		RuntimeObject* L_44;
+		L_44 = ParametersExtensions_ToWebParameters_m92F9D1ABEB56699349FB0BF920255B69F51A05C5(L_43, NULL);
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_39, L_44, NULL);
+		int32_t L_45;
+		L_45 = VirtualFuncInvoker0< int32_t >::Invoke(13 /* RestSharp.Authenticators.OAuth.OAuthType RestSharp.Authenticators.OAuth1Authenticator::get_Type() */, __this);
+		if (L_45)
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_46 = ___workflow2;
+		String_t* L_47 = V_1;
+		OAuthWorkflow_set_RequestTokenUrl_m818D7EC52E0CD934B7B74D2153DA4339AAC22CFF_inline(L_46, L_47, NULL);
+		goto IL_00fc;
+	}
+
+IL_00f5:
+	{
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_48 = ___workflow2;
+		String_t* L_49 = V_1;
+		OAuthWorkflow_set_AccessTokenUrl_m68969978AD11C264742C8F5E0DC4C0557CC1311C_inline(L_48, L_49, NULL);
+	}
+
+IL_00fc:
+	{
+		int32_t L_50;
+		L_50 = VirtualFuncInvoker0< int32_t >::Invoke(13 /* RestSharp.Authenticators.OAuth.OAuthType RestSharp.Authenticators.OAuth1Authenticator::get_Type() */, __this);
+		V_9 = L_50;
+		int32_t L_51 = V_9;
+		switch (L_51)
+		{
+			case 0:
+			{
+				goto IL_011d;
+			}
+			case 1:
+			{
+				goto IL_012a;
+			}
+			case 2:
+			{
+				goto IL_0144;
+			}
+			case 3:
+			{
+				goto IL_0137;
+			}
+		}
+	}
+	{
+		goto IL_0152;
+	}
+
+IL_011d:
+	{
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_52 = ___workflow2;
+		String_t* L_53 = V_3;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_54 = V_4;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_55;
+		L_55 = OAuthWorkflow_BuildRequestTokenInfo_m6862A16E328B665F17343E1E25557710B659802A(L_52, L_53, L_54, NULL);
+		V_8 = L_55;
+		goto IL_015d;
+	}
+
+IL_012a:
+	{
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_56 = ___workflow2;
+		String_t* L_57 = V_3;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_58 = V_4;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_59;
+		L_59 = OAuthWorkflow_BuildAccessTokenSignature_m19EA2DEA13C76BD00F7A20F64FC8C7C19FC6A60B(L_56, L_57, L_58, NULL);
+		V_8 = L_59;
+		goto IL_015d;
+	}
+
+IL_0137:
+	{
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_60 = ___workflow2;
+		String_t* L_61 = V_3;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_62 = V_4;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_63;
+		L_63 = OAuthWorkflow_BuildClientAuthAccessTokenSignature_mED21596277239383365121668B87C06C6D5DE7DF(L_60, L_61, L_62, NULL);
+		V_8 = L_63;
+		goto IL_015d;
+	}
+
+IL_0144:
+	{
+		OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* L_64 = ___workflow2;
+		String_t* L_65 = V_3;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_66 = V_4;
+		String_t* L_67 = V_1;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_68;
+		L_68 = OAuthWorkflow_BuildProtectedResourceSignature_m9AF20042612DEE011E531382C9CF26875FA1289F(L_64, L_65, L_66, L_67, NULL);
+		V_8 = L_68;
+		goto IL_015d;
+	}
+
+IL_0152:
+	{
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_69 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A(L_69, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA15CF7E1CEFBD0C475E3A89A80B5393D417F8634)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_69, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OAuth1Authenticator_AddOAuthData_mA654D9B873B0660787E6FEC6526261D6FC094EB4_RuntimeMethod_var)));
+	}
+
+IL_015d:
+	{
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_70 = V_8;
+		(&V_0)->___oauth_0 = L_70;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___oauth_0), (void*)L_70);
+		U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453 L_71 = V_0;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_72 = L_71.___oauth_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_73;
+		L_73 = OAuthParameters_get_Parameters_m77DAC6DD9066512629F6D6926B878D9220EFC6F0_inline(L_72, NULL);
+		U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453 L_74 = V_0;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_75 = L_74.___oauth_0;
+		String_t* L_76;
+		L_76 = OAuthParameters_get_Signature_mCAB0B4A993739FAACA680AD1BA9774B3F197DFB2_inline(L_75, NULL);
+		WebPairCollection_Add_m1C3D23C7AFE884E618A8AEE118ABCDB05CE857AE(L_73, _stringLiteralC7056336939AE54D16452D29578EB11734B64BE5, L_76, NULL);
+		int32_t L_77;
+		L_77 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* RestSharp.Authenticators.OAuth.OAuthParameterHandling RestSharp.Authenticators.OAuth1Authenticator::get_ParameterHandling() */, __this);
+		V_11 = L_77;
+		int32_t L_78 = V_11;
+		if (!L_78)
+		{
+			goto IL_0199;
+		}
+	}
+	{
+		int32_t L_79 = V_11;
+		if ((((int32_t)L_79) == ((int32_t)1)))
+		{
+			goto IL_01a5;
+		}
+	}
+	{
+		goto IL_01b1;
+	}
+
+IL_0199:
+	{
+		RuntimeObject* L_80;
+		L_80 = OAuth1Authenticator_U3CAddOAuthDataU3Eg__CreateHeaderParametersU7C69_2_mD0C3E4D629B4712D3063902FEC5AE47DF0F946C9(__this, (&V_0), NULL);
+		V_10 = L_80;
+		goto IL_01bc;
+	}
+
+IL_01a5:
+	{
+		RuntimeObject* L_81;
+		L_81 = OAuth1Authenticator_U3CAddOAuthDataU3Eg__CreateUrlParametersU7C69_3_m9C3BF173F36CF0B6C793F60D586210DFD38E35D4(__this, (&V_0), NULL);
+		V_10 = L_81;
+		goto IL_01bc;
+	}
+
+IL_01b1:
+	{
+		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_82 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A(L_82, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral16675F6F3283E82083454D0A0F482B48ACF6772C)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_82, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OAuth1Authenticator_AddOAuthData_mA654D9B873B0660787E6FEC6526261D6FC094EB4_RuntimeMethod_var)));
+	}
+
+IL_01bc:
+	{
+		RuntimeObject* L_83 = V_10;
+		V_6 = L_83;
+		RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_84 = ___request1;
+		RuntimeObject* L_85 = V_6;
+		il2cpp_codegen_runtime_class_init_inline(RestRequestExtensions_t03ACCC12CDCAD3CF61F369380332569F811234FE_il2cpp_TypeInfo_var);
+		RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* L_86;
+		L_86 = RestRequestExtensions_AddOrUpdateParameters_mF2035F425B094636AE834CCFD7FE649C2E53037B(L_84, L_85, NULL);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth1Authenticator__ctor_mEFB037E769A0CB67E0C9F70B11EEE73A63E93960 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Boolean RestSharp.Authenticators.OAuth1Authenticator::<AddOAuthData>g__BaseQuery|69_0(RestSharp.Parameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OAuth1Authenticator_U3CAddOAuthDataU3Eg__BaseQueryU7C69_0_mE93C721B1ED5E65A9A9BE213762452AE500ED497 (Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* ___x0, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* L_0 = ___x0;
+		int32_t L_1;
+		L_1 = Parameter_get_Type_m0C92F85002EF872C3D2AB9B8FC94E69C15FCA919_inline(L_0, NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		G_B3_0 = ((((int32_t)((((int32_t)L_3) == ((int32_t)4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0014;
+	}
+
+IL_0013:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0014:
+	{
+		return (bool)((((int32_t)G_B3_0) == ((int32_t)0))? 1 : 0);
+	}
+}
+// System.Collections.Generic.IEnumerable`1<RestSharp.Parameter> RestSharp.Authenticators.OAuth1Authenticator::<AddOAuthData>g__CreateHeaderParameters|69_2(RestSharp.Authenticators.OAuth1Authenticator/<>c__DisplayClass69_0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OAuth1Authenticator_U3CAddOAuthDataU3Eg__CreateHeaderParametersU7C69_2_mD0C3E4D629B4712D3063902FEC5AE47DF0F946C9 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453* p0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HeaderParameterU5BU5D_tC089137D6346FA2DA80A4DA36A31273FF936D2C4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		HeaderParameterU5BU5D_tC089137D6346FA2DA80A4DA36A31273FF936D2C4* L_0 = (HeaderParameterU5BU5D_tC089137D6346FA2DA80A4DA36A31273FF936D2C4*)(HeaderParameterU5BU5D_tC089137D6346FA2DA80A4DA36A31273FF936D2C4*)SZArrayNew(HeaderParameterU5BU5D_tC089137D6346FA2DA80A4DA36A31273FF936D2C4_il2cpp_TypeInfo_var, (uint32_t)1);
+		HeaderParameterU5BU5D_tC089137D6346FA2DA80A4DA36A31273FF936D2C4* L_1 = L_0;
+		U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453* L_2 = p0;
+		String_t* L_3;
+		L_3 = OAuth1Authenticator_U3CAddOAuthDataU3Eg__GetAuthorizationHeaderU7C69_4_m844575FBC05B0B3E9520469C257790B72BE3099F(__this, L_2, NULL);
+		HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C* L_4 = (HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C*)il2cpp_codegen_object_new(HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C_il2cpp_TypeInfo_var);
+		HeaderParameter__ctor_m366376C7D6B77DACA6AFE9E237A5B6DA5FFC0D4C(L_4, _stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907, L_3, NULL);
+		ArrayElementTypeCheck (L_1, L_4);
+		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C*)L_4);
+		return (RuntimeObject*)L_1;
+	}
+}
+// System.Collections.Generic.IEnumerable`1<RestSharp.Parameter> RestSharp.Authenticators.OAuth1Authenticator::<AddOAuthData>g__CreateUrlParameters|69_3(RestSharp.Authenticators.OAuth1Authenticator/<>c__DisplayClass69_0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OAuth1Authenticator_U3CAddOAuthDataU3Eg__CreateUrlParametersU7C69_3_m9C3BF173F36CF0B6C793F60D586210DFD38E35D4 (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453* p0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisGetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94_m315BF5FB71245FE465FFCF4587EA55BF4422F757_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CAddOAuthDataU3Eb__69_5_m467C7CE6CF26B4289CDF93EF18CF18E4D536FE69_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823* G_B2_0 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B2_1 = NULL;
+	Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823* G_B1_0 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B1_1 = NULL;
+	{
+		U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453* L_0 = p0;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_1 = L_0->___oauth_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_2;
+		L_2 = OAuthParameters_get_Parameters_m77DAC6DD9066512629F6D6926B878D9220EFC6F0_inline(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823* L_3 = ((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_5_2;
+		Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823* L_4 = L_3;
+		G_B1_0 = L_4;
+		G_B1_1 = L_2;
+		if (L_4)
+		{
+			G_B2_0 = L_4;
+			G_B2_1 = L_2;
+			goto IL_002a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* L_5 = ((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823* L_6 = (Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823*)il2cpp_codegen_object_new(Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823_il2cpp_TypeInfo_var);
+		Func_2__ctor_mED51E98757FC227420750E8BEDFDCA5F56102036(L_6, L_5, (intptr_t)((void*)U3CU3Ec_U3CAddOAuthDataU3Eb__69_5_m467C7CE6CF26B4289CDF93EF18CF18E4D536FE69_RuntimeMethod_var), NULL);
+		Func_2_t75CBEFF2103CA7E267CF41040E3D8580ED433823* L_7 = L_6;
+		((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_5_2 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_5_2), (void*)L_7);
+		G_B2_0 = L_7;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_002a:
+	{
+		RuntimeObject* L_8;
+		L_8 = Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisGetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94_m315BF5FB71245FE465FFCF4587EA55BF4422F757(G_B2_1, G_B2_0, Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisGetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94_m315BF5FB71245FE465FFCF4587EA55BF4422F757_RuntimeMethod_var);
+		return L_8;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator::<AddOAuthData>g__GetAuthorizationHeader|69_4(RestSharp.Authenticators.OAuth1Authenticator/<>c__DisplayClass69_0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuth1Authenticator_U3CAddOAuthDataU3Eg__GetAuthorizationHeaderU7C69_4_m844575FBC05B0B3E9520469C257790B72BE3099F (OAuth1Authenticator_t597BCF05818EF9EAFB63865DF044CA7059D25600* __this, U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453* p0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_OrderBy_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m38418B68F77C02D9941B04CA556A919923AFDB4C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisString_t_m93582DB1B704BF4831307402892E8927DB0F671B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToList_TisString_t_mA7BFFF205C0EB2F8CE0436E85FC70A2449EDD7C5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Insert_m4663EF87406A87696D170E2F4594CDB8C316DB49_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CAddOAuthDataU3Eb__69_6_m768AB52215B0F080A0C51BD346F989D35413553F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CAddOAuthDataU3Eb__69_7_mDBA17D7E64074003338981D27B5D1CE6AECCF4FD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4455F6895242D44BCC9FB650C2DA186D467964AC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDF726552E5C2979C1872DEA52D2FEA7200356793);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* V_0 = NULL;
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* G_B2_0 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B2_1 = NULL;
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* G_B1_0 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B1_1 = NULL;
+	Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* G_B4_0 = NULL;
+	RuntimeObject* G_B4_1 = NULL;
+	Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* G_B3_0 = NULL;
+	RuntimeObject* G_B3_1 = NULL;
+	{
+		U3CU3Ec__DisplayClass69_0_tA0B22B0EE08A1303260E3F3F3D193F45A071F453* L_0 = p0;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_1 = L_0->___oauth_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_2;
+		L_2 = OAuthParameters_get_Parameters_m77DAC6DD9066512629F6D6926B878D9220EFC6F0_inline(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_3 = ((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_6_3;
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_4 = L_3;
+		G_B1_0 = L_4;
+		G_B1_1 = L_2;
+		if (L_4)
+		{
+			G_B2_0 = L_4;
+			G_B2_1 = L_2;
+			goto IL_002a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* L_5 = ((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_6 = (Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F*)il2cpp_codegen_object_new(Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F_il2cpp_TypeInfo_var);
+		Func_2__ctor_mBE1F96DC67EB64CC41FC7E290BCC60E3E1800609(L_6, L_5, (intptr_t)((void*)U3CU3Ec_U3CAddOAuthDataU3Eb__69_6_m768AB52215B0F080A0C51BD346F989D35413553F_RuntimeMethod_var), NULL);
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_7 = L_6;
+		((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_6_3 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_6_3), (void*)L_7);
+		G_B2_0 = L_7;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_002a:
+	{
+		il2cpp_codegen_runtime_class_init_inline(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* L_8;
+		L_8 = WebPair_get_Comparer_mD649EE790F81C4EC8022637AB41667D2B28E6EF8_inline(NULL);
+		RuntimeObject* L_9;
+		L_9 = Enumerable_OrderBy_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m38418B68F77C02D9941B04CA556A919923AFDB4C(G_B2_1, G_B2_0, L_8, Enumerable_OrderBy_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m38418B68F77C02D9941B04CA556A919923AFDB4C_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* L_10 = ((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_7_4;
+		Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* L_11 = L_10;
+		G_B3_0 = L_11;
+		G_B3_1 = L_9;
+		if (L_11)
+		{
+			G_B4_0 = L_11;
+			G_B4_1 = L_9;
+			goto IL_0053;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* L_12 = ((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* L_13 = (Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88*)il2cpp_codegen_object_new(Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88_il2cpp_TypeInfo_var);
+		Func_2__ctor_m5A658177572DB7468FD1682B24223C94565F2502(L_13, L_12, (intptr_t)((void*)U3CU3Ec_U3CAddOAuthDataU3Eb__69_7_mDBA17D7E64074003338981D27B5D1CE6AECCF4FD_RuntimeMethod_var), NULL);
+		Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* L_14 = L_13;
+		((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_7_4 = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9__69_7_4), (void*)L_14);
+		G_B4_0 = L_14;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_0053:
+	{
+		RuntimeObject* L_15;
+		L_15 = Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisString_t_m93582DB1B704BF4831307402892E8927DB0F671B(G_B4_1, G_B4_0, Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisString_t_m93582DB1B704BF4831307402892E8927DB0F671B_RuntimeMethod_var);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_16;
+		L_16 = Enumerable_ToList_TisString_t_mA7BFFF205C0EB2F8CE0436E85FC70A2449EDD7C5(L_15, Enumerable_ToList_TisString_t_mA7BFFF205C0EB2F8CE0436E85FC70A2449EDD7C5_RuntimeMethod_var);
+		V_0 = L_16;
+		String_t* L_17;
+		L_17 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_Realm() */, __this);
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		bool L_18;
+		L_18 = StringExtensions_IsEmpty_mD4B908BEE4A60650D118BADEDE28EE1F629B6D52(L_17, NULL);
+		if (L_18)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_19 = V_0;
+		String_t* L_20;
+		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String RestSharp.Authenticators.OAuth1Authenticator::get_Realm() */, __this);
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_21;
+		L_21 = OAuthTools_UrlEncodeRelaxed_m14F32915A8E605C49CE7AB5AA491B3EFA0562D35(L_20, NULL);
+		String_t* L_22;
+		L_22 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteralDF726552E5C2979C1872DEA52D2FEA7200356793, L_21, _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, NULL);
+		List_1_Insert_m4663EF87406A87696D170E2F4594CDB8C316DB49(L_19, 0, L_22, List_1_Insert_m4663EF87406A87696D170E2F4594CDB8C316DB49_RuntimeMethod_var);
+	}
+
+IL_008c:
+	{
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_23 = V_0;
+		String_t* L_24;
+		L_24 = String_Join_m675422BC1927F19F7135C5211B45EE7AC9F7D632(_stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB, L_23, NULL);
+		String_t* L_25;
+		L_25 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral4455F6895242D44BCC9FB650C2DA186D467964AC, L_24, NULL);
+		return L_25;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.OAuth1Authenticator/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mE57DE99362B833C68206E1797F22B81514D8B4D5 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* L_0 = (U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945*)il2cpp_codegen_object_new(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_m6F0A3C24D8112BB0E52D7E6FF4D70809F9EC3E6D(L_0, NULL);
+		((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth1Authenticator/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m6F0A3C24D8112BB0E52D7E6FF4D70809F9EC3E6D (U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.Boolean RestSharp.Authenticators.OAuth1Authenticator/<>c::<AddOAuthData>b__69_1(RestSharp.Parameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CAddOAuthDataU3Eb__69_1_m4BD4EEF7480A86B59A0B8A5449C567F57656D332 (U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* __this, Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* ___x0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralECCF6ED43382551EADB448FD85CC7976BFF03069);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* L_0 = ___x0;
+		bool L_1;
+		L_1 = OAuth1Authenticator_U3CAddOAuthDataU3Eg__BaseQueryU7C69_0_mE93C721B1ED5E65A9A9BE213762452AE500ED497(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* L_2 = ___x0;
+		String_t* L_3;
+		L_3 = Parameter_get_Name_m4D091026B1CC3DD7804285DA5DC6C670D21BB734_inline(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* L_4 = ___x0;
+		String_t* L_5;
+		L_5 = Parameter_get_Name_m4D091026B1CC3DD7804285DA5DC6C670D21BB734_inline(L_4, NULL);
+		bool L_6;
+		L_6 = String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0(L_5, _stringLiteralECCF6ED43382551EADB448FD85CC7976BFF03069, NULL);
+		return L_6;
+	}
+
+IL_0021:
+	{
+		return (bool)0;
+	}
+}
+// RestSharp.GetOrPostParameter RestSharp.Authenticators.OAuth1Authenticator/<>c::<AddOAuthData>b__69_5(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94* U3CU3Ec_U3CAddOAuthDataU3Eb__69_5_m467C7CE6CF26B4289CDF93EF18CF18E4D536FE69 (U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___p0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_0 = ___p0;
+		String_t* L_1;
+		L_1 = WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596_inline(L_0, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_2 = ___p0;
+		String_t* L_3;
+		L_3 = WebPair_get_Value_mED5F766949A2E912450E8EA34EE0B7A57DCC4E5B_inline(L_2, NULL);
+		String_t* L_4;
+		L_4 = HttpUtility_UrlDecode_m192E19EBB2893A62F343EBF51F0099D3204FAF9C(L_3, NULL);
+		GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94* L_5 = (GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94*)il2cpp_codegen_object_new(GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94_il2cpp_TypeInfo_var);
+		GetOrPostParameter__ctor_m1047328ECB1C96E2E807C6A5433FA86140995108(L_5, L_1, L_4, (bool)1, NULL);
+		return L_5;
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPair RestSharp.Authenticators.OAuth1Authenticator/<>c::<AddOAuthData>b__69_6(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* U3CU3Ec_U3CAddOAuthDataU3Eb__69_6_m768AB52215B0F080A0C51BD346F989D35413553F (U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___x0, const RuntimeMethod* method) 
+{
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_0 = ___x0;
+		return L_0;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth1Authenticator/<>c::<AddOAuthData>b__69_7(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CAddOAuthDataU3Eb__69_7_mDBA17D7E64074003338981D27B5D1CE6AECCF4FD (U3CU3Ec_t704A172D10551D69969CD976C4FDEB3F346F3945* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___x0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2D09BC7AEC73A3EFD69A35BDCDD0B0E29CF848CD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_0 = ___x0;
+		String_t* L_1;
+		L_1 = WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596_inline(L_0, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_2 = ___x0;
+		String_t* L_3;
+		L_3 = WebPair_get_WebValue_m9C18AEC37F843846DFD0781D7EDCB70D98588F8D_inline(L_2, NULL);
+		String_t* L_4;
+		L_4 = String_Concat_mF8B69BE42B5C5ABCAD3C176FBBE3010E0815D65D(L_1, _stringLiteral2D09BC7AEC73A3EFD69A35BDCDD0B0E29CF848CD, L_3, _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, NULL);
+		return L_4;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.IEnumerable`1<RestSharp.Authenticators.OAuth.WebPair> RestSharp.Authenticators.ParametersExtensions::ToWebParameters(System.Collections.Generic.IEnumerable`1<RestSharp.Parameter>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ParametersExtensions_ToWebParameters_m92F9D1ABEB56699349FB0BF920255B69F51A05C5 (RuntimeObject* ___p0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m59DCC8D6E703BCF259E13582056BAED2BA53D7FE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CToWebParametersU3Eb__0_0_m12C95D5A3125411531D9678B3D39D5AB4DBE8C77_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779* G_B2_0 = NULL;
+	RuntimeObject* G_B2_1 = NULL;
+	Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779* G_B1_0 = NULL;
+	RuntimeObject* G_B1_1 = NULL;
+	{
+		RuntimeObject* L_0 = ___p0;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var);
+		Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779* L_1 = ((U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var))->___U3CU3E9__0_0_1;
+		Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779* L_2 = L_1;
+		G_B1_0 = L_2;
+		G_B1_1 = L_0;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			G_B2_1 = L_0;
+			goto IL_0020;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var);
+		U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634* L_3 = ((U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779* L_4 = (Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779*)il2cpp_codegen_object_new(Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779_il2cpp_TypeInfo_var);
+		Func_2__ctor_mA023EB955222A7D1BC166F6804490182E59C2F77(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3CToWebParametersU3Eb__0_0_m12C95D5A3125411531D9678B3D39D5AB4DBE8C77_RuntimeMethod_var), NULL);
+		Func_2_tD41EE1AC99CFBBA39147EDB6AAC144FEBAEA1779* L_5 = L_4;
+		((U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var))->___U3CU3E9__0_0_1 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var))->___U3CU3E9__0_0_1), (void*)L_5);
+		G_B2_0 = L_5;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		RuntimeObject* L_6;
+		L_6 = Enumerable_Select_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m59DCC8D6E703BCF259E13582056BAED2BA53D7FE(G_B2_1, G_B2_0, Enumerable_Select_TisParameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m59DCC8D6E703BCF259E13582056BAED2BA53D7FE_RuntimeMethod_var);
+		return L_6;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.ParametersExtensions/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m115C2595575BF3164D0D662B9863880BC3AACFE5 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634* L_0 = (U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634*)il2cpp_codegen_object_new(U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_m19887F12FFC2C9BBBF226AE18123C50C9A5088E6(L_0, NULL);
+		((U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.ParametersExtensions/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m19887F12FFC2C9BBBF226AE18123C50C9A5088E6 (U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPair RestSharp.Authenticators.ParametersExtensions/<>c::<ToWebParameters>b__0_0(RestSharp.Parameter)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* U3CU3Ec_U3CToWebParametersU3Eb__0_0_m12C95D5A3125411531D9678B3D39D5AB4DBE8C77 (U3CU3Ec_t1A08ED9BB0420A5090CAABD79F083B91DDF53634* __this, Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* ___x0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_NotNull_TisRuntimeObject_m385DDBC75429E1619E46FF8A98FFFACAC888A27C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6170531E4E414F636681E5CEEBAFFCB20B12DFF9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBF9BED2AA7158140DFA04D2D71544ADCA71F3219);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* L_0 = ___x0;
+		String_t* L_1;
+		L_1 = Parameter_get_Name_m4D091026B1CC3DD7804285DA5DC6C670D21BB734_inline(L_0, NULL);
+		String_t* L_2;
+		L_2 = Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC(L_1, _stringLiteral6170531E4E414F636681E5CEEBAFFCB20B12DFF9, Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* L_3 = ___x0;
+		RuntimeObject* L_4;
+		L_4 = Parameter_get_Value_m63B0CC9624F65616B07DCD8CE7EE733370673A9C_inline(L_3, NULL);
+		RuntimeObject* L_5;
+		L_5 = Ensure_NotNull_TisRuntimeObject_m385DDBC75429E1619E46FF8A98FFFACAC888A27C(L_4, _stringLiteralBF9BED2AA7158140DFA04D2D71544ADCA71F3219, Ensure_NotNull_TisRuntimeObject_m385DDBC75429E1619E46FF8A98FFFACAC888A27C_RuntimeMethod_var);
+		String_t* L_6;
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_5);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_7 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_7, L_2, L_6, (bool)0, NULL);
+		return L_7;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.OAuth2.OAuth2AuthorizationRequestHeaderAuthenticator::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth2AuthorizationRequestHeaderAuthenticator__ctor_mB8CE5A913B11FBBF52698D2BC78F652ABBEFEEEB (OAuth2AuthorizationRequestHeaderAuthenticator_t9C6B5F200A1E27CD6BFC78A0CA28D88A33A62A5B* __this, String_t* ___accessToken0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9BA4A0303A5834480DEC2692527C67A2A96BD8AB);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___accessToken0;
+		OAuth2AuthorizationRequestHeaderAuthenticator__ctor_m167B3F6BE15044AB2951942DC71D0DBA67C20DE6(__this, L_0, _stringLiteral9BA4A0303A5834480DEC2692527C67A2A96BD8AB, NULL);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth2.OAuth2AuthorizationRequestHeaderAuthenticator::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth2AuthorizationRequestHeaderAuthenticator__ctor_m167B3F6BE15044AB2951942DC71D0DBA67C20DE6 (OAuth2AuthorizationRequestHeaderAuthenticator_t9C6B5F200A1E27CD6BFC78A0CA28D88A33A62A5B* __this, String_t* ___accessToken0, String_t* ___tokenType1, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___accessToken0;
+		AuthenticatorBase__ctor_m35E59B4E9F6551ACA6A412BA3BAA3957B2821142(__this, L_0, NULL);
+		String_t* L_1 = ___tokenType1;
+		__this->____tokenType_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____tokenType_1), (void*)L_1);
+		return;
+	}
+}
+// System.Threading.Tasks.ValueTask`1<RestSharp.Parameter> RestSharp.Authenticators.OAuth2.OAuth2AuthorizationRequestHeaderAuthenticator::GetAuthenticationParameter(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 OAuth2AuthorizationRequestHeaderAuthenticator_GetAuthenticationParameter_m51E8E12631B5F0957B655D6559E6497B4B4B9144 (OAuth2AuthorizationRequestHeaderAuthenticator_t9C6B5F200A1E27CD6BFC78A0CA28D88A33A62A5B* __this, String_t* ___accessToken0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->____tokenType_1;
+		String_t* L_1 = ___accessToken0;
+		String_t* L_2;
+		L_2 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_0, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, L_1, NULL);
+		HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C* L_3 = (HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C*)il2cpp_codegen_object_new(HeaderParameter_t00C4004CDB73661AB1AC1544E9283B51E3C9170C_il2cpp_TypeInfo_var);
+		HeaderParameter__ctor_m366376C7D6B77DACA6AFE9E237A5B6DA5FFC0D4C(L_3, _stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907, L_2, NULL);
+		ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_inline((&L_4), L_3, /*hidden argument*/ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_RuntimeMethod_var);
+		return L_4;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.OAuth2.OAuth2UriQueryParameterAuthenticator::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuth2UriQueryParameterAuthenticator__ctor_m34C90815AFEA357CF1CC29DFA514C30FCBBEB9C4 (OAuth2UriQueryParameterAuthenticator_t8F8B5D2CE2121CFC9A7C4A765364F4FDC1F39857* __this, String_t* ___accessToken0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___accessToken0;
+		AuthenticatorBase__ctor_m35E59B4E9F6551ACA6A412BA3BAA3957B2821142(__this, L_0, NULL);
+		return;
+	}
+}
+// System.Threading.Tasks.ValueTask`1<RestSharp.Parameter> RestSharp.Authenticators.OAuth2.OAuth2UriQueryParameterAuthenticator::GetAuthenticationParameter(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 OAuth2UriQueryParameterAuthenticator_GetAuthenticationParameter_m7B65174D98ED02E6632F1A6309E7B376E4F0F263 (OAuth2UriQueryParameterAuthenticator_t8F8B5D2CE2121CFC9A7C4A765364F4FDC1F39857* __this, String_t* ___accessToken0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral44A8C44E16B6EC9D7580C40EBC2D676BF03BF295);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___accessToken0;
+		GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94* L_1 = (GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94*)il2cpp_codegen_object_new(GetOrPostParameter_t148E671D0F8A258B4B145096E68198EE3C13ED94_il2cpp_TypeInfo_var);
+		GetOrPostParameter__ctor_m1047328ECB1C96E2E807C6A5433FA86140995108(L_1, _stringLiteral44A8C44E16B6EC9D7580C40EBC2D676BF03BF295, L_0, (bool)1, NULL);
+		ValueTask_1_tA99FEF211934EB1590AC2BBF543A790A1D415B92 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_inline((&L_2), L_1, /*hidden argument*/ValueTask_1__ctor_m8795EF7A1A301DBA24EBE02716D31E2A25616C06_RuntimeMethod_var);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.OAuth.OAuthTools::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthTools__cctor_m73A7282D25A27814777834D0970ABF6513819037 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral097D5CE6C390FEE92A3584928F6F305DDC1CC7BA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4F736E4301262924767607BDFA95505288E664F0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7959BED592BC1FCA661B86A09885C9363899C536);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9AD85D377B6099DDAE0359909A042378234FF1DA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA3DFC0C77ACADE0EE48DCC73E795A597D0270A73);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE280D065A824A791F8305234D3E093FC9A5A90C7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFFF84F420461114F39E152661B12B5B8BA7881B8);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
+		((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___RandomLock_6 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___RandomLock_6), (void*)L_0);
+		RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3* L_1;
+		L_1 = RandomNumberGenerator_Create_mA8AC78824FF028898D2CEA52AF9B5BE6D6081009(NULL);
+		((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___Rng_7 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___Rng_7), (void*)L_1);
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_2;
+		L_2 = Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336(NULL);
+		((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___Encoding_8 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___Encoding_8), (void*)L_2);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
+		ArrayElementTypeCheck (L_4, _stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46);
+		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral15196F05B117690F3E12E56AA0C43803EA0D2A46);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
+		ArrayElementTypeCheck (L_5, _stringLiteralE280D065A824A791F8305234D3E093FC9A5A90C7);
+		(L_5)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralE280D065A824A791F8305234D3E093FC9A5A90C7);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5;
+		ArrayElementTypeCheck (L_6, _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D);
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
+		ArrayElementTypeCheck (L_7, _stringLiteralA3DFC0C77ACADE0EE48DCC73E795A597D0270A73);
+		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteralA3DFC0C77ACADE0EE48DCC73E795A597D0270A73);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
+		ArrayElementTypeCheck (L_8, _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		(L_8)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___UriRfc3986CharsToEscape_9 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___UriRfc3986CharsToEscape_9), (void*)L_8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_9;
+		ArrayElementTypeCheck (L_10, _stringLiteral4F736E4301262924767607BDFA95505288E664F0);
+		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral4F736E4301262924767607BDFA95505288E664F0);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
+		ArrayElementTypeCheck (L_11, _stringLiteral9AD85D377B6099DDAE0359909A042378234FF1DA);
+		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral9AD85D377B6099DDAE0359909A042378234FF1DA);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11;
+		ArrayElementTypeCheck (L_12, _stringLiteral097D5CE6C390FEE92A3584928F6F305DDC1CC7BA);
+		(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral097D5CE6C390FEE92A3584928F6F305DDC1CC7BA);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_12;
+		ArrayElementTypeCheck (L_13, _stringLiteralFFF84F420461114F39E152661B12B5B8BA7881B8);
+		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteralFFF84F420461114F39E152661B12B5B8BA7881B8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = L_13;
+		ArrayElementTypeCheck (L_14, _stringLiteral7959BED592BC1FCA661B86A09885C9363899C536);
+		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral7959BED592BC1FCA661B86A09885C9363899C536);
+		((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___UriRfc3968EscapedHex_10 = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___UriRfc3968EscapedHex_10), (void*)L_14);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_0 = L_15;
+		RandomNumberGenerator_t4E862666A2F7D55324960670C7A1B4C2D40222F3* L_16 = ((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___Rng_7;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17 = V_0;
+		VirtualActionInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(6 /* System.Void System.Security.Cryptography.RandomNumberGenerator::GetBytes(System.Byte[]) */, L_16, L_17);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var);
+		int32_t L_19;
+		L_19 = BitConverter_ToInt32_m745DF4DCC23461AB3035A92BC0C4D59AE12E6880(L_18, 0, NULL);
+		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_20 = (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8*)il2cpp_codegen_object_new(Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
+		Random__ctor_mFB386F0C0ED85F26CD069C3527052B81878A2F1E(L_20, L_19, NULL);
+		((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___Random_5 = L_20;
+		Il2CppCodeGenWriteBarrier((void**)(&((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___Random_5), (void*)L_20);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetNonce()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetNonce_m32B3DAFEDE3547CA4A45F77588E6A9C661F96860 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13E4284CDEBC43B9CF5D544D6064FE537195E4FC);
+		s_Il2CppMethodInitialized = true;
+	}
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	bool V_2 = false;
+	int32_t V_3 = 0;
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
+		V_0 = L_0;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		RuntimeObject* L_1 = ((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___RandomLock_6;
+		V_1 = L_1;
+		V_2 = (bool)0;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_004a:
+			{// begin finally (depth: 1)
+				{
+					bool L_2 = V_2;
+					if (!L_2)
+					{
+						goto IL_0053;
+					}
+				}
+				{
+					RuntimeObject* L_3 = V_1;
+					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_3, NULL);
+				}
+
+IL_0053:
+				{
+					return;
+				}
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				RuntimeObject* L_4 = V_1;
+				Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_4, (&V_2), NULL);
+				V_3 = 0;
+				goto IL_0042_1;
+			}
+
+IL_001c_1:
+			{
+				CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = V_0;
+				int32_t L_6 = V_3;
+				il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+				Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_7 = ((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___Random_5;
+				int32_t L_8;
+				L_8 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(_stringLiteral13E4284CDEBC43B9CF5D544D6064FE537195E4FC, NULL);
+				int32_t L_9;
+				L_9 = VirtualFuncInvoker2< int32_t, int32_t, int32_t >::Invoke(6 /* System.Int32 System.Random::Next(System.Int32,System.Int32) */, L_7, 0, L_8);
+				Il2CppChar L_10;
+				L_10 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(_stringLiteral13E4284CDEBC43B9CF5D544D6064FE537195E4FC, L_9, NULL);
+				(L_5)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_6), (Il2CppChar)L_10);
+				int32_t L_11 = V_3;
+				V_3 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+			}
+
+IL_0042_1:
+			{
+				int32_t L_12 = V_3;
+				CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_13 = V_0;
+				if ((((int32_t)L_12) < ((int32_t)((int32_t)(((RuntimeArray*)L_13)->max_length)))))
+				{
+					goto IL_001c_1;
+				}
+			}
+			{
+				goto IL_0054;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0054:
+	{
+		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_14 = V_0;
+		String_t* L_15;
+		L_15 = String_CreateString_mFBC28D2E3EB87D497F7E702E4FFAD65F635E44DF(NULL, L_14, NULL);
+		return L_15;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetTimestamp()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetTimestamp_m26997D356AC352E7211C19C233CE4CB386C78CA9 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0;
+		L_0 = DateTime_get_UtcNow_m5D776FFEBC81592B361E4C7AF373297C5DFB46FD(NULL);
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_1;
+		L_1 = OAuthTools_GetTimestamp_m2E17E84574A8E0000DDEA9C6F64E572C9A3C0B1E(L_0, NULL);
+		return L_1;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetTimestamp(System.DateTime)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetTimestamp_m2E17E84574A8E0000DDEA9C6F64E572C9A3C0B1E (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime0, const RuntimeMethod* method) 
+{
+	int64_t V_0 = 0;
+	{
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = ___dateTime0;
+		int64_t L_1;
+		L_1 = TimeExtensions_ToUnixTime_mEA3448226F3091BB03FEE84AFE1CE8E6FF73DB62(L_0, NULL);
+		V_0 = L_1;
+		String_t* L_2;
+		L_2 = Int64_ToString_m284E4E55662818E38654309A41C2B07CD436F36B((&V_0), NULL);
+		return L_2;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::UrlEncodeRelaxed(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_UrlEncodeRelaxed_m14F32915A8E605C49CE7AB5AA491B3EFA0562D35 (String_t* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	{
+		String_t* L_0 = ___value0;
+		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_mCD797D942316CB356205FD96415B0B7581CDAD60(L_1, L_0, NULL);
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_0026;
+	}
+
+IL_000b:
+	{
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___UriRfc3986CharsToEscape_9;
+		int32_t L_3 = V_1;
+		int32_t L_4 = L_3;
+		String_t* L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
+		V_2 = L_5;
+		StringBuilder_t* L_6 = V_0;
+		String_t* L_7 = V_2;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = ((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___UriRfc3968EscapedHex_10;
+		int32_t L_9 = V_1;
+		int32_t L_10 = L_9;
+		String_t* L_11 = (L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		StringBuilder_t* L_12;
+		L_12 = StringBuilder_Replace_mEACDB7793357B7ABB5E7BFB59CE2C2DE27673950(L_6, L_7, L_11, NULL);
+		int32_t L_13 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+	}
+
+IL_0026:
+	{
+		int32_t L_14 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = ((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___UriRfc3986CharsToEscape_9;
+		if ((((int32_t)L_14) < ((int32_t)((int32_t)(((RuntimeArray*)L_15)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		StringBuilder_t* L_16 = V_0;
+		String_t* L_17;
+		L_17 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_16);
+		il2cpp_codegen_runtime_class_init_inline(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		String_t* L_18;
+		L_18 = Uri_EscapeDataString_m0D32DB5F61DFFE1E4F61EE513E3419F9DA8F773E(L_17, NULL);
+		return L_18;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::UrlEncodeStrict(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_UrlEncodeStrict_mF95E62939D8339E151820D57BEA86A7215027950 (String_t* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisString_t_m48DF4E2B8BB230E1E065E6E370511448F8667BC4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CUrlEncodeStrictU3Eb__16_0_m8BACBB504191AE4630F2AD1A0AAF3E18CEBB8CBC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	String_t* G_B2_2 = NULL;
+	Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D* G_B1_0 = NULL;
+	String_t* G_B1_1 = NULL;
+	String_t* G_B1_2 = NULL;
+	{
+		String_t* L_0 = ___value0;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D* L_1 = ((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__16_0_1;
+		Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D* L_2 = L_1;
+		G_B1_0 = L_2;
+		G_B1_1 = L_0;
+		G_B1_2 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			G_B2_1 = L_0;
+			G_B2_2 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+			goto IL_0025;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* L_3 = ((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D* L_4 = (Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D*)il2cpp_codegen_object_new(Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D_il2cpp_TypeInfo_var);
+		Func_2__ctor_mB0BA75E8F41869557ADB2E2978A3BAC616C5052D(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3CUrlEncodeStrictU3Eb__16_0_m8BACBB504191AE4630F2AD1A0AAF3E18CEBB8CBC_RuntimeMethod_var), NULL);
+		Func_2_t891A2E9A194AEC6F80105519EAAF2DBE4A87270D* L_5 = L_4;
+		((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__16_0_1 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__16_0_1), (void*)L_5);
+		G_B2_0 = L_5;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+	}
+
+IL_0025:
+	{
+		RuntimeObject* L_6;
+		L_6 = Enumerable_Select_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisString_t_m48DF4E2B8BB230E1E065E6E370511448F8667BC4(G_B2_1, G_B2_0, Enumerable_Select_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_TisString_t_m48DF4E2B8BB230E1E065E6E370511448F8667BC4_RuntimeMethod_var);
+		String_t* L_7;
+		L_7 = String_Join_m675422BC1927F19F7135C5211B45EE7AC9F7D632(G_B2_2, L_6, NULL);
+		return L_7;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::NormalizeRequestParameters(RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_NormalizeRequestParameters_m3D884C2B752EEAC50E6830EF696EE0C330C01D18 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D004CCFB2C7F7062B882865483FF7F4DC36E04E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = ___parameters0;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		RuntimeObject* L_1;
+		L_1 = OAuthTools_SortParametersExcludingSignature_mDD1C713A8A2728D3C753DA9D5205C949A06546FC(L_0, NULL);
+		String_t* L_2;
+		L_2 = String_Join_m675422BC1927F19F7135C5211B45EE7AC9F7D632(_stringLiteral8D004CCFB2C7F7062B882865483FF7F4DC36E04E, L_1, NULL);
+		return L_2;
+	}
+}
+// System.Collections.Generic.IEnumerable`1<System.String> RestSharp.Authenticators.OAuth.OAuthTools::SortParametersExcludingSignature(RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OAuthTools_SortParametersExcludingSignature_mDD1C713A8A2728D3C753DA9D5205C949A06546FC (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_OrderBy_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m38418B68F77C02D9941B04CA556A919923AFDB4C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisString_t_m93582DB1B704BF4831307402892E8927DB0F671B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mA990023ECEA548A62600614E46104B1D37491D22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Where_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mBC34E2A02A52263761D12AA6431F298B60B9888C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_0_mA192DB218AD30AD8D5AC21AAE657BF723268D246_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_1_mA91753FE44260F4C8164C75E59404AFF4BD55CFD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_2_m643C070AAE08D13A2257C9EA451533455F214631_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_3_mC4DAC202736ABCDC5CE09FECBAF3F4B5FB8FDEC5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A* G_B2_0 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B2_1 = NULL;
+	Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A* G_B1_0 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B1_1 = NULL;
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* G_B4_0 = NULL;
+	RuntimeObject* G_B4_1 = NULL;
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* G_B3_0 = NULL;
+	RuntimeObject* G_B3_1 = NULL;
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* G_B6_0 = NULL;
+	RuntimeObject* G_B6_1 = NULL;
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* G_B5_0 = NULL;
+	RuntimeObject* G_B5_1 = NULL;
+	Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* G_B8_0 = NULL;
+	RuntimeObject* G_B8_1 = NULL;
+	Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* G_B7_0 = NULL;
+	RuntimeObject* G_B7_1 = NULL;
+	{
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = ___parameters0;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A* L_1 = ((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_0_2;
+		Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A* L_2 = L_1;
+		G_B1_0 = L_2;
+		G_B1_1 = L_0;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			G_B2_1 = L_0;
+			goto IL_0020;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* L_3 = ((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A* L_4 = (Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A*)il2cpp_codegen_object_new(Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A_il2cpp_TypeInfo_var);
+		Func_2__ctor_m7B3E1D2D7DFCFB36D0FF6A0B037D25F4D1C08213(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_0_mA192DB218AD30AD8D5AC21AAE657BF723268D246_RuntimeMethod_var), NULL);
+		Func_2_t43DF85DFCD351DA9A9D34D801B197B843B01078A* L_5 = L_4;
+		((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_0_2 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_0_2), (void*)L_5);
+		G_B2_0 = L_5;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0020:
+	{
+		RuntimeObject* L_6;
+		L_6 = Enumerable_Where_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mBC34E2A02A52263761D12AA6431F298B60B9888C(G_B2_1, G_B2_0, Enumerable_Where_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mBC34E2A02A52263761D12AA6431F298B60B9888C_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_7 = ((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_1_3;
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_8 = L_7;
+		G_B3_0 = L_8;
+		G_B3_1 = L_6;
+		if (L_8)
+		{
+			G_B4_0 = L_8;
+			G_B4_1 = L_6;
+			goto IL_0044;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* L_9 = ((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_10 = (Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F*)il2cpp_codegen_object_new(Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F_il2cpp_TypeInfo_var);
+		Func_2__ctor_mBE1F96DC67EB64CC41FC7E290BCC60E3E1800609(L_10, L_9, (intptr_t)((void*)U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_1_mA91753FE44260F4C8164C75E59404AFF4BD55CFD_RuntimeMethod_var), NULL);
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_11 = L_10;
+		((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_1_3 = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_1_3), (void*)L_11);
+		G_B4_0 = L_11;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_0044:
+	{
+		RuntimeObject* L_12;
+		L_12 = Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mA990023ECEA548A62600614E46104B1D37491D22(G_B4_1, G_B4_0, Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mA990023ECEA548A62600614E46104B1D37491D22_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_13 = ((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_2_4;
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_14 = L_13;
+		G_B5_0 = L_14;
+		G_B5_1 = L_12;
+		if (L_14)
+		{
+			G_B6_0 = L_14;
+			G_B6_1 = L_12;
+			goto IL_0068;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* L_15 = ((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_16 = (Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F*)il2cpp_codegen_object_new(Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F_il2cpp_TypeInfo_var);
+		Func_2__ctor_mBE1F96DC67EB64CC41FC7E290BCC60E3E1800609(L_16, L_15, (intptr_t)((void*)U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_2_m643C070AAE08D13A2257C9EA451533455F214631_RuntimeMethod_var), NULL);
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_17 = L_16;
+		((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_2_4 = L_17;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_2_4), (void*)L_17);
+		G_B6_0 = L_17;
+		G_B6_1 = G_B5_1;
+	}
+
+IL_0068:
+	{
+		il2cpp_codegen_runtime_class_init_inline(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* L_18;
+		L_18 = WebPair_get_Comparer_mD649EE790F81C4EC8022637AB41667D2B28E6EF8_inline(NULL);
+		RuntimeObject* L_19;
+		L_19 = Enumerable_OrderBy_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m38418B68F77C02D9941B04CA556A919923AFDB4C(G_B6_1, G_B6_0, L_18, Enumerable_OrderBy_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m38418B68F77C02D9941B04CA556A919923AFDB4C_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* L_20 = ((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_3_5;
+		Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* L_21 = L_20;
+		G_B7_0 = L_21;
+		G_B7_1 = L_19;
+		if (L_21)
+		{
+			G_B8_0 = L_21;
+			G_B8_1 = L_19;
+			goto IL_0091;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* L_22 = ((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* L_23 = (Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88*)il2cpp_codegen_object_new(Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88_il2cpp_TypeInfo_var);
+		Func_2__ctor_m5A658177572DB7468FD1682B24223C94565F2502(L_23, L_22, (intptr_t)((void*)U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_3_mC4DAC202736ABCDC5CE09FECBAF3F4B5FB8FDEC5_RuntimeMethod_var), NULL);
+		Func_2_t6EB3DE5BBB7B20A95CC595B6D013A252A05A4B88* L_24 = L_23;
+		((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_3_5 = L_24;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9__18_3_5), (void*)L_24);
+		G_B8_0 = L_24;
+		G_B8_1 = G_B7_1;
+	}
+
+IL_0091:
+	{
+		RuntimeObject* L_25;
+		L_25 = Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisString_t_m93582DB1B704BF4831307402892E8927DB0F671B(G_B8_1, G_B8_0, Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisString_t_m93582DB1B704BF4831307402892E8927DB0F671B_RuntimeMethod_var);
+		return L_25;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::ConstructRequestUrl(System.Uri)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_ConstructRequestUrl_m6D7D73E1E27F8EC50D509ACABE746D7C4A1DC5F5 (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___url0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_NotNull_TisUri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_m28E7A4AFC87BD8BD881784AB0ADE64EB25D12CC3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0458562336F91AC3F0C3FE71A886E75CE5C8F84A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58B716FF5428F7961E1403E6D969E605D0F27EAF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6A1D52382547009AB732F651FE2CA42F1BBA769A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD1F45C5A77C8F04A3EC99712F021D7BC1A15D680);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF27E4C631EBEFA337EC21BE8552E169C9DED78A2);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	String_t* V_1 = NULL;
+	int32_t G_B3_0 = 0;
+	int32_t G_B5_0 = 0;
+	int32_t G_B4_0 = 0;
+	int32_t G_B6_0 = 0;
+	int32_t G_B6_1 = 0;
+	String_t* G_B9_0 = NULL;
+	{
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = ___url0;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_1;
+		L_1 = Ensure_NotNull_TisUri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_m28E7A4AFC87BD8BD881784AB0ADE64EB25D12CC3(L_0, _stringLiteral0458562336F91AC3F0C3FE71A886E75CE5C8F84A, Ensure_NotNull_TisUri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_m28E7A4AFC87BD8BD881784AB0ADE64EB25D12CC3_RuntimeMethod_var);
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_2 = ___url0;
+		String_t* L_3;
+		L_3 = Uri_get_Scheme_m29106D5109538220B22FC49DE7B44040E51B0F6F(L_2, NULL);
+		bool L_4;
+		L_4 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_3, _stringLiteral58B716FF5428F7961E1403E6D969E605D0F27EAF, NULL);
+		if (!L_4)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_5 = ___url0;
+		int32_t L_6;
+		L_6 = Uri_get_Port_m7A1413AC9D9A2FC5DC8A7F89DF4A01ACA0241A02(L_5, NULL);
+		G_B3_0 = ((((int32_t)L_6) == ((int32_t)((int32_t)80)))? 1 : 0);
+		goto IL_002b;
+	}
+
+IL_002a:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_002b:
+	{
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_7 = ___url0;
+		String_t* L_8;
+		L_8 = Uri_get_Scheme_m29106D5109538220B22FC49DE7B44040E51B0F6F(L_7, NULL);
+		bool L_9;
+		L_9 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_8, _stringLiteralF27E4C631EBEFA337EC21BE8552E169C9DED78A2, NULL);
+		G_B4_0 = G_B3_0;
+		if (!L_9)
+		{
+			G_B5_0 = G_B3_0;
+			goto IL_004c;
+		}
+	}
+	{
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_10 = ___url0;
+		int32_t L_11;
+		L_11 = Uri_get_Port_m7A1413AC9D9A2FC5DC8A7F89DF4A01ACA0241A02(L_10, NULL);
+		G_B6_0 = ((((int32_t)L_11) == ((int32_t)((int32_t)443)))? 1 : 0);
+		G_B6_1 = G_B4_0;
+		goto IL_004d;
+	}
+
+IL_004c:
+	{
+		G_B6_0 = 0;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_004d:
+	{
+		V_0 = (bool)G_B6_0;
+		bool L_12 = V_0;
+		if (((int32_t)(G_B6_1|(int32_t)L_12)))
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_13 = ___url0;
+		int32_t L_14;
+		L_14 = Uri_get_Port_m7A1413AC9D9A2FC5DC8A7F89DF4A01ACA0241A02(L_13, NULL);
+		int32_t L_15 = L_14;
+		RuntimeObject* L_16 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_15);
+		String_t* L_17;
+		L_17 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(_stringLiteralD1F45C5A77C8F04A3EC99712F021D7BC1A15D680, L_16, NULL);
+		G_B9_0 = L_17;
+		goto IL_006e;
+	}
+
+IL_0069:
+	{
+		G_B9_0 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+	}
+
+IL_006e:
+	{
+		V_1 = G_B9_0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = L_18;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_20 = ___url0;
+		String_t* L_21;
+		L_21 = Uri_get_Scheme_m29106D5109538220B22FC49DE7B44040E51B0F6F(L_20, NULL);
+		ArrayElementTypeCheck (L_19, L_21);
+		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)L_21);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = L_19;
+		ArrayElementTypeCheck (L_22, _stringLiteral6A1D52382547009AB732F651FE2CA42F1BBA769A);
+		(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral6A1D52382547009AB732F651FE2CA42F1BBA769A);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = L_22;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_24 = ___url0;
+		String_t* L_25;
+		L_25 = Uri_get_Host_m2C0E258C7DFF7A340049BE9BC08FF45E90988D8C(L_24, NULL);
+		ArrayElementTypeCheck (L_23, L_25);
+		(L_23)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)L_25);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_26 = L_23;
+		String_t* L_27 = V_1;
+		ArrayElementTypeCheck (L_26, L_27);
+		(L_26)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_27);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = L_26;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_29 = ___url0;
+		String_t* L_30;
+		L_30 = Uri_get_AbsolutePath_mABB93DD30D4C0F11948DE5C117650B1C3A9925CA(L_29, NULL);
+		ArrayElementTypeCheck (L_28, L_30);
+		(L_28)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)L_30);
+		String_t* L_31;
+		L_31 = String_Concat_m6B0734B65813C8EA093D78E5C2D16534EB6FE8C0(L_28, NULL);
+		return L_31;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::ConcatenateRequestElements(System.String,System.String,RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_ConcatenateRequestElements_m5E04F37775E01A5FA44E949A93217FACB8A0D7E3 (String_t* ___method0, String_t* ___url1, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D004CCFB2C7F7062B882865483FF7F4DC36E04E);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		String_t* L_0 = ___method0;
+		String_t* L_1;
+		L_1 = String_ToUpperInvariant_mD73F658CDE1280A527231DC305B66CF09B64E5AB(L_0, NULL);
+		String_t* L_2;
+		L_2 = StringExtensions_Then_mF194DE172CDDBCA71B161B570BC7C72969A08F5F(L_1, _stringLiteral8D004CCFB2C7F7062B882865483FF7F4DC36E04E, NULL);
+		String_t* L_3 = ___url1;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_4;
+		L_4 = StringExtensions_AsUri_m0ECA791084AB74DE082980318B52B7C0C3E53B48(L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_5;
+		L_5 = OAuthTools_ConstructRequestUrl_m6D7D73E1E27F8EC50D509ACABE746D7C4A1DC5F5(L_4, NULL);
+		String_t* L_6;
+		L_6 = OAuthTools_UrlEncodeRelaxed_m14F32915A8E605C49CE7AB5AA491B3EFA0562D35(L_5, NULL);
+		String_t* L_7;
+		L_7 = StringExtensions_Then_mF194DE172CDDBCA71B161B570BC7C72969A08F5F(L_6, _stringLiteral8D004CCFB2C7F7062B882865483FF7F4DC36E04E, NULL);
+		V_0 = L_7;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_8 = ___parameters2;
+		String_t* L_9;
+		L_9 = OAuthTools_NormalizeRequestParameters_m3D884C2B752EEAC50E6830EF696EE0C330C01D18(L_8, NULL);
+		String_t* L_10;
+		L_10 = OAuthTools_UrlEncodeRelaxed_m14F32915A8E605C49CE7AB5AA491B3EFA0562D35(L_9, NULL);
+		V_1 = L_10;
+		String_t* L_11 = V_0;
+		String_t* L_12 = V_1;
+		String_t* L_13;
+		L_13 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_2, L_11, L_12, NULL);
+		return L_13;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetSignature(RestSharp.Authenticators.OAuth.OAuthSignatureMethod,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetSignature_m4ACDC3DBA36754BA194311670FC0C0C866C14E61 (int32_t ___signatureMethod0, String_t* ___signatureBase1, String_t* ___consumerSecret2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___signatureMethod0;
+		String_t* L_1 = ___signatureBase1;
+		String_t* L_2 = ___consumerSecret2;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_3;
+		L_3 = OAuthTools_GetSignature_mFD926D31026F2B8D5F9FC28B82326B8BD999EF26(L_0, 0, L_1, L_2, (String_t*)NULL, NULL);
+		return L_3;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetSignature(RestSharp.Authenticators.OAuth.OAuthSignatureMethod,RestSharp.Authenticators.OAuth.OAuthSignatureTreatment,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetSignature_m90FF8FA9B2132DB444B3BF43FF48770EF2BC98EA (int32_t ___signatureMethod0, int32_t ___signatureTreatment1, String_t* ___signatureBase2, String_t* ___consumerSecret3, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___signatureMethod0;
+		int32_t L_1 = ___signatureTreatment1;
+		String_t* L_2 = ___signatureBase2;
+		String_t* L_3 = ___consumerSecret3;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_4;
+		L_4 = OAuthTools_GetSignature_mFD926D31026F2B8D5F9FC28B82326B8BD999EF26(L_0, L_1, L_2, L_3, (String_t*)NULL, NULL);
+		return L_4;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetSignature(RestSharp.Authenticators.OAuth.OAuthSignatureMethod,RestSharp.Authenticators.OAuth.OAuthSignatureTreatment,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetSignature_mFD926D31026F2B8D5F9FC28B82326B8BD999EF26 (int32_t ___signatureMethod0, int32_t ___signatureTreatment1, String_t* ___signatureBase2, String_t* ___consumerSecret3, String_t* ___tokenSecret4, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HMACSHA1_t40AB10160C7F8F11EA26E038FD7A335383987030_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HMACSHA256_t594D178275B0B5AF11CBC0AB816011DED5E20ADF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D004CCFB2C7F7062B882865483FF7F4DC36E04E);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass23_0_t6DA003303C7024CA005F28739D08D0052A0E5196 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
+	String_t* V_2 = NULL;
+	{
+		String_t* L_0 = ___signatureBase2;
+		(&V_0)->___signatureBase_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___signatureBase_1), (void*)L_0);
+		String_t* L_1 = ___tokenSecret4;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = StringExtensions_IsEmpty_mD4B908BEE4A60650D118BADEDE28EE1F629B6D52(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
+		___tokenSecret4 = L_3;
+	}
+
+IL_0018:
+	{
+		String_t* L_4 = ___consumerSecret3;
+		il2cpp_codegen_runtime_class_init_inline(StringExtensions_t1A8D59D4F7E4A5855D191192A7EDD5BA6996CB42_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = StringExtensions_IsEmpty_mD4B908BEE4A60650D118BADEDE28EE1F629B6D52(L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		String_t* L_6 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
+		___consumerSecret3 = L_6;
+	}
+
+IL_0027:
+	{
+		String_t* L_7 = ___consumerSecret3;
+		(&V_0)->___unencodedConsumerSecret_0 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___unencodedConsumerSecret_0), (void*)L_7);
+		String_t* L_8 = ___consumerSecret3;
+		il2cpp_codegen_runtime_class_init_inline(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		String_t* L_9;
+		L_9 = Uri_EscapeDataString_m0D32DB5F61DFFE1E4F61EE513E3419F9DA8F773E(L_8, NULL);
+		___consumerSecret3 = L_9;
+		String_t* L_10 = ___tokenSecret4;
+		String_t* L_11;
+		L_11 = Uri_EscapeDataString_m0D32DB5F61DFFE1E4F61EE513E3419F9DA8F773E(L_10, NULL);
+		___tokenSecret4 = L_11;
+		int32_t L_12 = ___signatureMethod0;
+		switch (L_12)
+		{
+			case 0:
+			{
+				goto IL_0058;
+			}
+			case 1:
+			{
+				goto IL_006e;
+			}
+			case 2:
+			{
+				goto IL_008e;
+			}
+			case 3:
+			{
+				goto IL_0084;
+			}
+		}
+	}
+	{
+		goto IL_009e;
+	}
+
+IL_0058:
+	{
+		HMACSHA1_t40AB10160C7F8F11EA26E038FD7A335383987030* L_13 = (HMACSHA1_t40AB10160C7F8F11EA26E038FD7A335383987030*)il2cpp_codegen_object_new(HMACSHA1_t40AB10160C7F8F11EA26E038FD7A335383987030_il2cpp_TypeInfo_var);
+		HMACSHA1__ctor_mE8F89BF4875DCAEBEE8B07C1F9B246E0C4FD18AF(L_13, NULL);
+		String_t* L_14 = ___consumerSecret3;
+		String_t* L_15 = ___tokenSecret4;
+		U3CU3Ec__DisplayClass23_0_t6DA003303C7024CA005F28739D08D0052A0E5196 L_16 = V_0;
+		String_t* L_17 = L_16.___signatureBase_1;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_18;
+		L_18 = OAuthTools_GetHmacSignature_mBEEB2065698D0E3B81D7B4F7CBDDB034A55C54CF(L_13, L_14, L_15, L_17, NULL);
+		V_2 = L_18;
+		goto IL_00a9;
+	}
+
+IL_006e:
+	{
+		HMACSHA256_t594D178275B0B5AF11CBC0AB816011DED5E20ADF* L_19 = (HMACSHA256_t594D178275B0B5AF11CBC0AB816011DED5E20ADF*)il2cpp_codegen_object_new(HMACSHA256_t594D178275B0B5AF11CBC0AB816011DED5E20ADF_il2cpp_TypeInfo_var);
+		HMACSHA256__ctor_m86CF8A849CFBD7C17338C3FC0B1BF7B2D645FC4A(L_19, NULL);
+		String_t* L_20 = ___consumerSecret3;
+		String_t* L_21 = ___tokenSecret4;
+		U3CU3Ec__DisplayClass23_0_t6DA003303C7024CA005F28739D08D0052A0E5196 L_22 = V_0;
+		String_t* L_23 = L_22.___signatureBase_1;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_24;
+		L_24 = OAuthTools_GetHmacSignature_mBEEB2065698D0E3B81D7B4F7CBDDB034A55C54CF(L_19, L_20, L_21, L_23, NULL);
+		V_2 = L_24;
+		goto IL_00a9;
+	}
+
+IL_0084:
+	{
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_25;
+		L_25 = OAuthTools_U3CGetSignatureU3Eg__GetRsaSignatureU7C23_0_m380E15AA7D8A68AAE7CC23052CFAFCFDE8048207((&V_0), NULL);
+		V_2 = L_25;
+		goto IL_00a9;
+	}
+
+IL_008e:
+	{
+		String_t* L_26 = ___consumerSecret3;
+		String_t* L_27 = ___tokenSecret4;
+		String_t* L_28;
+		L_28 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_26, _stringLiteral8D004CCFB2C7F7062B882865483FF7F4DC36E04E, L_27, NULL);
+		V_2 = L_28;
+		goto IL_00a9;
+	}
+
+IL_009e:
+	{
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_29 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_29, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral49AB94B4E84A65CFC8B0D87160CDB6474F63D415)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_29, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OAuthTools_GetSignature_mFD926D31026F2B8D5F9FC28B82326B8BD999EF26_RuntimeMethod_var)));
+	}
+
+IL_00a9:
+	{
+		String_t* L_30 = V_2;
+		V_1 = L_30;
+		int32_t L_31 = ___signatureTreatment1;
+		if (!L_31)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		String_t* L_32 = V_1;
+		return L_32;
+	}
+
+IL_00b0:
+	{
+		String_t* L_33 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_34;
+		L_34 = OAuthTools_UrlEncodeRelaxed_m14F32915A8E605C49CE7AB5AA491B3EFA0562D35(L_33, NULL);
+		return L_34;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::GetHmacSignature(System.Security.Cryptography.KeyedHashAlgorithm,System.String,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_GetHmacSignature_mBEEB2065698D0E3B81D7B4F7CBDDB034A55C54CF (KeyedHashAlgorithm_t782AD417BF829DAD1267A7AE4F9B553537CCF263* ___crypto0, String_t* ___consumerSecret1, String_t* ___tokenSecret2, String_t* ___signatureBase3, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D004CCFB2C7F7062B882865483FF7F4DC36E04E);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = ___consumerSecret1;
+		String_t* L_1 = ___tokenSecret2;
+		String_t* L_2;
+		L_2 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_0, _stringLiteral8D004CCFB2C7F7062B882865483FF7F4DC36E04E, L_1, NULL);
+		V_0 = L_2;
+		KeyedHashAlgorithm_t782AD417BF829DAD1267A7AE4F9B553537CCF263* L_3 = ___crypto0;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_4 = ((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___Encoding_8;
+		String_t* L_5 = V_0;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6;
+		L_6 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_4, L_5);
+		VirtualActionInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(20 /* System.Void System.Security.Cryptography.KeyedHashAlgorithm::set_Key(System.Byte[]) */, L_3, L_6);
+		String_t* L_7 = ___signatureBase3;
+		KeyedHashAlgorithm_t782AD417BF829DAD1267A7AE4F9B553537CCF263* L_8 = ___crypto0;
+		String_t* L_9;
+		L_9 = OAuthExtensions_HashWith_m3FD0952E28149298D01C5C47250AFE1C07A574A7(L_7, L_8, NULL);
+		return L_9;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools::<GetSignature>g__GetRsaSignature|23_0(RestSharp.Authenticators.OAuth.OAuthTools/<>c__DisplayClass23_0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthTools_U3CGetSignatureU3Eg__GetRsaSignatureU7C23_0_m380E15AA7D8A68AAE7CC23052CFAFCFDE8048207 (U3CU3Ec__DisplayClass23_0_t6DA003303C7024CA005F28739D08D0052A0E5196* p0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CryptoConfig_t66E67DD67B2C3224C72C0CBD80A144E29EE016A5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral52BDFA54A164366A4CCA7F4E8E9D4CC3289B914B);
+		s_Il2CppMethodInitialized = true;
+	}
+	RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C* V_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_1 = NULL;
+	String_t* V_2 = NULL;
+	{
+		RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C* L_0 = (RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C*)il2cpp_codegen_object_new(RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C_il2cpp_TypeInfo_var);
+		RSACryptoServiceProvider__ctor_mE4BC404364B89F41C863EC3860ED4B9D7DD7A06F(L_0, NULL);
+		RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C* L_1 = L_0;
+		RSACryptoServiceProvider_set_PersistKeyInCsp_m91DF253AD1EC780ECBB9E8AA9B756D4CA81BACA8(L_1, (bool)0, NULL);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_004d:
+			{// begin finally (depth: 1)
+				{
+					RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C* L_2 = V_0;
+					if (!L_2)
+					{
+						goto IL_0056;
+					}
+				}
+				{
+					RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C* L_3 = V_0;
+					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_3);
+				}
+
+IL_0056:
+				{
+					return;
+				}
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C* L_4 = V_0;
+			U3CU3Ec__DisplayClass23_0_t6DA003303C7024CA005F28739D08D0052A0E5196* L_5 = p0;
+			String_t* L_6 = L_5->___unencodedConsumerSecret_0;
+			VirtualActionInvoker1< String_t* >::Invoke(8 /* System.Void System.Security.Cryptography.AsymmetricAlgorithm::FromXmlString(System.String) */, L_4, L_6);
+			SHA1_t0612ADACADC25FB4C22525A579B30354586F0CEE* L_7;
+			L_7 = SHA1_Create_m6F713539D55576456BDF91B7BFC7103ED8CB766C(NULL);
+			il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_8 = ((OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_StaticFields*)il2cpp_codegen_static_fields_for(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var))->___Encoding_8;
+			U3CU3Ec__DisplayClass23_0_t6DA003303C7024CA005F28739D08D0052A0E5196* L_9 = p0;
+			String_t* L_10 = L_9->___signatureBase_1;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11;
+			L_11 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_8, L_10);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12;
+			L_12 = HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB(L_7, L_11, NULL);
+			V_1 = L_12;
+			RSACryptoServiceProvider_t5B3DF0CAFF65D4103EB90063F3C3B00FE2C6967C* L_13 = V_0;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = V_1;
+			il2cpp_codegen_runtime_class_init_inline(CryptoConfig_t66E67DD67B2C3224C72C0CBD80A144E29EE016A5_il2cpp_TypeInfo_var);
+			String_t* L_15;
+			L_15 = CryptoConfig_MapNameToOID_m93A1FE1104368BC4032B463DFB51BFBD17F522B6(_stringLiteral52BDFA54A164366A4CCA7F4E8E9D4CC3289B914B, NULL);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16;
+			L_16 = RSACryptoServiceProvider_SignHash_m9037E027D0EC9B5A5E85F861E834A6F39E3BC508(L_13, L_14, L_15, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+			String_t* L_17;
+			L_17 = Convert_ToBase64String_mB276B21511FB01CDE030619C81757E786F91B9F3(L_16, NULL);
+			V_2 = L_17;
+			goto IL_0057;
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0057:
+	{
+		String_t* L_18 = V_2;
+		return L_18;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.OAuth.OAuthTools/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mE6B039514850AC5340EC5C681CEF619D1FE25857 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* L_0 = (U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857*)il2cpp_codegen_object_new(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_mEF3061BDE23AE6F9937F488BBF9EA5486E179CF8(L_0, NULL);
+		((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthTools/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mEF3061BDE23AE6F9937F488BBF9EA5486E179CF8 (U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools/<>c::<UrlEncodeStrict>b__16_0(System.Char)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CUrlEncodeStrictU3Eb__16_0_m8BACBB504191AE4630F2AD1A0AAF3E18CEBB8CBC (U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* __this, Il2CppChar ___x0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Contains_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m3979BE7355F65890520EC3C8092E2983495AE03D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral670856DF07AA76C6119040166509F09E2CEC7F3E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFAAFC22ADC2CE06CD118733CCCF46445776303C9);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppChar L_0 = ___x0;
+		bool L_1;
+		L_1 = Enumerable_Contains_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m3979BE7355F65890520EC3C8092E2983495AE03D(_stringLiteral670856DF07AA76C6119040166509F09E2CEC7F3E, L_0, Enumerable_Contains_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m3979BE7355F65890520EC3C8092E2983495AE03D_RuntimeMethod_var);
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		Il2CppChar L_2 = ___x0;
+		uint8_t L_3 = ((uint8_t)((int32_t)(uint8_t)L_2));
+		RuntimeObject* L_4 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_3);
+		String_t* L_5;
+		L_5 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(_stringLiteralFAAFC22ADC2CE06CD118733CCCF46445776303C9, L_4, NULL);
+		return L_5;
+	}
+
+IL_001f:
+	{
+		String_t* L_6;
+		L_6 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&___x0), NULL);
+		return L_6;
+	}
+}
+// System.Boolean RestSharp.Authenticators.OAuth.OAuthTools/<>c::<SortParametersExcludingSignature>b__18_0(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_0_mA192DB218AD30AD8D5AC21AAE657BF723268D246 (U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___x0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC7056336939AE54D16452D29578EB11734B64BE5);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_0 = ___x0;
+		String_t* L_1;
+		L_1 = WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596_inline(L_0, NULL);
+		bool L_2;
+		L_2 = StringExtensions_EqualsIgnoreCase_m3FF512AABC7A042156A9C5AD5FA1D56CA07CE332(L_1, _stringLiteralC7056336939AE54D16452D29578EB11734B64BE5, NULL);
+		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPair RestSharp.Authenticators.OAuth.OAuthTools/<>c::<SortParametersExcludingSignature>b__18_1(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_1_mA91753FE44260F4C8164C75E59404AFF4BD55CFD (U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___x0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_0 = ___x0;
+		String_t* L_1;
+		L_1 = WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596_inline(L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_2;
+		L_2 = OAuthTools_UrlEncodeStrict_mF95E62939D8339E151820D57BEA86A7215027950(L_1, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_3 = ___x0;
+		String_t* L_4;
+		L_4 = WebPair_get_Value_mED5F766949A2E912450E8EA34EE0B7A57DCC4E5B_inline(L_3, NULL);
+		String_t* L_5;
+		L_5 = OAuthTools_UrlEncodeStrict_mF95E62939D8339E151820D57BEA86A7215027950(L_4, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_6 = ___x0;
+		bool L_7;
+		L_7 = WebPair_get_Encode_mE44E64FBD01A1BB9533CE6DB371F8A8A93B7EAB1_inline(L_6, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_8 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_8, L_2, L_5, L_7, NULL);
+		return L_8;
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPair RestSharp.Authenticators.OAuth.OAuthTools/<>c::<SortParametersExcludingSignature>b__18_2(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_2_m643C070AAE08D13A2257C9EA451533455F214631 (U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___x0, const RuntimeMethod* method) 
+{
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_0 = ___x0;
+		return L_0;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthTools/<>c::<SortParametersExcludingSignature>b__18_3(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CSortParametersExcludingSignatureU3Eb__18_3_mC4DAC202736ABCDC5CE09FECBAF3F4B5FB8FDEC5 (U3CU3Ec_tE46032D6D57D0527AAC248E18FD63BE7A5E95857* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___x0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1FA13CA565DC9B5105D70A528D26A6FC7A57049E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_0 = ___x0;
+		String_t* L_1;
+		L_1 = WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596_inline(L_0, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_2 = ___x0;
+		String_t* L_3;
+		L_3 = WebPair_get_Value_mED5F766949A2E912450E8EA34EE0B7A57DCC4E5B_inline(L_2, NULL);
+		String_t* L_4;
+		L_4 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_1, _stringLiteral1FA13CA565DC9B5105D70A528D26A6FC7A57049E, L_3, NULL);
+		return L_4;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_Version()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_Version_m38668645A9A68C6334B238C003F79BB5CA423034 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CVersionU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_Version(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_Version_mA53DF4AB574A26C4DA0B6B6B2CF7CC6285648CFE (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CVersionU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CVersionU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_ConsumerKey()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ConsumerKey_m09CDE844EB6ED33565DA0A8309F0B6A58A86142A (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CConsumerKeyU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_ConsumerKey(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ConsumerKey_m50F49036E14F099EB016BE6E9D6617144E4D3ACE (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CConsumerKeyU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConsumerKeyU3Ek__BackingField_1), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_ConsumerSecret()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ConsumerSecret_m6DD58012F74A51DA3439A6847751C7DEF22BFE96 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CConsumerSecretU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_ConsumerSecret(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ConsumerSecret_m01C342C57E5B8D8310382426733F23D35EA9BD4B (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CConsumerSecretU3Ek__BackingField_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConsumerSecretU3Ek__BackingField_2), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_Token()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_Token_m4857D7E4BFD99A698333560359AA96D34EFBD81A (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_Token(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_Token_m54851F74FAFA0185EEA48CC98077283FC993F5C4 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CTokenU3Ek__BackingField_3 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField_3), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_TokenSecret()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_TokenSecret_m283A7E057844EBEF495B1781E33A422EA67DF34C (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CTokenSecretU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_TokenSecret(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_TokenSecret_mF9584508E3523F65C2164600BE5C2F0ED8665AC7 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CTokenSecretU3Ek__BackingField_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenSecretU3Ek__BackingField_4), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_CallbackUrl()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_CallbackUrl_m5B7F1856A84D1177131BDF85CC5D5A01A1711BFA (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CCallbackUrlU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_CallbackUrl(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_CallbackUrl_mDF016D4CDAB48DD230B027E4525491EB37846930 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CCallbackUrlU3Ek__BackingField_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCallbackUrlU3Ek__BackingField_5), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_Verifier()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_Verifier_mA0E12289BEC16DAD4B66034684F717171C4EB05D (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CVerifierU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_Verifier(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_Verifier_mD1018A51013DF3A44ACEB2E25DBE4B53FB507F1D (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CVerifierU3Ek__BackingField_6 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CVerifierU3Ek__BackingField_6), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_SessionHandle()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_SessionHandle_mDBEA01DADB8DE4C67682733A5D918757AA73D520 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CSessionHandleU3Ek__BackingField_7;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_SessionHandle(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_SessionHandle_m4BCF928E3C817402BED665A0F00C0F6A8F5D8A22 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CSessionHandleU3Ek__BackingField_7 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSessionHandleU3Ek__BackingField_7), (void*)L_0);
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthSignatureMethod RestSharp.Authenticators.OAuth.OAuthWorkflow::get_SignatureMethod()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OAuthWorkflow_get_SignatureMethod_mDE262AD2FCF9FE736B8D807E7BDEF9D78CDF1A54 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CSignatureMethodU3Ek__BackingField_8;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_SignatureMethod(RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_SignatureMethod_mFA1B86A752886566F525BB1901435F2F3D130A7A (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CSignatureMethodU3Ek__BackingField_8 = L_0;
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthSignatureTreatment RestSharp.Authenticators.OAuth.OAuthWorkflow::get_SignatureTreatment()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OAuthWorkflow_get_SignatureTreatment_mF6167D2443C3C713D79186B17FE06CFBCB9AC432 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CSignatureTreatmentU3Ek__BackingField_9;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_SignatureTreatment(RestSharp.Authenticators.OAuth.OAuthSignatureTreatment)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_SignatureTreatment_mA9056E856DBF8BAFFC78445D056E4D48BE51DAFC (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CSignatureTreatmentU3Ek__BackingField_9 = L_0;
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthParameterHandling RestSharp.Authenticators.OAuth.OAuthWorkflow::get_ParameterHandling()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OAuthWorkflow_get_ParameterHandling_mFE8F842A5A8DE45CA39B263BEA58D49CC01788C9 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CParameterHandlingU3Ek__BackingField_10;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_ParameterHandling(RestSharp.Authenticators.OAuth.OAuthParameterHandling)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ParameterHandling_m4F169B379C273208099BDA25147C4720F9B1E027 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CParameterHandlingU3Ek__BackingField_10 = L_0;
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_ClientUsername()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ClientUsername_m0043BE62F9E8B3A3AFC1AB6BBD92FCDBA0AF1E35 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CClientUsernameU3Ek__BackingField_11;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_ClientUsername(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ClientUsername_mD5A044342E3262498386EACBA1B09EB1DF6DBE99 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CClientUsernameU3Ek__BackingField_11 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CClientUsernameU3Ek__BackingField_11), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_ClientPassword()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ClientPassword_mD0D4BA28933B470DC6AC5BC54761F378A9E5BE88 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CClientPasswordU3Ek__BackingField_12;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_ClientPassword(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ClientPassword_mFFAAACB3972D3B6B824152F37270301209797100 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CClientPasswordU3Ek__BackingField_12 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CClientPasswordU3Ek__BackingField_12), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_RequestTokenUrl()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_RequestTokenUrl_m70173FD0479675A15489FFCE31964B9367956798 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CRequestTokenUrlU3Ek__BackingField_13;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_RequestTokenUrl(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_RequestTokenUrl_m818D7EC52E0CD934B7B74D2153DA4339AAC22CFF (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CRequestTokenUrlU3Ek__BackingField_13 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRequestTokenUrlU3Ek__BackingField_13), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow::get_AccessTokenUrl()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_AccessTokenUrl_m2879B0467D1B69EDFAB636BFBCD3E6FC72AAB440 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CAccessTokenUrlU3Ek__BackingField_14;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::set_AccessTokenUrl(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_set_AccessTokenUrl_m68969978AD11C264742C8F5E0DC4C0557CC1311C (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CAccessTokenUrlU3Ek__BackingField_14 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAccessTokenUrlU3Ek__BackingField_14), (void*)L_0);
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters RestSharp.Authenticators.OAuth.OAuthWorkflow::BuildRequestTokenInfo(System.String,RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* OAuthWorkflow_BuildRequestTokenInfo_m6862A16E328B665F17343E1E25557710B659802A (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___method0, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral389ACD12CAFDC3871B504251FE2ECE247FB8D6A3);
+		s_Il2CppMethodInitialized = true;
+	}
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* V_0 = NULL;
+	String_t* V_1 = NULL;
+	String_t* V_2 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* V_3 = NULL;
+	String_t* V_4 = NULL;
+	{
+		OAuthWorkflow_ValidateTokenRequestState_mA39FE9B29582516DDBF36371F29DB85FDA88F3C3(__this, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C*)il2cpp_codegen_object_new(WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		WebPairCollection__ctor_m5F36EF1257D1083E96EE38A77467DD9FE92CF0D3(L_0, NULL);
+		V_0 = L_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_1 = V_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_2 = ___parameters1;
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_1, L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_3;
+		L_3 = OAuthTools_GetTimestamp_m26997D356AC352E7211C19C233CE4CB386C78CA9(NULL);
+		V_1 = L_3;
+		String_t* L_4;
+		L_4 = OAuthTools_GetNonce_m32B3DAFEDE3547CA4A45F77588E6A9C661F96860(NULL);
+		V_2 = L_4;
+		String_t* L_5 = V_1;
+		String_t* L_6 = V_2;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_7;
+		L_7 = OAuthWorkflow_GenerateAuthParameters_m590F606B09828F4828631706EED2C8D483A56980(__this, L_5, L_6, NULL);
+		V_3 = L_7;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_8 = V_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_9 = V_3;
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_8, L_9, NULL);
+		String_t* L_10 = ___method0;
+		String_t* L_11;
+		L_11 = OAuthWorkflow_get_RequestTokenUrl_m70173FD0479675A15489FFCE31964B9367956798_inline(__this, NULL);
+		String_t* L_12;
+		L_12 = Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC(L_11, _stringLiteral389ACD12CAFDC3871B504251FE2ECE247FB8D6A3, Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_13 = V_0;
+		String_t* L_14;
+		L_14 = OAuthTools_ConcatenateRequestElements_m5E04F37775E01A5FA44E949A93217FACB8A0D7E3(L_10, L_12, L_13, NULL);
+		V_4 = L_14;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_15 = (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F*)il2cpp_codegen_object_new(OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F_il2cpp_TypeInfo_var);
+		OAuthParameters__ctor_m789B32D879D7CDDA7A239C101F0BA495C078EFF1(L_15, NULL);
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_16 = L_15;
+		int32_t L_17;
+		L_17 = OAuthWorkflow_get_SignatureMethod_mDE262AD2FCF9FE736B8D807E7BDEF9D78CDF1A54_inline(__this, NULL);
+		int32_t L_18;
+		L_18 = OAuthWorkflow_get_SignatureTreatment_mF6167D2443C3C713D79186B17FE06CFBCB9AC432_inline(__this, NULL);
+		String_t* L_19 = V_4;
+		String_t* L_20;
+		L_20 = OAuthWorkflow_get_ConsumerSecret_m6DD58012F74A51DA3439A6847751C7DEF22BFE96_inline(__this, NULL);
+		String_t* L_21;
+		L_21 = OAuthTools_GetSignature_m90FF8FA9B2132DB444B3BF43FF48770EF2BC98EA(L_17, L_18, L_19, L_20, NULL);
+		OAuthParameters_set_Signature_mB27EC45CF8E32E610A990C5C3558604ADD51B1DB_inline(L_16, L_21, NULL);
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_22 = L_16;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_23 = V_3;
+		OAuthParameters_set_Parameters_m5FBA999FC93C091D90A3744F5897E56BC4241A4B_inline(L_22, L_23, NULL);
+		return L_22;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters RestSharp.Authenticators.OAuth.OAuthWorkflow::BuildAccessTokenSignature(System.String,RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* OAuthWorkflow_BuildAccessTokenSignature_m19EA2DEA13C76BD00F7A20F64FC8C7C19FC6A60B (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___method0, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9BF38496A0CBE3DA928EB247B40BB3944147010A);
+		s_Il2CppMethodInitialized = true;
+	}
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* V_0 = NULL;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* V_4 = NULL;
+	String_t* V_5 = NULL;
+	{
+		OAuthWorkflow_ValidateAccessRequestState_mDE633E24AD164CCD30275E6CEB2A499500F812C7(__this, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C*)il2cpp_codegen_object_new(WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		WebPairCollection__ctor_m5F36EF1257D1083E96EE38A77467DD9FE92CF0D3(L_0, NULL);
+		V_0 = L_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_1 = V_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_2 = ___parameters1;
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_1, L_2, NULL);
+		String_t* L_3;
+		L_3 = OAuthWorkflow_get_AccessTokenUrl_m2879B0467D1B69EDFAB636BFBCD3E6FC72AAB440_inline(__this, NULL);
+		String_t* L_4;
+		L_4 = Ensure_NotEmptyString_mC713FFB526D5FE533951FEE9B5F1EA9287F3B129(L_3, _stringLiteral9BF38496A0CBE3DA928EB247B40BB3944147010A, NULL);
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_5 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_5, L_4, NULL);
+		V_1 = L_5;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_6;
+		L_6 = OAuthTools_GetTimestamp_m26997D356AC352E7211C19C233CE4CB386C78CA9(NULL);
+		V_2 = L_6;
+		String_t* L_7;
+		L_7 = OAuthTools_GetNonce_m32B3DAFEDE3547CA4A45F77588E6A9C661F96860(NULL);
+		V_3 = L_7;
+		String_t* L_8 = V_2;
+		String_t* L_9 = V_3;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_10;
+		L_10 = OAuthWorkflow_GenerateAuthParameters_m590F606B09828F4828631706EED2C8D483A56980(__this, L_8, L_9, NULL);
+		V_4 = L_10;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_11 = V_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_12 = V_4;
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_11, L_12, NULL);
+		String_t* L_13 = ___method0;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_14 = V_1;
+		String_t* L_15;
+		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_14);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_16 = V_0;
+		String_t* L_17;
+		L_17 = OAuthTools_ConcatenateRequestElements_m5E04F37775E01A5FA44E949A93217FACB8A0D7E3(L_13, L_15, L_16, NULL);
+		V_5 = L_17;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_18 = (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F*)il2cpp_codegen_object_new(OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F_il2cpp_TypeInfo_var);
+		OAuthParameters__ctor_m789B32D879D7CDDA7A239C101F0BA495C078EFF1(L_18, NULL);
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_19 = L_18;
+		int32_t L_20;
+		L_20 = OAuthWorkflow_get_SignatureMethod_mDE262AD2FCF9FE736B8D807E7BDEF9D78CDF1A54_inline(__this, NULL);
+		int32_t L_21;
+		L_21 = OAuthWorkflow_get_SignatureTreatment_mF6167D2443C3C713D79186B17FE06CFBCB9AC432_inline(__this, NULL);
+		String_t* L_22 = V_5;
+		String_t* L_23;
+		L_23 = OAuthWorkflow_get_ConsumerSecret_m6DD58012F74A51DA3439A6847751C7DEF22BFE96_inline(__this, NULL);
+		String_t* L_24;
+		L_24 = OAuthWorkflow_get_TokenSecret_m283A7E057844EBEF495B1781E33A422EA67DF34C_inline(__this, NULL);
+		String_t* L_25;
+		L_25 = OAuthTools_GetSignature_mFD926D31026F2B8D5F9FC28B82326B8BD999EF26(L_20, L_21, L_22, L_23, L_24, NULL);
+		OAuthParameters_set_Signature_mB27EC45CF8E32E610A990C5C3558604ADD51B1DB_inline(L_19, L_25, NULL);
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_26 = L_19;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_27 = V_4;
+		OAuthParameters_set_Parameters_m5FBA999FC93C091D90A3744F5897E56BC4241A4B_inline(L_26, L_27, NULL);
+		return L_26;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters RestSharp.Authenticators.OAuth.OAuthWorkflow::BuildClientAuthAccessTokenSignature(System.String,RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* OAuthWorkflow_BuildClientAuthAccessTokenSignature_mED21596277239383365121668B87C06C6D5DE7DF (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___method0, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9BF38496A0CBE3DA928EB247B40BB3944147010A);
+		s_Il2CppMethodInitialized = true;
+	}
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* V_0 = NULL;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* V_4 = NULL;
+	String_t* V_5 = NULL;
+	{
+		OAuthWorkflow_ValidateClientAuthAccessRequestState_m631216C19DC494BE6613EE0666FB20118FC4727A(__this, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C*)il2cpp_codegen_object_new(WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		WebPairCollection__ctor_m5F36EF1257D1083E96EE38A77467DD9FE92CF0D3(L_0, NULL);
+		V_0 = L_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_1 = V_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_2 = ___parameters1;
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_1, L_2, NULL);
+		String_t* L_3;
+		L_3 = OAuthWorkflow_get_AccessTokenUrl_m2879B0467D1B69EDFAB636BFBCD3E6FC72AAB440_inline(__this, NULL);
+		String_t* L_4;
+		L_4 = Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC(L_3, _stringLiteral9BF38496A0CBE3DA928EB247B40BB3944147010A, Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_5 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_5, L_4, NULL);
+		V_1 = L_5;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_6;
+		L_6 = OAuthTools_GetTimestamp_m26997D356AC352E7211C19C233CE4CB386C78CA9(NULL);
+		V_2 = L_6;
+		String_t* L_7;
+		L_7 = OAuthTools_GetNonce_m32B3DAFEDE3547CA4A45F77588E6A9C661F96860(NULL);
+		V_3 = L_7;
+		String_t* L_8 = V_2;
+		String_t* L_9 = V_3;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_10;
+		L_10 = OAuthWorkflow_GenerateXAuthParameters_mC19AD5999E230D5CFBD0954E629CC9F12435D2D9(__this, L_8, L_9, NULL);
+		V_4 = L_10;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_11 = V_0;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_12 = V_4;
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_11, L_12, NULL);
+		String_t* L_13 = ___method0;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_14 = V_1;
+		String_t* L_15;
+		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_14);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_16 = V_0;
+		String_t* L_17;
+		L_17 = OAuthTools_ConcatenateRequestElements_m5E04F37775E01A5FA44E949A93217FACB8A0D7E3(L_13, L_15, L_16, NULL);
+		V_5 = L_17;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_18 = (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F*)il2cpp_codegen_object_new(OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F_il2cpp_TypeInfo_var);
+		OAuthParameters__ctor_m789B32D879D7CDDA7A239C101F0BA495C078EFF1(L_18, NULL);
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_19 = L_18;
+		int32_t L_20;
+		L_20 = OAuthWorkflow_get_SignatureMethod_mDE262AD2FCF9FE736B8D807E7BDEF9D78CDF1A54_inline(__this, NULL);
+		int32_t L_21;
+		L_21 = OAuthWorkflow_get_SignatureTreatment_mF6167D2443C3C713D79186B17FE06CFBCB9AC432_inline(__this, NULL);
+		String_t* L_22 = V_5;
+		String_t* L_23;
+		L_23 = OAuthWorkflow_get_ConsumerSecret_m6DD58012F74A51DA3439A6847751C7DEF22BFE96_inline(__this, NULL);
+		String_t* L_24;
+		L_24 = OAuthTools_GetSignature_m90FF8FA9B2132DB444B3BF43FF48770EF2BC98EA(L_20, L_21, L_22, L_23, NULL);
+		OAuthParameters_set_Signature_mB27EC45CF8E32E610A990C5C3558604ADD51B1DB_inline(L_19, L_24, NULL);
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_25 = L_19;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_26 = V_4;
+		OAuthParameters_set_Parameters_m5FBA999FC93C091D90A3744F5897E56BC4241A4B_inline(L_25, L_26, NULL);
+		return L_25;
+	}
+}
+// RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters RestSharp.Authenticators.OAuth.OAuthWorkflow::BuildProtectedResourceSignature(System.String,RestSharp.Authenticators.OAuth.WebPairCollection,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* OAuthWorkflow_BuildProtectedResourceSignature_m9AF20042612DEE011E531382C9CF26875FA1289F (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___method0, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___parameters1, String_t* ___url2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisString_t_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m720B560C52D4F53014C38AC8BB9EEB4B7F378627_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass63_0_U3CBuildProtectedResourceSignatureU3Eb__0_m9BB4C09FE7A02D8718EEEEE53FF0A5EFEA813606_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49* V_0 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* V_1 = NULL;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* V_2 = NULL;
+	String_t* V_3 = NULL;
+	String_t* V_4 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* V_5 = NULL;
+	String_t* V_6 = NULL;
+	{
+		U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49* L_0 = (U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass63_0__ctor_m3AD59A8D3E2CDAD6560EF33145E054E7085BAB5B(L_0, NULL);
+		V_0 = L_0;
+		OAuthWorkflow_ValidateProtectedResourceState_mD7337F083A70F9CE0FD3CC9134339F150A7D6CDF(__this, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_1 = (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C*)il2cpp_codegen_object_new(WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		WebPairCollection__ctor_m5F36EF1257D1083E96EE38A77467DD9FE92CF0D3(L_1, NULL);
+		V_1 = L_1;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_2 = V_1;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_3 = ___parameters1;
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_2, L_3, NULL);
+		String_t* L_4 = ___url2;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_5 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_5, L_4, NULL);
+		V_2 = L_5;
+		U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49* L_6 = V_0;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_7 = V_2;
+		String_t* L_8;
+		L_8 = Uri_get_Query_m17DEC663263C486C8C8177AF9C4BFE2FFBE51178(L_7, NULL);
+		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_9;
+		L_9 = HttpUtility_ParseQueryString_mA4328640AF55A627D3AFEFF4550A5987CD9F17F2(L_8, NULL);
+		L_6->___urlParameters_0 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&L_6->___urlParameters_0), (void*)L_9);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_10 = V_1;
+		U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49* L_11 = V_0;
+		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_12 = L_11->___urlParameters_0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13;
+		L_13 = VirtualFuncInvoker0< StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* >::Invoke(23 /* System.String[] System.Collections.Specialized.NameValueCollection::get_AllKeys() */, L_12);
+		U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49* L_14 = V_0;
+		Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC* L_15 = (Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC*)il2cpp_codegen_object_new(Func_2_t2B4E660066F4A2C6A2F2AA5BE35FE36C4AA9BDEC_il2cpp_TypeInfo_var);
+		Func_2__ctor_m328078575A6B01245B3BD7E6D369CC89F62789F8(L_15, L_14, (intptr_t)((void*)U3CU3Ec__DisplayClass63_0_U3CBuildProtectedResourceSignatureU3Eb__0_m9BB4C09FE7A02D8718EEEEE53FF0A5EFEA813606_RuntimeMethod_var), NULL);
+		RuntimeObject* L_16;
+		L_16 = Enumerable_Select_TisString_t_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m720B560C52D4F53014C38AC8BB9EEB4B7F378627((RuntimeObject*)L_13, L_15, Enumerable_Select_TisString_t_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_m720B560C52D4F53014C38AC8BB9EEB4B7F378627_RuntimeMethod_var);
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_10, L_16, NULL);
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_17;
+		L_17 = OAuthTools_GetTimestamp_m26997D356AC352E7211C19C233CE4CB386C78CA9(NULL);
+		V_3 = L_17;
+		String_t* L_18;
+		L_18 = OAuthTools_GetNonce_m32B3DAFEDE3547CA4A45F77588E6A9C661F96860(NULL);
+		V_4 = L_18;
+		String_t* L_19 = V_3;
+		String_t* L_20 = V_4;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_21;
+		L_21 = OAuthWorkflow_GenerateAuthParameters_m590F606B09828F4828631706EED2C8D483A56980(__this, L_19, L_20, NULL);
+		V_5 = L_21;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_22 = V_1;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_23 = V_5;
+		WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967(L_22, L_23, NULL);
+		String_t* L_24 = ___method0;
+		String_t* L_25 = ___url2;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_26 = V_1;
+		String_t* L_27;
+		L_27 = OAuthTools_ConcatenateRequestElements_m5E04F37775E01A5FA44E949A93217FACB8A0D7E3(L_24, L_25, L_26, NULL);
+		V_6 = L_27;
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_28 = (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F*)il2cpp_codegen_object_new(OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F_il2cpp_TypeInfo_var);
+		OAuthParameters__ctor_m789B32D879D7CDDA7A239C101F0BA495C078EFF1(L_28, NULL);
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_29 = L_28;
+		int32_t L_30;
+		L_30 = OAuthWorkflow_get_SignatureMethod_mDE262AD2FCF9FE736B8D807E7BDEF9D78CDF1A54_inline(__this, NULL);
+		int32_t L_31;
+		L_31 = OAuthWorkflow_get_SignatureTreatment_mF6167D2443C3C713D79186B17FE06CFBCB9AC432_inline(__this, NULL);
+		String_t* L_32 = V_6;
+		String_t* L_33;
+		L_33 = OAuthWorkflow_get_ConsumerSecret_m6DD58012F74A51DA3439A6847751C7DEF22BFE96_inline(__this, NULL);
+		String_t* L_34;
+		L_34 = OAuthWorkflow_get_TokenSecret_m283A7E057844EBEF495B1781E33A422EA67DF34C_inline(__this, NULL);
+		String_t* L_35;
+		L_35 = OAuthTools_GetSignature_mFD926D31026F2B8D5F9FC28B82326B8BD999EF26(L_30, L_31, L_32, L_33, L_34, NULL);
+		OAuthParameters_set_Signature_mB27EC45CF8E32E610A990C5C3558604ADD51B1DB_inline(L_29, L_35, NULL);
+		OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* L_36 = L_29;
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_37 = V_5;
+		OAuthParameters_set_Parameters_m5FBA999FC93C091D90A3744F5897E56BC4241A4B_inline(L_36, L_37, NULL);
+		return L_36;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::ValidateTokenRequestState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_ValidateTokenRequestState_mA39FE9B29582516DDBF36371F29DB85FDA88F3C3 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral389ACD12CAFDC3871B504251FE2ECE247FB8D6A3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0;
+		L_0 = OAuthWorkflow_get_RequestTokenUrl_m70173FD0479675A15489FFCE31964B9367956798_inline(__this, NULL);
+		String_t* L_1;
+		L_1 = Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F(L_0, _stringLiteral389ACD12CAFDC3871B504251FE2ECE247FB8D6A3, NULL);
+		String_t* L_2;
+		L_2 = OAuthWorkflow_get_ConsumerKey_m09CDE844EB6ED33565DA0A8309F0B6A58A86142A_inline(__this, NULL);
+		String_t* L_3;
+		L_3 = Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F(L_2, _stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3, NULL);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::ValidateAccessRequestState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_ValidateAccessRequestState_mDE633E24AD164CCD30275E6CEB2A499500F812C7 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9BF38496A0CBE3DA928EB247B40BB3944147010A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA71A62F5A3FE9ABC4981D698C8D3B8E4D8A3AFD);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0;
+		L_0 = OAuthWorkflow_get_AccessTokenUrl_m2879B0467D1B69EDFAB636BFBCD3E6FC72AAB440_inline(__this, NULL);
+		String_t* L_1;
+		L_1 = Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F(L_0, _stringLiteral9BF38496A0CBE3DA928EB247B40BB3944147010A, NULL);
+		String_t* L_2;
+		L_2 = OAuthWorkflow_get_ConsumerKey_m09CDE844EB6ED33565DA0A8309F0B6A58A86142A_inline(__this, NULL);
+		String_t* L_3;
+		L_3 = Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F(L_2, _stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3, NULL);
+		String_t* L_4;
+		L_4 = OAuthWorkflow_get_Token_m4857D7E4BFD99A698333560359AA96D34EFBD81A_inline(__this, NULL);
+		String_t* L_5;
+		L_5 = Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F(L_4, _stringLiteralDA71A62F5A3FE9ABC4981D698C8D3B8E4D8A3AFD, NULL);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::ValidateClientAuthAccessRequestState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_ValidateClientAuthAccessRequestState_m631216C19DC494BE6613EE0666FB20118FC4727A (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9BF38496A0CBE3DA928EB247B40BB3944147010A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB98825A229E78D8678CAFFD711F17B0F4CB2B85C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0;
+		L_0 = OAuthWorkflow_get_AccessTokenUrl_m2879B0467D1B69EDFAB636BFBCD3E6FC72AAB440_inline(__this, NULL);
+		String_t* L_1;
+		L_1 = Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F(L_0, _stringLiteral9BF38496A0CBE3DA928EB247B40BB3944147010A, NULL);
+		String_t* L_2;
+		L_2 = OAuthWorkflow_get_ConsumerKey_m09CDE844EB6ED33565DA0A8309F0B6A58A86142A_inline(__this, NULL);
+		String_t* L_3;
+		L_3 = Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F(L_2, _stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3, NULL);
+		String_t* L_4;
+		L_4 = OAuthWorkflow_get_ClientUsername_m0043BE62F9E8B3A3AFC1AB6BBD92FCDBA0AF1E35_inline(__this, NULL);
+		String_t* L_5;
+		L_5 = Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F(L_4, _stringLiteralB98825A229E78D8678CAFFD711F17B0F4CB2B85C, NULL);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::ValidateProtectedResourceState()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow_ValidateProtectedResourceState_mD7337F083A70F9CE0FD3CC9134339F150A7D6CDF (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0;
+		L_0 = OAuthWorkflow_get_ConsumerKey_m09CDE844EB6ED33565DA0A8309F0B6A58A86142A_inline(__this, NULL);
+		String_t* L_1;
+		L_1 = Ensure_NotEmpty_m5B5C6747A4822B2912551AC76E37D3F774119C6F(L_0, _stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3, NULL);
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPairCollection RestSharp.Authenticators.OAuth.OAuthWorkflow::GenerateAuthParameters(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* OAuthWorkflow_GenerateAuthParameters_m590F606B09828F4828631706EED2C8D483A56980 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___timestamp0, String_t* ___nonce1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral106C4B80D2726C69E96EEE227E7825FE6296877A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral11AC5E2BD66016383281878F99D761B6B9AB5F11);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral36E258E4D86D6A8D61340F7B0E42D26C4C2CAD84);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral44A8C44E16B6EC9D7580C40EBC2D676BF03BF295);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5068E5A9842624E377A3043EC9F37507AC3A83DE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral839B27C2E696BC237F4741A9899F745845695CB9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA8A713A1F18F25ED92E2ADDA6CE110DC0BDC5BC5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA6721A0FF761BC6E992632BC616A280C95EAB17);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFD5D353A55F51593A34763B863D6753974B54FF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB793B9D0589459B2A5A28F56182B072E1820371);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B2_2 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B2_3 = NULL;
+	String_t* G_B1_0 = NULL;
+	String_t* G_B1_1 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B1_2 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B1_3 = NULL;
+	{
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C*)il2cpp_codegen_object_new(WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		WebPairCollection__ctor_m5F36EF1257D1083E96EE38A77467DD9FE92CF0D3(L_0, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_1 = L_0;
+		String_t* L_2;
+		L_2 = OAuthWorkflow_get_ConsumerKey_m09CDE844EB6ED33565DA0A8309F0B6A58A86142A_inline(__this, NULL);
+		String_t* L_3;
+		L_3 = Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC(L_2, _stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3, Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_4 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_4, _stringLiteral106C4B80D2726C69E96EEE227E7825FE6296877A, L_3, (bool)1, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_1, L_4, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_5 = L_1;
+		String_t* L_6 = ___nonce1;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_7 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_7, _stringLiteralFB793B9D0589459B2A5A28F56182B072E1820371, L_6, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_5, L_7, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_8 = L_5;
+		int32_t L_9;
+		L_9 = OAuthWorkflow_get_SignatureMethod_mDE262AD2FCF9FE736B8D807E7BDEF9D78CDF1A54_inline(__this, NULL);
+		String_t* L_10;
+		L_10 = OAuthExtensions_ToRequestValue_m4C6C2EF948D83ABA99569C8041E9E62BFB5EEE8F(L_9, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_11 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_11, _stringLiteral839B27C2E696BC237F4741A9899F745845695CB9, L_10, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_8, L_11, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_12 = L_8;
+		String_t* L_13 = ___timestamp0;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_14 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_14, _stringLiteralA8A713A1F18F25ED92E2ADDA6CE110DC0BDC5BC5, L_13, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_12, L_14, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_15 = L_12;
+		String_t* L_16;
+		L_16 = OAuthWorkflow_get_Version_m38668645A9A68C6334B238C003F79BB5CA423034_inline(__this, NULL);
+		String_t* L_17 = L_16;
+		G_B1_0 = L_17;
+		G_B1_1 = _stringLiteral36E258E4D86D6A8D61340F7B0E42D26C4C2CAD84;
+		G_B1_2 = L_15;
+		G_B1_3 = L_15;
+		if (L_17)
+		{
+			G_B2_0 = L_17;
+			G_B2_1 = _stringLiteral36E258E4D86D6A8D61340F7B0E42D26C4C2CAD84;
+			G_B2_2 = L_15;
+			G_B2_3 = L_15;
+			goto IL_007b;
+		}
+	}
+	{
+		G_B2_0 = _stringLiteral11AC5E2BD66016383281878F99D761B6B9AB5F11;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+		G_B2_3 = G_B1_3;
+	}
+
+IL_007b:
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_18 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_18, G_B2_1, G_B2_0, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(G_B2_2, L_18, NULL);
+		String_t* L_19;
+		L_19 = OAuthWorkflow_get_Token_m4857D7E4BFD99A698333560359AA96D34EFBD81A_inline(__this, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_20;
+		L_20 = WebPairCollection_AddNotEmpty_m2173168A809DB065AB62A2EF6F45B3BFB694691B(G_B2_3, _stringLiteral44A8C44E16B6EC9D7580C40EBC2D676BF03BF295, L_19, (bool)1, NULL);
+		String_t* L_21;
+		L_21 = OAuthWorkflow_get_CallbackUrl_m5B7F1856A84D1177131BDF85CC5D5A01A1711BFA_inline(__this, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_22;
+		L_22 = WebPairCollection_AddNotEmpty_m2173168A809DB065AB62A2EF6F45B3BFB694691B(L_20, _stringLiteral5068E5A9842624E377A3043EC9F37507AC3A83DE, L_21, (bool)1, NULL);
+		String_t* L_23;
+		L_23 = OAuthWorkflow_get_Verifier_mA0E12289BEC16DAD4B66034684F717171C4EB05D_inline(__this, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_24;
+		L_24 = WebPairCollection_AddNotEmpty_m2173168A809DB065AB62A2EF6F45B3BFB694691B(L_22, _stringLiteralCA6721A0FF761BC6E992632BC616A280C95EAB17, L_23, (bool)0, NULL);
+		String_t* L_25;
+		L_25 = OAuthWorkflow_get_SessionHandle_mDBEA01DADB8DE4C67682733A5D918757AA73D520_inline(__this, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_26;
+		L_26 = WebPairCollection_AddNotEmpty_m2173168A809DB065AB62A2EF6F45B3BFB694691B(L_24, _stringLiteralDFD5D353A55F51593A34763B863D6753974B54FF, L_25, (bool)0, NULL);
+		return L_26;
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPairCollection RestSharp.Authenticators.OAuth.OAuthWorkflow::GenerateXAuthParameters(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* OAuthWorkflow_GenerateXAuthParameters_mC19AD5999E230D5CFBD0954E629CC9F12435D2D9 (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___timestamp0, String_t* ___nonce1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral106C4B80D2726C69E96EEE227E7825FE6296877A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral11AC5E2BD66016383281878F99D761B6B9AB5F11);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral304469AC9233D47BA598CCF73F01C755695FECB8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral36E258E4D86D6A8D61340F7B0E42D26C4C2CAD84);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5BDF3E1D1ED3B3FAF6294E0D727266D8536B1256);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral839B27C2E696BC237F4741A9899F745845695CB9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA8A713A1F18F25ED92E2ADDA6CE110DC0BDC5BC5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB98825A229E78D8678CAFFD711F17B0F4CB2B85C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD389D2D3DD4653FD4F02DC70777E4A3346D008BE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF9DC6D533AE93F3D836AFC9BF0B2A025C89D3B75);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB793B9D0589459B2A5A28F56182B072E1820371);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFC965E3A8ECE7903A5EC611225F181C42C10D7B5);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B2_2 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B2_3 = NULL;
+	String_t* G_B1_0 = NULL;
+	String_t* G_B1_1 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B1_2 = NULL;
+	WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* G_B1_3 = NULL;
+	{
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C*)il2cpp_codegen_object_new(WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C_il2cpp_TypeInfo_var);
+		WebPairCollection__ctor_m5F36EF1257D1083E96EE38A77467DD9FE92CF0D3(L_0, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_1 = L_0;
+		String_t* L_2;
+		L_2 = OAuthWorkflow_get_ClientUsername_m0043BE62F9E8B3A3AFC1AB6BBD92FCDBA0AF1E35_inline(__this, NULL);
+		String_t* L_3;
+		L_3 = Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC(L_2, _stringLiteralB98825A229E78D8678CAFFD711F17B0F4CB2B85C, Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_4 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_4, _stringLiteral304469AC9233D47BA598CCF73F01C755695FECB8, L_3, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_1, L_4, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_5 = L_1;
+		String_t* L_6;
+		L_6 = OAuthWorkflow_get_ClientPassword_mD0D4BA28933B470DC6AC5BC54761F378A9E5BE88_inline(__this, NULL);
+		String_t* L_7;
+		L_7 = Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC(L_6, _stringLiteralFC965E3A8ECE7903A5EC611225F181C42C10D7B5, Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_8 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_8, _stringLiteralD389D2D3DD4653FD4F02DC70777E4A3346D008BE, L_7, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_5, L_8, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_9 = L_5;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_10 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_10, _stringLiteralF9DC6D533AE93F3D836AFC9BF0B2A025C89D3B75, _stringLiteral5BDF3E1D1ED3B3FAF6294E0D727266D8536B1256, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_9, L_10, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_11 = L_9;
+		String_t* L_12;
+		L_12 = OAuthWorkflow_get_ConsumerKey_m09CDE844EB6ED33565DA0A8309F0B6A58A86142A_inline(__this, NULL);
+		String_t* L_13;
+		L_13 = Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC(L_12, _stringLiteral6E968F7C40C4E5606CBB51C010E29769500EF6F3, Ensure_NotNull_TisString_t_mAF514894B08FDB7375BFE6293811DB9CF1A5B6BC_RuntimeMethod_var);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_14 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_14, _stringLiteral106C4B80D2726C69E96EEE227E7825FE6296877A, L_13, (bool)1, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_11, L_14, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_15 = L_11;
+		int32_t L_16;
+		L_16 = OAuthWorkflow_get_SignatureMethod_mDE262AD2FCF9FE736B8D807E7BDEF9D78CDF1A54_inline(__this, NULL);
+		String_t* L_17;
+		L_17 = OAuthExtensions_ToRequestValue_m4C6C2EF948D83ABA99569C8041E9E62BFB5EEE8F(L_16, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_18 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_18, _stringLiteral839B27C2E696BC237F4741A9899F745845695CB9, L_17, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_15, L_18, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_19 = L_15;
+		String_t* L_20 = ___timestamp0;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_21 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_21, _stringLiteralA8A713A1F18F25ED92E2ADDA6CE110DC0BDC5BC5, L_20, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_19, L_21, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_22 = L_19;
+		String_t* L_23 = ___nonce1;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_24 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_24, _stringLiteralFB793B9D0589459B2A5A28F56182B072E1820371, L_23, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(L_22, L_24, NULL);
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_25 = L_22;
+		String_t* L_26;
+		L_26 = OAuthWorkflow_get_Version_m38668645A9A68C6334B238C003F79BB5CA423034_inline(__this, NULL);
+		String_t* L_27 = L_26;
+		G_B1_0 = L_27;
+		G_B1_1 = _stringLiteral36E258E4D86D6A8D61340F7B0E42D26C4C2CAD84;
+		G_B1_2 = L_25;
+		G_B1_3 = L_25;
+		if (L_27)
+		{
+			G_B2_0 = L_27;
+			G_B2_1 = _stringLiteral36E258E4D86D6A8D61340F7B0E42D26C4C2CAD84;
+			G_B2_2 = L_25;
+			G_B2_3 = L_25;
+			goto IL_00d3;
+		}
+	}
+	{
+		G_B2_0 = _stringLiteral11AC5E2BD66016383281878F99D761B6B9AB5F11;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+		G_B2_3 = G_B1_3;
+	}
+
+IL_00d3:
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_28 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_28, G_B2_1, G_B2_0, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(G_B2_2, L_28, NULL);
+		return G_B2_3;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthWorkflow__ctor_m3D3AB87A9B0E092B32B69BE4F8129008A192112D (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// RestSharp.Authenticators.OAuth.WebPairCollection RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::get_Parameters()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* OAuthParameters_get_Parameters_m77DAC6DD9066512629F6D6926B878D9220EFC6F0 (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, const RuntimeMethod* method) 
+{
+	{
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = __this->___U3CParametersU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void modreq(System.Runtime.CompilerServices.IsExternalInit) RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::set_Parameters(RestSharp.Authenticators.OAuth.WebPairCollection)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthParameters_set_Parameters_m5FBA999FC93C091D90A3744F5897E56BC4241A4B (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___value0, const RuntimeMethod* method) 
+{
+	{
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = ___value0;
+		__this->___U3CParametersU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CParametersU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::get_Signature()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthParameters_get_Signature_mCAB0B4A993739FAACA680AD1BA9774B3F197DFB2 (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CSignatureU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.Void modreq(System.Runtime.CompilerServices.IsExternalInit) RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::set_Signature(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthParameters_set_Signature_mB27EC45CF8E32E610A990C5C3558604ADD51B1DB (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CSignatureU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSignatureU3Ek__BackingField_1), (void*)L_0);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow/OAuthParameters::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OAuthParameters__ctor_m789B32D879D7CDDA7A239C101F0BA495C078EFF1 (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.OAuth.OAuthWorkflow/<>c__DisplayClass63_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0__ctor_m3AD59A8D3E2CDAD6560EF33145E054E7085BAB5B (U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPair RestSharp.Authenticators.OAuth.OAuthWorkflow/<>c__DisplayClass63_0::<BuildProtectedResourceSignature>b__0(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* U3CU3Ec__DisplayClass63_0_U3CBuildProtectedResourceSignatureU3Eb__0_m9BB4C09FE7A02D8718EEEEE53FF0A5EFEA813606 (U3CU3Ec__DisplayClass63_0_t0B03C9EE909FB7A6FA524E3BA075EE626CBEAB49* __this, String_t* ___x0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___x0;
+		NameValueCollection_t52D1E38AB1D4ADD497A17DA305D663BB77B31DF7* L_1 = __this->___urlParameters_0;
+		String_t* L_2 = ___x0;
+		String_t* L_3;
+		L_3 = NameValueCollection_get_Item_mE3ED755803E67BC852123C70EEF8D53774FA635F(L_1, L_2, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_4 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_4, L_0, L_3, (bool)0, NULL);
+		return L_4;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.OAuth.WebPair::.ctor(System.String,System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, String_t* ___name0, String_t* ___value1, bool ___encode2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* G_B2_0 = NULL;
+	WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* G_B1_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* G_B3_1 = NULL;
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		String_t* L_0 = ___name0;
+		__this->___U3CNameU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNameU3Ek__BackingField_0), (void*)L_0);
+		String_t* L_1 = ___value1;
+		__this->___U3CValueU3Ek__BackingField_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CValueU3Ek__BackingField_1), (void*)L_1);
+		bool L_2 = ___encode2;
+		G_B1_0 = __this;
+		if (L_2)
+		{
+			G_B2_0 = __this;
+			goto IL_001b;
+		}
+	}
+	{
+		String_t* L_3 = ___value1;
+		G_B3_0 = L_3;
+		G_B3_1 = G_B1_0;
+		goto IL_0021;
+	}
+
+IL_001b:
+	{
+		String_t* L_4 = ___value1;
+		il2cpp_codegen_runtime_class_init_inline(OAuthTools_t9EDBE6C953C240E84D159645FCFDCFF79DDE6A3E_il2cpp_TypeInfo_var);
+		String_t* L_5;
+		L_5 = OAuthTools_UrlEncodeRelaxed_m14F32915A8E605C49CE7AB5AA491B3EFA0562D35(L_4, NULL);
+		G_B3_0 = L_5;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0021:
+	{
+		G_B3_1->___U3CWebValueU3Ek__BackingField_2 = G_B3_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B3_1->___U3CWebValueU3Ek__BackingField_2), (void*)G_B3_0);
+		bool L_6 = ___encode2;
+		__this->___U3CEncodeU3Ek__BackingField_3 = L_6;
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.WebPair::get_Name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596 (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CNameU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.WebPair::get_Value()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WebPair_get_Value_mED5F766949A2E912450E8EA34EE0B7A57DCC4E5B (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CValueU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.WebPair::get_WebValue()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WebPair_get_WebValue_m9C18AEC37F843846DFD0781D7EDCB70D98588F8D (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CWebValueU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+// System.Boolean RestSharp.Authenticators.OAuth.WebPair::get_Encode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebPair_get_Encode_mE44E64FBD01A1BB9533CE6DB371F8A8A93B7EAB1 (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = __this->___U3CEncodeU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPair/WebPairComparer RestSharp.Authenticators.OAuth.WebPair::get_Comparer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* WebPair_get_Comparer_mD649EE790F81C4EC8022637AB41667D2B28E6EF8 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* L_0 = ((WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_StaticFields*)il2cpp_codegen_static_fields_for(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var))->___U3CComparerU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPair::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPair__cctor_m350C55B63ACDA50742B091C0C9CB1026F8A164A4 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* L_0 = (WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5*)il2cpp_codegen_object_new(WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5_il2cpp_TypeInfo_var);
+		WebPairComparer__ctor_mE6125DF1C3156F9BB9D5AAC9A9326F95D00FA93F(L_0, NULL);
+		((WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_StaticFields*)il2cpp_codegen_static_fields_for(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var))->___U3CComparerU3Ek__BackingField_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_StaticFields*)il2cpp_codegen_static_fields_for(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var))->___U3CComparerU3Ek__BackingField_4), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 RestSharp.Authenticators.OAuth.WebPair/WebPairComparer::Compare(RestSharp.Authenticators.OAuth.WebPair,RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WebPairComparer_Compare_m048F60568CAA60764707375C703E0A42916A5874 (WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___x0, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___y1, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	String_t* G_B3_0 = NULL;
+	String_t* G_B5_0 = NULL;
+	String_t* G_B4_0 = NULL;
+	String_t* G_B6_0 = NULL;
+	String_t* G_B6_1 = NULL;
+	String_t* G_B10_0 = NULL;
+	String_t* G_B12_0 = NULL;
+	String_t* G_B11_0 = NULL;
+	String_t* G_B13_0 = NULL;
+	String_t* G_B13_1 = NULL;
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_0 = ___x0;
+		if (L_0)
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		G_B3_0 = ((String_t*)(NULL));
+		goto IL_000c;
+	}
+
+IL_0006:
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_1 = ___x0;
+		String_t* L_2;
+		L_2 = WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596_inline(L_1, NULL);
+		G_B3_0 = L_2;
+	}
+
+IL_000c:
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_3 = ___y1;
+		G_B4_0 = G_B3_0;
+		if (L_3)
+		{
+			G_B5_0 = G_B3_0;
+			goto IL_0012;
+		}
+	}
+	{
+		G_B6_0 = ((String_t*)(NULL));
+		G_B6_1 = G_B4_0;
+		goto IL_0018;
+	}
+
+IL_0012:
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_4 = ___y1;
+		String_t* L_5;
+		L_5 = WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596_inline(L_4, NULL);
+		G_B6_0 = L_5;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0018:
+	{
+		int32_t L_6;
+		L_6 = String_CompareOrdinal_m17317B459AF49A42A2DCB2951261BE9FD186B78F(G_B6_1, G_B6_0, NULL);
+		V_0 = L_6;
+		int32_t L_7 = V_0;
+		if (L_7)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_8 = ___x0;
+		if (L_8)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		G_B10_0 = ((String_t*)(NULL));
+		goto IL_002d;
+	}
+
+IL_0027:
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_9 = ___x0;
+		String_t* L_10;
+		L_10 = WebPair_get_Value_mED5F766949A2E912450E8EA34EE0B7A57DCC4E5B_inline(L_9, NULL);
+		G_B10_0 = L_10;
+	}
+
+IL_002d:
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_11 = ___y1;
+		G_B11_0 = G_B10_0;
+		if (L_11)
+		{
+			G_B12_0 = G_B10_0;
+			goto IL_0033;
+		}
+	}
+	{
+		G_B13_0 = ((String_t*)(NULL));
+		G_B13_1 = G_B11_0;
+		goto IL_0039;
+	}
+
+IL_0033:
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_12 = ___y1;
+		String_t* L_13;
+		L_13 = WebPair_get_Value_mED5F766949A2E912450E8EA34EE0B7A57DCC4E5B_inline(L_12, NULL);
+		G_B13_0 = L_13;
+		G_B13_1 = G_B12_0;
+	}
+
+IL_0039:
+	{
+		int32_t L_14;
+		L_14 = String_CompareOrdinal_m17317B459AF49A42A2DCB2951261BE9FD186B78F(G_B13_1, G_B13_0, NULL);
+		return L_14;
+	}
+
+IL_003f:
+	{
+		int32_t L_15 = V_0;
+		return L_15;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPair/WebPairComparer::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairComparer__ctor_mE6125DF1C3156F9BB9D5AAC9A9326F95D00FA93F (WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.IEnumerator`1<RestSharp.Authenticators.OAuth.WebPair> RestSharp.Authenticators.OAuth.WebPairCollection::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WebPairCollection_GetEnumerator_m8930469081E60CAACBC73FA405E678C2AA74588D (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_t2A0F78EB69A46D77C060920BFD0F8779A183879F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m03AF1418526E8A2257AFD0A008879817F572288D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		Enumerator_t2A0F78EB69A46D77C060920BFD0F8779A183879F L_1;
+		L_1 = List_1_GetEnumerator_m03AF1418526E8A2257AFD0A008879817F572288D(L_0, List_1_GetEnumerator_m03AF1418526E8A2257AFD0A008879817F572288D_RuntimeMethod_var);
+		Enumerator_t2A0F78EB69A46D77C060920BFD0F8779A183879F L_2 = L_1;
+		RuntimeObject* L_3 = Box(Enumerator_t2A0F78EB69A46D77C060920BFD0F8779A183879F_il2cpp_TypeInfo_var, &L_2);
+		return (RuntimeObject*)L_3;
+	}
+}
+// System.Collections.IEnumerator RestSharp.Authenticators.OAuth.WebPairCollection::System.Collections.IEnumerable.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WebPairCollection_System_Collections_IEnumerable_GetEnumerator_m2DAD050B8F811B0725533B199BBF06CF6AEF611B (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0;
+		L_0 = WebPairCollection_GetEnumerator_m8930469081E60CAACBC73FA405E678C2AA74588D(__this, NULL);
+		return L_0;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::Add(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___parameter0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m61169D3FBFC80441D4D4DD381A4C34593D45EC3D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_1 = ___parameter0;
+		List_1_Add_m61169D3FBFC80441D4D4DD381A4C34593D45EC3D_inline(L_0, L_1, List_1_Add_m61169D3FBFC80441D4D4DD381A4C34593D45EC3D_RuntimeMethod_var);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::AddRange(System.Collections.Generic.IEnumerable`1<RestSharp.Authenticators.OAuth.WebPair>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_AddRange_m259FEDB9B15A2BBDC0425C63DEBE3FD77AB8F967 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___collection0;
+		WebPairCollection_AddCollection_mEE0A942CF284572F210F762136319C208D277B53(__this, L_0, NULL);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::Add(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_Add_m1C3D23C7AFE884E618A8AEE118ABCDB05CE857AE (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, String_t* ___name0, String_t* ___value1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___name0;
+		String_t* L_1 = ___value1;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_2 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_2, L_0, L_1, (bool)0, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(__this, L_2, NULL);
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPairCollection RestSharp.Authenticators.OAuth.WebPairCollection::AddNotEmpty(System.String,System.String,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* WebPairCollection_AddNotEmpty_m2173168A809DB065AB62A2EF6F45B3BFB694691B (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, String_t* ___name0, String_t* ___value1, bool ___encode2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___value1;
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		String_t* L_1 = ___name0;
+		String_t* L_2 = ___value1;
+		bool L_3 = ___encode2;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_4 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_4, L_1, L_2, L_3, NULL);
+		WebPairCollection_Add_m56245E0652EDA99686D2FCFDDBDFCF086F57B348(__this, L_4, NULL);
+	}
+
+IL_0011:
+	{
+		return __this;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::Clear()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_Clear_mBFBED1399A624BFD2A119BA7B7B1FEA194033C7C (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m8C360CD5A911E31BECD455BB62A092036FA7A7F8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		List_1_Clear_m8C360CD5A911E31BECD455BB62A092036FA7A7F8_inline(L_0, List_1_Clear_m8C360CD5A911E31BECD455BB62A092036FA7A7F8_RuntimeMethod_var);
+		return;
+	}
+}
+// System.Boolean RestSharp.Authenticators.OAuth.WebPairCollection::Contains(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebPairCollection_Contains_mEB438782045CD70DE842AF352D3D4346D93807C3 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___parameter0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Contains_mA27E275ACD40D93D1AFADCA9C7D26753515CD575_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_1 = ___parameter0;
+		bool L_2;
+		L_2 = List_1_Contains_mA27E275ACD40D93D1AFADCA9C7D26753515CD575(L_0, L_1, List_1_Contains_mA27E275ACD40D93D1AFADCA9C7D26753515CD575_RuntimeMethod_var);
+		return L_2;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::CopyTo(RestSharp.Authenticators.OAuth.WebPair[],System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_CopyTo_m731C7BD03E17738A64153F9F8011C391390A3405 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, WebPairU5BU5D_t9ABAA2377626B92EF036CB08D4097695BC916E20* ___parametersArray0, int32_t ___arrayIndex1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_CopyTo_mD5AA6D5F784BC48FE41F1BE88C2A4F602D75E891_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		WebPairU5BU5D_t9ABAA2377626B92EF036CB08D4097695BC916E20* L_1 = ___parametersArray0;
+		int32_t L_2 = ___arrayIndex1;
+		List_1_CopyTo_mD5AA6D5F784BC48FE41F1BE88C2A4F602D75E891(L_0, L_1, L_2, List_1_CopyTo_mD5AA6D5F784BC48FE41F1BE88C2A4F602D75E891_RuntimeMethod_var);
+		return;
+	}
+}
+// System.Boolean RestSharp.Authenticators.OAuth.WebPairCollection::Remove(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebPairCollection_Remove_mF1AD436A6A16289793EEFE0C7A69E86EA8D8E38F (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___parameter0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Remove_m121B77B0F7A73ADB7B645B16499DF6AE53BF12DD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_1 = ___parameter0;
+		bool L_2;
+		L_2 = List_1_Remove_m121B77B0F7A73ADB7B645B16499DF6AE53BF12DD(L_0, L_1, List_1_Remove_m121B77B0F7A73ADB7B645B16499DF6AE53BF12DD_RuntimeMethod_var);
+		return L_2;
+	}
+}
+// System.Int32 RestSharp.Authenticators.OAuth.WebPairCollection::get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WebPairCollection_get_Count_mCE83AB01736A467F39F116C41F2B0C4BC3FF2CF8 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m1648D04B896F773512723528CDBD3EDA1EE802E7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		int32_t L_1;
+		L_1 = List_1_get_Count_m1648D04B896F773512723528CDBD3EDA1EE802E7_inline(L_0, List_1_get_Count_m1648D04B896F773512723528CDBD3EDA1EE802E7_RuntimeMethod_var);
+		return L_1;
+	}
+}
+// System.Boolean RestSharp.Authenticators.OAuth.WebPairCollection::get_IsReadOnly()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebPairCollection_get_IsReadOnly_mD77AB62D4FD611A3304448A2C3D5C564685F06B1 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, const RuntimeMethod* method) 
+{
+	{
+		return (bool)0;
+	}
+}
+// System.Int32 RestSharp.Authenticators.OAuth.WebPairCollection::IndexOf(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WebPairCollection_IndexOf_m0C7F75066CCDAF425CCE0791F378561336FD7263 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___parameter0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_IndexOf_m7FFE5C6F6A7A2344D7AE1742785914A20386143C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_1 = ___parameter0;
+		int32_t L_2;
+		L_2 = List_1_IndexOf_m7FFE5C6F6A7A2344D7AE1742785914A20386143C(L_0, L_1, List_1_IndexOf_m7FFE5C6F6A7A2344D7AE1742785914A20386143C_RuntimeMethod_var);
+		return L_2;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::Insert(System.Int32,RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_Insert_m2ADE14511DAB9760A25863090D3AB8A7E1CB0604 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, int32_t ___index0, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___parameter1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Insert_m05ED63E0A81CC776CAB5D45EB606CF86EE5DE308_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		int32_t L_1 = ___index0;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_2 = ___parameter1;
+		List_1_Insert_m05ED63E0A81CC776CAB5D45EB606CF86EE5DE308(L_0, L_1, L_2, List_1_Insert_m05ED63E0A81CC776CAB5D45EB606CF86EE5DE308_RuntimeMethod_var);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::RemoveAt(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_RemoveAt_mA1BFB70AE7DAF05CD508F0AC132B1B0FAA3FD915 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, int32_t ___index0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_m9CB98C5A6362B23ABAAF032FBB7C62D8752F0C96_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		int32_t L_1 = ___index0;
+		List_1_RemoveAt_m9CB98C5A6362B23ABAAF032FBB7C62D8752F0C96(L_0, L_1, List_1_RemoveAt_m9CB98C5A6362B23ABAAF032FBB7C62D8752F0C96_RuntimeMethod_var);
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPair RestSharp.Authenticators.OAuth.WebPairCollection::get_Item(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* WebPairCollection_get_Item_m0C580AA16BA241B210E8CBE34C25D837F311F11F (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, int32_t ___index0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m248BCCF2D270DD1D6D1A71141FF8367DD2D719C1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		int32_t L_1 = ___index0;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_2;
+		L_2 = List_1_get_Item_m248BCCF2D270DD1D6D1A71141FF8367DD2D719C1(L_0, L_1, List_1_get_Item_m248BCCF2D270DD1D6D1A71141FF8367DD2D719C1_RuntimeMethod_var);
+		return L_2;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::set_Item(System.Int32,RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_set_Item_m0814831321331A0B1A7ACD3202619FBF17D613DA (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, int32_t ___index0, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___value1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Item_mC8CE6025746A56DB4565CF1837A2649BEAD5855C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		int32_t L_1 = ___index0;
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_2 = ___value1;
+		List_1_set_Item_mC8CE6025746A56DB4565CF1837A2649BEAD5855C(L_0, L_1, L_2, List_1_set_Item_mC8CE6025746A56DB4565CF1837A2649BEAD5855C_RuntimeMethod_var);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::AddCollection(System.Collections.Generic.IEnumerable`1<RestSharp.Authenticators.OAuth.WebPair>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection_AddCollection_mEE0A942CF284572F210F762136319C208D277B53 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mA990023ECEA548A62600614E46104B1D37491D22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_AddRange_mE1CE8D8570BAC70963E8FFCDE67C90F2A19E3ADD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CAddCollectionU3Eb__21_0_mB8505A4F8D1A5F38FCBF27DE33E76E89A4D32441_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* G_B2_0 = NULL;
+	RuntimeObject* G_B2_1 = NULL;
+	List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* G_B2_2 = NULL;
+	Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* G_B1_0 = NULL;
+	RuntimeObject* G_B1_1 = NULL;
+	List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* G_B1_2 = NULL;
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = __this->____parameters_0;
+		RuntimeObject* L_1 = ___collection0;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var);
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_2 = ((U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var))->___U3CU3E9__21_0_1;
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_3 = L_2;
+		G_B1_0 = L_3;
+		G_B1_1 = L_1;
+		G_B1_2 = L_0;
+		if (L_3)
+		{
+			G_B2_0 = L_3;
+			G_B2_1 = L_1;
+			G_B2_2 = L_0;
+			goto IL_0026;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var);
+		U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4* L_4 = ((U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_5 = (Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F*)il2cpp_codegen_object_new(Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F_il2cpp_TypeInfo_var);
+		Func_2__ctor_mBE1F96DC67EB64CC41FC7E290BCC60E3E1800609(L_5, L_4, (intptr_t)((void*)U3CU3Ec_U3CAddCollectionU3Eb__21_0_mB8505A4F8D1A5F38FCBF27DE33E76E89A4D32441_RuntimeMethod_var), NULL);
+		Func_2_tF67A542A91420CC737157EB15697FE5930D8E80F* L_6 = L_5;
+		((U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var))->___U3CU3E9__21_0_1 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var))->___U3CU3E9__21_0_1), (void*)L_6);
+		G_B2_0 = L_6;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+	}
+
+IL_0026:
+	{
+		RuntimeObject* L_7;
+		L_7 = Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mA990023ECEA548A62600614E46104B1D37491D22(G_B2_1, G_B2_0, Enumerable_Select_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_TisWebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_mA990023ECEA548A62600614E46104B1D37491D22_RuntimeMethod_var);
+		List_1_AddRange_mE1CE8D8570BAC70963E8FFCDE67C90F2A19E3ADD(G_B2_2, L_7, List_1_AddRange_mE1CE8D8570BAC70963E8FFCDE67C90F2A19E3ADD_RuntimeMethod_var);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebPairCollection__ctor_m5F36EF1257D1083E96EE38A77467DD9FE92CF0D3 (WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mD3150A51C752E9FFE5E5C4DE97AEC456DC1DA12E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A* L_0 = (List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A*)il2cpp_codegen_object_new(List_1_t950EB8ECA12E09A913AEA9D4D40EC2732B0F168A_il2cpp_TypeInfo_var);
+		List_1__ctor_mD3150A51C752E9FFE5E5C4DE97AEC456DC1DA12E(L_0, List_1__ctor_mD3150A51C752E9FFE5E5C4DE97AEC456DC1DA12E_RuntimeMethod_var);
+		__this->____parameters_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____parameters_0), (void*)L_0);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m773FCC7F0F6C49F8B75B6A31B953F84BA8CDC5DD (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4* L_0 = (U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4*)il2cpp_codegen_object_new(U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_mA490E7E8C85A16CB2D26D7A5A76DE97B0DC191ED(L_0, NULL);
+		((U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.WebPairCollection/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA490E7E8C85A16CB2D26D7A5A76DE97B0DC191ED (U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// RestSharp.Authenticators.OAuth.WebPair RestSharp.Authenticators.OAuth.WebPairCollection/<>c::<AddCollection>b__21_0(RestSharp.Authenticators.OAuth.WebPair)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* U3CU3Ec_U3CAddCollectionU3Eb__21_0_mB8505A4F8D1A5F38FCBF27DE33E76E89A4D32441 (U3CU3Ec_t11EF5F8F336D24F6D4329F67412E88CD335349F4* __this, WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* ___parameter0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_0 = ___parameter0;
+		String_t* L_1;
+		L_1 = WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596_inline(L_0, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_2 = ___parameter0;
+		String_t* L_3;
+		L_3 = WebPair_get_Value_mED5F766949A2E912450E8EA34EE0B7A57DCC4E5B_inline(L_2, NULL);
+		WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* L_4 = (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A*)il2cpp_codegen_object_new(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPair__ctor_mC98806E04E7CF479007C06B11ECD35CC65F2748C(L_4, L_1, L_3, (bool)0, NULL);
+		return L_4;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String RestSharp.Authenticators.OAuth.Extensions.OAuthExtensions::ToRequestValue(RestSharp.Authenticators.OAuth.OAuthSignatureMethod)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthExtensions_ToRequestValue_m4C6C2EF948D83ABA99569C8041E9E62BFB5EEE8F (int32_t ___signatureMethod0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OAuthSignatureMethod_t619F049CAD055B90F926834349817597032FB634_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB4E7D86D2D89BF57D40C0FDE4C8AFDEB49AA2A8);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		Il2CppFakeBox<int32_t> L_0(OAuthSignatureMethod_t619F049CAD055B90F926834349817597032FB634_il2cpp_TypeInfo_var, (&___signatureMethod0));
+		String_t* L_1;
+		L_1 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_0), NULL);
+		String_t* L_2;
+		L_2 = String_ToUpperInvariant_mD73F658CDE1280A527231DC305B66CF09B64E5AB(L_1, NULL);
+		V_0 = L_2;
+		String_t* L_3 = V_0;
+		int32_t L_4;
+		L_4 = String_IndexOf_m490810CB7ADA9230AC0F8D78E213A8EFED129F55(L_3, _stringLiteralCB4E7D86D2D89BF57D40C0FDE4C8AFDEB49AA2A8, 4, NULL);
+		V_1 = L_4;
+		int32_t L_5 = V_1;
+		if ((((int32_t)L_5) > ((int32_t)(-1))))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		String_t* L_6 = V_0;
+		return L_6;
+	}
+
+IL_0026:
+	{
+		String_t* L_7 = V_0;
+		int32_t L_8 = V_1;
+		String_t* L_9;
+		L_9 = String_Insert_mA279E748F06514A6D0B9B680D651D6A6C6BB561A(L_7, L_8, _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0, NULL);
+		return L_9;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.Extensions.OAuthExtensions::HashWith(System.String,System.Security.Cryptography.HashAlgorithm)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OAuthExtensions_HashWith_m3FD0952E28149298D01C5C47250AFE1C07A574A7 (String_t* ___input0, HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* ___algorithm1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	{
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_0;
+		L_0 = Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336(NULL);
+		String_t* L_1 = ___input0;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
+		L_2 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
+		V_0 = L_2;
+		HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* L_3 = ___algorithm1;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5;
+		L_5 = HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB(L_3, L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		String_t* L_6;
+		L_6 = Convert_ToBase64String_mB276B21511FB01CDE030619C81757E786F91B9F3(L_5, NULL);
+		return L_6;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean RestSharp.Authenticators.OAuth.Extensions.StringExtensions::EqualsIgnoreCase(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StringExtensions_EqualsIgnoreCase_m3FF512AABC7A042156A9C5AD5FA1D56CA07CE332 (String_t* ___left0, String_t* ___right1, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___left0;
+		String_t* L_1 = ___right1;
+		bool L_2;
+		L_2 = String_Equals_m80124ECC809968E69F952E2A49EBC03F81A23E43(L_0, L_1, 3, NULL);
+		return L_2;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.Extensions.StringExtensions::Then(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_Then_mF194DE172CDDBCA71B161B570BC7C72969A08F5F (String_t* ___input0, String_t* ___value1, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___input0;
+		String_t* L_1 = ___value1;
+		String_t* L_2;
+		L_2 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(L_0, L_1, NULL);
+		return L_2;
+	}
+}
+// System.Uri RestSharp.Authenticators.OAuth.Extensions.StringExtensions::AsUri(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* StringExtensions_AsUri_m0ECA791084AB74DE082980318B52B7C0C3E53B48 (String_t* ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___value0;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_1 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_1, L_0, NULL);
+		return L_1;
+	}
+}
+// System.Byte[] RestSharp.Authenticators.OAuth.Extensions.StringExtensions::GetBytes(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* StringExtensions_GetBytes_mFEB1773EABB7D9EF3BA9111BBFD37E22A460AB35 (String_t* ___input0, const RuntimeMethod* method) 
+{
+	{
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_0;
+		L_0 = Encoding_get_UTF8_m9700ADA8E0F244002B2A89B483F1B2133B8FE336(NULL);
+		String_t* L_1 = ___input0;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
+		L_2 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(18 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
+		return L_2;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.Extensions.StringExtensions::PercentEncode(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_PercentEncode_mA9E260CD9877E40E7FC2FA82F288A17A28E22318 (String_t* ___s0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisString_t_m734BFAAED4C204F8642C17A167BF9A9B7B1582B9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CPercentEncodeU3Eb__4_0_mDA7D2D09DFB51025FF2BB6BFA51651E7FFA560C3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E* G_B2_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B2_1 = NULL;
+	String_t* G_B2_2 = NULL;
+	Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E* G_B1_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B1_1 = NULL;
+	String_t* G_B1_2 = NULL;
+	{
+		String_t* L_0 = ___s0;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
+		L_1 = StringExtensions_GetBytes_mFEB1773EABB7D9EF3BA9111BBFD37E22A460AB35(L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var);
+		Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E* L_2 = ((U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var))->___U3CU3E9__4_0_1;
+		Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E* L_3 = L_2;
+		G_B1_0 = L_3;
+		G_B1_1 = L_1;
+		G_B1_2 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		if (L_3)
+		{
+			G_B2_0 = L_3;
+			G_B2_1 = L_1;
+			G_B2_2 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+			goto IL_002a;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var);
+		U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581* L_4 = ((U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+		Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E* L_5 = (Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E*)il2cpp_codegen_object_new(Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E_il2cpp_TypeInfo_var);
+		Func_2__ctor_mB31E88A2C3F2063BDBA38CD35564CDC13C344109(L_5, L_4, (intptr_t)((void*)U3CU3Ec_U3CPercentEncodeU3Eb__4_0_mDA7D2D09DFB51025FF2BB6BFA51651E7FFA560C3_RuntimeMethod_var), NULL);
+		Func_2_t005A26AED2B1A3C5734C5C399B5B636AA2DBD36E* L_6 = L_5;
+		((U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var))->___U3CU3E9__4_0_1 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var))->___U3CU3E9__4_0_1), (void*)L_6);
+		G_B2_0 = L_6;
+		G_B2_1 = G_B1_1;
+		G_B2_2 = G_B1_2;
+	}
+
+IL_002a:
+	{
+		RuntimeObject* L_7;
+		L_7 = Enumerable_Select_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisString_t_m734BFAAED4C204F8642C17A167BF9A9B7B1582B9((RuntimeObject*)G_B2_1, G_B2_0, Enumerable_Select_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_TisString_t_m734BFAAED4C204F8642C17A167BF9A9B7B1582B9_RuntimeMethod_var);
+		String_t* L_8;
+		L_8 = String_Join_m675422BC1927F19F7135C5211B45EE7AC9F7D632(G_B2_2, L_7, NULL);
+		return L_8;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RestSharp.Authenticators.OAuth.Extensions.StringExtensions/<>c::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m36BB03B0B3867BF71D34DA81484BEC615C9131DF (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581* L_0 = (U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581*)il2cpp_codegen_object_new(U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_mB8936E24B9E65CF094D97245D861CAFD32DED8CB(L_0, NULL);
+		((U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void RestSharp.Authenticators.OAuth.Extensions.StringExtensions/<>c::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mB8936E24B9E65CF094D97245D861CAFD32DED8CB (U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// System.String RestSharp.Authenticators.OAuth.Extensions.StringExtensions/<>c::<PercentEncode>b__4_0(System.Byte)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec_U3CPercentEncodeU3Eb__4_0_mDA7D2D09DFB51025FF2BB6BFA51651E7FFA560C3 (U3CU3Ec_tA19CDD8473FF5FFF9E96C625478A73336724C581* __this, uint8_t ___x0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFAAFC22ADC2CE06CD118733CCCF46445776303C9);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		uint8_t L_0 = ___x0;
+		uint8_t L_1 = L_0;
+		RuntimeObject* L_2 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_1);
+		String_t* L_3;
+		L_3 = String_Format_m8C122B26BC5AA10E2550AECA16E57DAE10F07E30(_stringLiteralFAAFC22ADC2CE06CD118733CCCF46445776303C9, L_2, NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int64 RestSharp.Authenticators.OAuth.Extensions.TimeExtensions::ToUnixTime(System.DateTime)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TimeExtensions_ToUnixTime_mEA3448226F3091BB03FEE84AFE1CE8E6FF73DB62 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0 = ___dateTime0;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		DateTime__ctor_mA3BF7CE28807F0A02634FD43913FAAFD989CEE88((&L_1), ((int32_t)1970), 1, 1, /*hidden argument*/NULL);
+		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_2;
+		L_2 = DateTime_op_Subtraction_m41335EF0E6DCD52B23C64916CB973A0B4A9E0387(L_0, L_1, NULL);
+		V_0 = L_2;
+		double L_3;
+		L_3 = TimeSpan_get_TotalSeconds_mED686E7CECE6A76A7DC38518698B9199DB8CDEA8((&V_0), NULL);
+		return il2cpp_codegen_cast_double_to_int<int64_t>(L_3);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____stringLength_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AuthenticatorBase_set_Token_m2A6D2F720C56E00EB9A25FC567191120A1486002_inline (AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CTokenU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AuthenticatorBase_get_Token_mB74736CFEF9952D6EBD4643038F2FCD3D8A41689_inline (AuthenticatorBase_t4E0DD9E6CC0A7E4B51CCBB4FC95340E47382FF2A* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ConsumerKey_m50F49036E14F099EB016BE6E9D6617144E4D3ACE_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CConsumerKeyU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConsumerKeyU3Ek__BackingField_1), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ConsumerSecret_m01C342C57E5B8D8310382426733F23D35EA9BD4B_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CConsumerSecretU3Ek__BackingField_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConsumerSecretU3Ek__BackingField_2), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ParameterHandling_m4F169B379C273208099BDA25147C4720F9B1E027_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CParameterHandlingU3Ek__BackingField_10 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_SignatureMethod_mFA1B86A752886566F525BB1901435F2F3D130A7A_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CSignatureMethodU3Ek__BackingField_8 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_SignatureTreatment_mA9056E856DBF8BAFFC78445D056E4D48BE51DAFC_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->___U3CSignatureTreatmentU3Ek__BackingField_9 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_Verifier_mD1018A51013DF3A44ACEB2E25DBE4B53FB507F1D_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CVerifierU3Ek__BackingField_6 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CVerifierU3Ek__BackingField_6), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_Version_mA53DF4AB574A26C4DA0B6B6B2CF7CC6285648CFE_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CVersionU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CVersionU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_CallbackUrl_mDF016D4CDAB48DD230B027E4525491EB37846930_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CCallbackUrlU3Ek__BackingField_5 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCallbackUrlU3Ek__BackingField_5), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_SessionHandle_m4BCF928E3C817402BED665A0F00C0F6A8F5D8A22_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CSessionHandleU3Ek__BackingField_7 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSessionHandleU3Ek__BackingField_7), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_Token_m54851F74FAFA0185EEA48CC98077283FC993F5C4_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CTokenU3Ek__BackingField_3 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField_3), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_TokenSecret_mF9584508E3523F65C2164600BE5C2F0ED8665AC7_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CTokenSecretU3Ek__BackingField_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenSecretU3Ek__BackingField_4), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ClientUsername_mD5A044342E3262498386EACBA1B09EB1DF6DBE99_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CClientUsernameU3Ek__BackingField_11 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CClientUsernameU3Ek__BackingField_11), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_ClientPassword_mFFAAACB3972D3B6B824152F37270301209797100_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CClientPasswordU3Ek__BackingField_12 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CClientPasswordU3Ek__BackingField_12), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t RestRequest_get_Method_m53914EBA0C1F76D2050D7BBCB4C77F5C0D3B1E4D_inline (RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CMethodU3Ek__BackingField_7;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RestRequest_get_AlwaysMultipartFormData_m8538F718B21354C389FF0325D0E7CA9460C9D948_inline (RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* __this, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = __this->___U3CAlwaysMultipartFormDataU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC* RestClient_get_DefaultParameters_mF4237B3ADE7C7859636DE3274B8A4C27DA373AEA_inline (RestClient_tA3BF402CDC730D45A8916074415901878B1A3DAF* __this, const RuntimeMethod* method) 
+{
+	{
+		ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC* L_0 = __this->___U3CDefaultParametersU3Ek__BackingField_8;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC* RestRequest_get_Parameters_mC2B11B966F4E034B8D0A39CDA4F5CD99FE8445EE_inline (RestRequest_t0E790FD44E522945CF3F3CA22CEA4EDC1CB89C94* __this, const RuntimeMethod* method) 
+{
+	{
+		ParametersCollection_t03DCC9B39A74054578A92CC5F23F3B32CBAA66BC* L_0 = __this->___U3CParametersU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_RequestTokenUrl_m818D7EC52E0CD934B7B74D2153DA4339AAC22CFF_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CRequestTokenUrlU3Ek__BackingField_13 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRequestTokenUrlU3Ek__BackingField_13), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthWorkflow_set_AccessTokenUrl_m68969978AD11C264742C8F5E0DC4C0557CC1311C_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CAccessTokenUrlU3Ek__BackingField_14 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAccessTokenUrlU3Ek__BackingField_14), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* OAuthParameters_get_Parameters_m77DAC6DD9066512629F6D6926B878D9220EFC6F0_inline (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, const RuntimeMethod* method) 
+{
+	{
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = __this->___U3CParametersU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthParameters_get_Signature_mCAB0B4A993739FAACA680AD1BA9774B3F197DFB2_inline (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CSignatureU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Parameter_get_Type_m0C92F85002EF872C3D2AB9B8FC94E69C15FCA919_inline (Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CTypeU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* WebPair_get_Comparer_mD649EE790F81C4EC8022637AB41667D2B28E6EF8_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var);
+		WebPairComparer_t0472C6A167DDA64CD272D44601FF0406396DA6B5* L_0 = ((WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_StaticFields*)il2cpp_codegen_static_fields_for(WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A_il2cpp_TypeInfo_var))->___U3CComparerU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Parameter_get_Name_m4D091026B1CC3DD7804285DA5DC6C670D21BB734_inline (Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CNameU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* WebPair_get_Name_m232CE329FC3A141C4B9E459FB444DDBABCB8F596_inline (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CNameU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* WebPair_get_Value_mED5F766949A2E912450E8EA34EE0B7A57DCC4E5B_inline (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CValueU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* WebPair_get_WebValue_m9C18AEC37F843846DFD0781D7EDCB70D98588F8D_inline (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CWebValueU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Parameter_get_Value_m63B0CC9624F65616B07DCD8CE7EE733370673A9C_inline (Parameter_tE2C46A708278EBCD34E200A952C7ED9D0905B3B9* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CValueU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool WebPair_get_Encode_mE44E64FBD01A1BB9533CE6DB371F8A8A93B7EAB1_inline (WebPair_t72D847BDAAB2294F7EB5AE6317F0F96224D95B7A* __this, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = __this->___U3CEncodeU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_RequestTokenUrl_m70173FD0479675A15489FFCE31964B9367956798_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CRequestTokenUrlU3Ek__BackingField_13;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OAuthWorkflow_get_SignatureMethod_mDE262AD2FCF9FE736B8D807E7BDEF9D78CDF1A54_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CSignatureMethodU3Ek__BackingField_8;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OAuthWorkflow_get_SignatureTreatment_mF6167D2443C3C713D79186B17FE06CFBCB9AC432_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CSignatureTreatmentU3Ek__BackingField_9;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ConsumerSecret_m6DD58012F74A51DA3439A6847751C7DEF22BFE96_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CConsumerSecretU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthParameters_set_Signature_mB27EC45CF8E32E610A990C5C3558604ADD51B1DB_inline (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, String_t* ___value0, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->___U3CSignatureU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSignatureU3Ek__BackingField_1), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OAuthParameters_set_Parameters_m5FBA999FC93C091D90A3744F5897E56BC4241A4B_inline (OAuthParameters_tCEA706658691651791A93E11F34D7A7B25E3C67F* __this, WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* ___value0, const RuntimeMethod* method) 
+{
+	{
+		WebPairCollection_tA79BD5FD5B978BE2077FDDB19C279C893221B55C* L_0 = ___value0;
+		__this->___U3CParametersU3Ek__BackingField_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CParametersU3Ek__BackingField_0), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_AccessTokenUrl_m2879B0467D1B69EDFAB636BFBCD3E6FC72AAB440_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CAccessTokenUrlU3Ek__BackingField_14;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_TokenSecret_m283A7E057844EBEF495B1781E33A422EA67DF34C_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CTokenSecretU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ConsumerKey_m09CDE844EB6ED33565DA0A8309F0B6A58A86142A_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CConsumerKeyU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_Token_m4857D7E4BFD99A698333560359AA96D34EFBD81A_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ClientUsername_m0043BE62F9E8B3A3AFC1AB6BBD92FCDBA0AF1E35_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CClientUsernameU3Ek__BackingField_11;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_Version_m38668645A9A68C6334B238C003F79BB5CA423034_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CVersionU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_CallbackUrl_m5B7F1856A84D1177131BDF85CC5D5A01A1711BFA_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CCallbackUrlU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_Verifier_mA0E12289BEC16DAD4B66034684F717171C4EB05D_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CVerifierU3Ek__BackingField_6;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_SessionHandle_mDBEA01DADB8DE4C67682733A5D918757AA73D520_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CSessionHandleU3Ek__BackingField_7;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OAuthWorkflow_get_ClientPassword_mD0D4BA28933B470DC6AC5BC54761F378A9E5BE88_inline (OAuthWorkflow_t5C844579FFC403D24A6AA8A53BC168D1ED74A5B9* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CClientPasswordU3Ek__BackingField_12;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AsyncValueTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m28B13CB6A26B67B5F5084CC040594F8ED2EE5554_gshared_inline (AsyncValueTaskMethodBuilder_t63E30BCE2935BB45A7FCF7A326C2B8920A5F6DE0* __this, U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* ___stateMachine0, const RuntimeMethod* method) 
+{
+	{
+		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_0 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->____methodBuilder_0);
+		U3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454* L_1 = ___stateMachine0;
+		AsyncTaskMethodBuilder_Start_TisU3CAuthenticateU3Ed__6_t28C23FBEA4101F046426FCC0C168A5C62D25E454_m8D9885FE63030ADC24652B4C271E420374CBE881(L_0, L_1, il2cpp_rgctx_method(method->rgctx_data, 0));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredValueTaskAwaitable_1_t415F5A25DDBFA0019A98D28A4E6DF1E1AE17AE98 ValueTask_1_ConfigureAwait_mDC7101E5C4BA5B023AA369E26B2EA37C1D22C1C5_gshared_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, bool ___continueOnCapturedContext0, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->____obj_1;
+		RuntimeObject* L_1 = (RuntimeObject*)__this->____result_2;
+		int16_t L_2 = (int16_t)__this->____token_3;
+		bool L_3 = ___continueOnCapturedContext0;
+		ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		ValueTask_1__ctor_mBA619ABF56CC29800A1964E6C5ED493E8E7D3D5B_inline((&L_4), L_0, L_1, L_2, L_3, /*hidden argument*/il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 24));
+		ConfiguredValueTaskAwaitable_1_t415F5A25DDBFA0019A98D28A4E6DF1E1AE17AE98 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		ConfiguredValueTaskAwaitable_1__ctor_mEAA2416875911A8D049C7F0FB4477D6AE4BC124B_inline((&L_5), L_4, /*hidden argument*/il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 26));
+		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99 ConfiguredValueTaskAwaitable_1_GetAwaiter_m7BECD774F029605B45F919BF7DEEC348B2B499B8_gshared_inline (ConfiguredValueTaskAwaitable_1_t415F5A25DDBFA0019A98D28A4E6DF1E1AE17AE98* __this, const RuntimeMethod* method) 
+{
+	{
+		ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 L_0 = (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215)__this->____value_0;
+		ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		ConfiguredValueTaskAwaiter__ctor_m2119C5D2703D1D7748F0D5DAB18AA40C883229CF_inline((&L_1), L_0, /*hidden argument*/il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ConfiguredValueTaskAwaiter_get_IsCompleted_mA7BC89851224972805007D736DB02E2B7D4700F2_gshared_inline (ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99* __this, const RuntimeMethod* method) 
+{
+	{
+		ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* L_0 = (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215*)(&__this->____value_0);
+		bool L_1;
+		L_1 = ValueTask_1_get_IsCompleted_mB5FE6398DBC9CBAECABB6AFC1B3F3A1F51D1479F_inline(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ConfiguredValueTaskAwaiter_GetResult_mBB2D627DF9F38F1113F367FF1ACE907F0A82D494_gshared_inline (ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99* __this, const RuntimeMethod* method) 
+{
+	{
+		ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* L_0 = (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215*)(&__this->____value_0);
+		RuntimeObject* L_1;
+		L_1 = ValueTask_1_get_Result_m3035DEA69E68AD985EDB5285416C94558C72B23D_inline(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValueTask_1__ctor_m610EF1C685E8686F67BD23AC98BF48EF45743628_gshared_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___result0;
+		__this->____result_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____result_2), (void*)L_0);
+		__this->____obj_1 = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____obj_1), (void*)NULL);
+		__this->____continueOnCapturedContext_4 = (bool)1;
+		__this->____token_3 = (int16_t)0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->____version_3;
+		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)__this->____items_1;
+		V_0 = L_1;
+		int32_t L_2 = (int32_t)__this->____size_2;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___item0;
+		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___item0;
+		((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = (int32_t)__this->____version_3;
+		__this->____version_3 = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		if (!true)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		int32_t L_1 = (int32_t)__this->____size_2;
+		V_0 = L_1;
+		__this->____size_2 = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)__this->____items_1;
+		int32_t L_4 = V_0;
+		Array_Clear_m48B57EC27CADC3463CA98A33373D557DA587FF1B((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_0035:
+	{
+		__this->____size_2 = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = (int32_t)__this->____size_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ValueTask_1__ctor_mBA619ABF56CC29800A1964E6C5ED493E8E7D3D5B_gshared_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, RuntimeObject* ___obj0, RuntimeObject* ___result1, int16_t ___token2, bool ___continueOnCapturedContext3, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___obj0;
+		__this->____obj_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____obj_1), (void*)L_0);
+		RuntimeObject* L_1 = ___result1;
+		__this->____result_2 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____result_2), (void*)L_1);
+		int16_t L_2 = ___token2;
+		__this->____token_3 = L_2;
+		bool L_3 = ___continueOnCapturedContext3;
+		__this->____continueOnCapturedContext_4 = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConfiguredValueTaskAwaitable_1__ctor_mEAA2416875911A8D049C7F0FB4477D6AE4BC124B_gshared_inline (ConfiguredValueTaskAwaitable_1_t415F5A25DDBFA0019A98D28A4E6DF1E1AE17AE98* __this, ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 ___value0, const RuntimeMethod* method) 
+{
+	{
+		ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 L_0 = ___value0;
+		__this->____value_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____value_0))->____obj_1), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____value_0))->____result_2), (void*)NULL);
+		#endif
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConfiguredValueTaskAwaiter__ctor_m2119C5D2703D1D7748F0D5DAB18AA40C883229CF_gshared_inline (ConfiguredValueTaskAwaiter_t216B20C47AA404057B6F0010B556BEED4ACBCD99* __this, ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 ___value0, const RuntimeMethod* method) 
+{
+	{
+		ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215 L_0 = ___value0;
+		__this->____value_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____value_0))->____obj_1), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____value_0))->____result_2), (void*)NULL);
+		#endif
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ValueTask_1_get_IsCompleted_mB5FE6398DBC9CBAECABB6AFC1B3F3A1F51D1479F_gshared_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, const RuntimeMethod* method) 
+{
+	RuntimeObject* V_0 = NULL;
+	Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* V_1 = NULL;
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->____obj_1;
+		V_0 = L_0;
+		RuntimeObject* L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return (bool)1;
+	}
+
+IL_000c:
+	{
+		RuntimeObject* L_2 = V_0;
+		V_1 = ((Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2*)IsInstClass((RuntimeObject*)L_2, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)));
+		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_4 = V_1;
+		bool L_5;
+		L_5 = Task_get_IsCompleted_m942D6D536545EF059089398B19435591561BB831((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_4, NULL);
+		return L_5;
+	}
+
+IL_001d:
+	{
+		RuntimeObject* L_6 = V_0;
+		RuntimeObject* L_7;
+		L_7 = il2cpp_unsafe_as<RuntimeObject*>(L_6);
+		int16_t L_8 = (int16_t)__this->____token_3;
+		int32_t L_9;
+		L_9 = InterfaceFuncInvoker1< int32_t, int16_t >::Invoke(0 /* System.Threading.Tasks.Sources.ValueTaskSourceStatus System.Threading.Tasks.Sources.IValueTaskSource`1<System.Object>::GetStatus(System.Int16) */, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12), L_7, L_8);
+		return (bool)((!(((uint32_t)L_9) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ValueTask_1_get_Result_m3035DEA69E68AD985EDB5285416C94558C72B23D_gshared_inline (ValueTask_1_t7C5C39AB5B4A0ABA07AC934800D43DED916F9215* __this, const RuntimeMethod* method) 
+{
+	RuntimeObject* V_0 = NULL;
+	Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* V_1 = NULL;
+	{
+		RuntimeObject* L_0 = (RuntimeObject*)__this->____obj_1;
+		V_0 = L_0;
+		RuntimeObject* L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		RuntimeObject* L_2 = (RuntimeObject*)__this->____result_2;
+		return L_2;
+	}
+
+IL_0011:
+	{
+		RuntimeObject* L_3 = V_0;
+		V_1 = ((Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2*)IsInstClass((RuntimeObject*)L_3, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 10)));
+		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_5 = V_1;
+		TaskAwaiter_ValidateEnd_m77AFBEEEAAEBE164437337F88120EA8D8CD5D680((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_5, NULL);
+		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_6 = V_1;
+		RuntimeObject* L_7;
+		L_7 = ((  RuntimeObject* (*) (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 21)))(L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 21));
+		return L_7;
+	}
+
+IL_0028:
+	{
+		RuntimeObject* L_8 = V_0;
+		RuntimeObject* L_9;
+		L_9 = il2cpp_unsafe_as<RuntimeObject*>(L_8);
+		int16_t L_10 = (int16_t)__this->____token_3;
+		RuntimeObject* L_11;
+		L_11 = InterfaceFuncInvoker1< RuntimeObject*, int16_t >::Invoke(2 /* TResult System.Threading.Tasks.Sources.IValueTaskSource`1<System.Object>::GetResult(System.Int16) */, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 12), L_9, L_10);
+		return L_11;
+	}
+}
